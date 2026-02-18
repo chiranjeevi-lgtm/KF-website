@@ -1,0 +1,852 @@
+<body data-rsssl="1" class="wp-singular cpt_portfolio-template-default single single-cpt_portfolio postid-40129 wp-custom-logo wp-embed-responsive wp-theme-ecogrow wp-child-theme-ecogrow-child theme-ecogrow woocommerce-js tinvwl-theme-style skin_default woo_extensions_present scheme_light blog_mode_portfolio body_style_wide is_stream blog_style_excerpt sidebar_hide expand_content trx_addons_present header_type_custom header_style_header-custom-34139 header_position_default menu_side_none fixed_blocks_sticky elementor-default elementor-kit-15 e--ua-blink e--ua-chrome e--ua-webkit cht-in-desktop cht-landscape ua_retina ua_blink ua_webkit ua_chrome animate_to_inited added_to_cart_inited desktop_layout" data-elementor-device-mode="tablet">
+
+	
+	<div class="body_wrap">
+
+		
+		<div class="page_wrap">
+
+			
+							<a class="ecogrow_skip_link skip_to_content_link" href="#content_skip_link_anchor" tabindex="1">Skip to content</a>
+								<a class="ecogrow_skip_link skip_to_footer_link" href="#footer_skip_link_anchor" tabindex="1">Skip to footer</a>
+
+				<header class="top_panel top_panel_custom top_panel_custom_34139 top_panel_custom_header-default				 without_bg_image with_featured_image">
+			<div data-elementor-type="cpt_layouts" data-elementor-id="34139" class="elementor elementor-34139" data-elementor-post-type="cpt_layouts">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-f75e1ad elementor-section-full_width elementor-section-content-middle sc_layouts_row sc_layouts_row_type_compact sc_layouts_hide_on_mobile elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="f75e1ad" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-00e7e9c sc_layouts_column_align_left sc_layouts_column sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="00e7e9c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-b349228 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="b349228" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
+				<div class="elementor-widget-container">
+					<a href="https://kamalafarms.com/" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_2095925980"><img class="logo_image" src="//kamalafarms.com/wp-content/uploads/2025/09/cropped-cropped-kamala_logo_color-120x120-1.png" srcset="//kamalafarms.com/wp-content/uploads/2025/09/cropped-cropped-kamala_logo_color-120x120-1.png 2x" alt="Kamala Farms" width="120" height="107"></a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-77e9998 sc_layouts_column_align_right sc_layouts_column sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="77e9998" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-dbea983 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_menu trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="dbea983" data-element_type="widget" data-widget_type="trx_sc_layouts_menu.default">
+				<div class="elementor-widget-container">
+					<nav class="sc_layouts_menu sc_layouts_menu_default sc_layouts_menu_dir_horizontal menu_hover_zoom_line inited inited_kbd" data-animation-in="fadeIn" data-animation-out="fadeOut"><ul id="sc_layouts_menu_1024663270" class="sc_layouts_menu_nav inited_cache prepared inited sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li id="menu-item-37182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-37182"><a href="https://kamalafarms.com/"><span>Home</span></a></li><li id="menu-item-33092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33092"><a href="https://kamalafarms.com/about-us/"><span>About Us</span></a></li><li id="menu-item-33093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-33093"><a href="https://kamalafarms.com/our-services/" class="sf-with-ul"><span>Our Services</span></a>
+<ul class="sub-menu"><li id="menu-item-38925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38925"><a href="https://kamalafarms.com/sitedesign-planning/"><span>Site Design &amp; Planning</span></a></li><li id="menu-item-38924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38924"><a href="https://kamalafarms.com/turnkey-setup/"><span>Turnkey Setup</span></a></li><li id="menu-item-39309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39309"><a href="https://kamalafarms.com/farm-management/"><span>Farm Management</span></a></li><li id="menu-item-39308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39308"><a href="https://kamalafarms.com/training/"><span>Training</span></a></li><li id="menu-item-39307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39307"><a href="https://kamalafarms.com/contract-farming-buyback/"><span>Contract Farming &amp; Buyback</span></a></li><li id="menu-item-41033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41033"><a href="https://kamalafarms.com/subsidy/"><span>Subsidy</span></a></li><li id="menu-item-40738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40738"><a href="https://kamalafarms.com/recycling/"><span>Recycling</span></a></li><li id="menu-item-40737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40737"><a href="https://kamalafarms.com/soil-farming/"><span>Soil Farming</span></a></li></ul>
+</li><li id="menu-item-33096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33096"><a href="https://kamalafarms.com/contacts/"><span>Contact Us</span></a></li><li id="menu-item-6595" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6595"><a href="https://kamalafarms.com/blog/"><span>Blog</span></a></li><li class="menu-item menu-collapse" style="display: none;"><a href="#" class="sf-with-ul trx_addons_icon-ellipsis-vert"></a><ul class="submenu"></ul></li></ul></nav>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-054a687 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_search trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="054a687" data-element_type="widget" data-widget_type="trx_sc_layouts_search.default">
+				<div class="elementor-widget-container">
+					<div class="sc_layouts_search">
+    <div class="search_modern">
+        <span class="search_submit"></span>
+        <div class="search_wrap inited">
+            <div class="search_header_wrap"><img class="logo_image" src="//realista.co.in/kamalafarms/wp-content/uploads/2023/09/kamala_logo_color-w-3.png" alt="Kamala Farms">                <a class="search_close"></a>
+            </div>
+            <div class="search_form_wrap">
+                <form role="search" method="get" class="search_form" action="https://kamalafarms.com/" data-inited-validation="1">
+                    <input type="hidden" value="" name="post_types">
+                    <input type="text" class="search_field fill_inited" placeholder="Type words and hit enter" value="" name="s">
+                    <button type="submit" class="search_submit"></button>
+                                    </form>
+            </div>
+        </div>
+        <div class="search_overlay"></div>
+    </div>
+
+
+</div><!-- /.sc_layouts_search -->				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4e2cbf4 elementor-section-content-middle sc_layouts_row sc_layouts_row_type_compact sc_layouts_hide_on_wide sc_layouts_hide_on_desktop sc_layouts_hide_on_notebook sc_layouts_hide_on_tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="4e2cbf4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6dda9eb sc_layouts_column_align_left sc_layouts_column sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="6dda9eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-6297548 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="6297548" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
+				<div class="elementor-widget-container">
+					<a href="https://kamalafarms.com/" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_1168787949"><img fetchpriority="high" class="logo_image" src="//kamalafarms.com/wp-content/uploads/2023/09/kamala_logo_color-w-1.png" srcset="//kamalafarms.com/wp-content/uploads/2025/09/cropped-cropped-kamala_logo_color-120x120-1.png 2x" alt="Kamala Farms" width="829" height="829"></a>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e7418c sc_layouts_column_align_right sc_layouts_column sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="6e7418c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-997e41b sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_search trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="997e41b" data-element_type="widget" data-widget_type="trx_sc_layouts_search.default">
+				<div class="elementor-widget-container">
+					<div class="sc_layouts_search">
+    <div class="search_modern">
+        <span class="search_submit"></span>
+        <div class="search_wrap inited">
+            <div class="search_header_wrap"><img class="logo_image" src="//kamalafarms.com/wp-content/uploads/2025/09/cropped-cropped-kamala_logo_color-120x120-1.png" srcset="//realista.co.in/kamalafarms/wp-content/uploads/2023/09/cropped-kamala_logo_color-w.png 2x" alt="Kamala Farms" width="120" height="107">                <a class="search_close"></a>
+            </div>
+            <div class="search_form_wrap">
+                <form role="search" method="get" class="search_form" action="https://kamalafarms.com/" data-inited-validation="1">
+                    <input type="hidden" value="" name="post_types">
+                    <input type="text" class="search_field fill_inited" placeholder="Type words and hit enter" value="" name="s">
+                    <button type="submit" class="search_submit"></button>
+                                    </form>
+            </div>
+        </div>
+        <div class="search_overlay"></div>
+    </div>
+
+
+</div><!-- /.sc_layouts_search -->				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-3dad851 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_menu trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="3dad851" data-element_type="widget" data-widget_type="trx_sc_layouts_menu.default">
+				<div class="elementor-widget-container">
+					<div class="sc_layouts_iconed_text sc_layouts_menu_mobile_button_burger sc_layouts_menu_mobile_button">
+		<a class="sc_layouts_item_link sc_layouts_iconed_text_link inited_click" href="#" role="button">
+			<span class="sc_layouts_item_icon sc_layouts_iconed_text_icon trx_addons_icon-menu"></span>
+		</a>
+		</div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a70d234 scheme_dark elementor-section-boxed elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="a70d234" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8d15839 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="8d15839" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-e33ef81 sc_height_large sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="e33ef81" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-96745ce sc_layouts_hide_on_tablet sc_layouts_hide_on_mobile sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="96745ce" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-2d02734 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="2d02734" data-element_type="widget" data-widget_type="trx_sc_layouts_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_layouts_title with_content without_image without_tint"><div class="sc_layouts_title_content"><div class="sc_layouts_title_title"><h1 class="sc_layouts_title_caption">Vikram’s High-Tech Hydroponic Farm Setup</h1></div></div></div>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-ffdbe7a sc_layouts_hide_on_tablet sc_layouts_hide_on_mobile sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="ffdbe7a" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-9e6887e sc_height_large sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="9e6887e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</header>
+<div class="menu_mobile_overlay scheme_dark inited_click" style="display: none;"></div>
+<div class="menu_mobile menu_mobile_fullscreen scheme_dark inited_arrows inited_click">
+	<div class="menu_mobile_inner with_widgets">
+        <div class="menu_mobile_header_wrap">
+            <a class="sc_layouts_logo" href="https://kamalafarms.com/">
+		<img src="//realista.co.in/kamalafarms/wp-content/uploads/2025/09/cropped-kamala_logo_color-120x120-1.png" srcset="//realista.co.in/kamalafarms/wp-content/uploads/2025/09/cropped-kamala_logo_color-120x120-1.png 2x" alt="Kamala Farms">	</a>
+	
+            <a class="menu_mobile_close menu_button_close inited_click" tabindex="0"><span class="menu_button_close_text">Close</span><span class="menu_button_close_icon"></span></a>
+        </div>
+        <div class="menu_mobile_content_wrap content_wrap">
+            <div class="menu_mobile_content_wrap_inner"><nav class="menu_mobile_nav_area" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><ul id="mobile-menu_mobile_1867063752" class="prepared"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-37182"><a href="https://kamalafarms.com/"><span>Home</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33092"><a href="https://kamalafarms.com/about-us/"><span>About Us</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-33093"><a href="https://kamalafarms.com/our-services/"><span>Our Services</span><span class="open_child_menu"></span></a>
+<ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38925"><a href="https://kamalafarms.com/sitedesign-planning/"><span>Site Design &amp; Planning</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38924"><a href="https://kamalafarms.com/turnkey-setup/"><span>Turnkey Setup</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39309"><a href="https://kamalafarms.com/farm-management/"><span>Farm Management</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39308"><a href="https://kamalafarms.com/training/"><span>Training</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39307"><a href="https://kamalafarms.com/contract-farming-buyback/"><span>Contract Farming &amp; Buyback</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41033"><a href="https://kamalafarms.com/subsidy/"><span>Subsidy</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40738"><a href="https://kamalafarms.com/recycling/"><span>Recycling</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40737"><a href="https://kamalafarms.com/soil-farming/"><span>Soil Farming</span></a></li></ul>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33096"><a href="https://kamalafarms.com/contacts/"><span>Contact Us</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6595"><a href="https://kamalafarms.com/blog/"><span>Blog</span></a></li></ul></nav><div class="socials_mobile"><a target="_blank" rel="nofollow" href="https://www.facebook.com/AxiomThemes" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_facebook-1" style=""><span class="screen-reader-text">facebook-1</span><span class="icon-facebook-1"></span></span></a><a target="_blank" rel="nofollow" href="https://twitter.com/ThemesAxiom" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_twitter-new" style=""><span class="screen-reader-text">twitter-new</span><span class="icon-twitter-new"></span></span></a><a target="_blank" rel="nofollow" href="https://dribbble.com/AxiomThemes" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_dribble-new" style=""><span class="screen-reader-text">dribble-new</span><span class="icon-dribble-new"></span></span></a><a target="_blank" rel="nofollow" href="https://www.instagram.com/axiom_themes/" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_instagram" style=""><span class="screen-reader-text">instagram</span><span class="icon-instagram"></span></span></a></div>            </div>
+		</div><div class="menu_mobile_widgets_area">				<div class="widgets_additional_menu_mobile_fullscreen widgets_additional_menu_mobile_fullscreen_wrap widget_area">
+										<div class="widgets_additional_menu_mobile_fullscreen_inner widgets_additional_menu_mobile_fullscreen_inner widget_area_inner">
+						<aside class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="extra_item">
+<h6>Have a Project?</h6>
+<a href="mailto:info@kamalafarms.com">info@kamalafarms.com</a>
+</div>
+
+<div class="extra_item">
+<h6>Want to Work with Me?</h6>
+<a href="#">Send Brief</a>
+</div>
+</div></aside>					</div>
+									</div>
+				</div>
+    </div>
+</div>
+
+			
+			<div class="page_content_wrap">
+								<div class="content_wrap">
+
+					
+					<div class="content">
+												<a id="content_skip_link_anchor" class="ecogrow_skip_link_anchor" href="#"></a>
+						<article id="post-40129" data-post-id="40129" class="portfolio_page itemscope portfolio_page_details_right detail_default_style post-40129 cpt_portfolio type-cpt_portfolio status-publish has-post-thumbnail hentry cpt_portfolio_group-greenhouse"><section class="portfolio_page_content_wrap"><div class="portfolio_page_content entry-content">
+<p><strong>Background:</strong><br>Vikram, a 38-year-old businessman from Pune, had been successfully managing a chain of distribution businesses for over a decade. While his core business was profitable, he wanted to enter a sector that was future-focused, sustainable, and capable of delivering consistent income. During his research, he discovered hydroponics — a method of growing plants without soil, offering higher yields, faster growth cycles, and pesticide-free produce. Impressed by its potential, he approached <strong>Kamala Farms</strong> to design and execute a <strong>complete turnkey hydroponic farm setup</strong>.</p>
+
+
+
+<p><strong>Farm Setup by Kamala Farms:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Polyhouse Construction:</strong> A modern climate-controlled polyhouse was constructed to protect crops from extreme weather while providing optimal light, temperature, and humidity.</li>
+
+
+
+<li><strong>Polybag Growing System:</strong> High-grade UV-stabilized polybags filled with sterilized cocopeat were used to ensure uniform root development and minimize soil-borne diseases.</li>
+
+
+
+<li><strong>Automated Drip Irrigation &amp; Nutrient Delivery:</strong> A precision drip irrigation system with automated nutrient dosing was installed, ensuring plants received the exact amount of water and nutrients they required.</li>
+
+
+
+<li><strong>Professional Trellising &amp; Crop Support:</strong> Strong galvanized trellis structures were set up to support vine crops, allowing maximum vertical growth and ease of harvesting.</li>
+
+
+
+<li><strong>Advanced Climate Automation:</strong> Integrated exhaust fans, foggers, and climate sensors were implemented for round-the-clock monitoring and control of temperature and humidity.</li>
+
+
+
+<li><strong>Power Backup &amp; Efficient Layout:</strong> The system was supported with power backup and an efficient farm layout to ensure uninterrupted operation.</li>
+
+
+
+<li><strong>Training &amp; Knowledge Transfer:</strong> Kamala Farms provided extensive hands-on training for Vikram’s team, covering everything from planting and pruning to pest management and harvesting.</li>
+
+
+
+<li><strong>Agronomist Support:</strong> A dedicated professional agronomist from Kamala Farms was assigned for regular visits and on-call support to guide crop cycles and troubleshoot issues.</li>
+</ul>
+
+
+
+<p><strong>Outcome:</strong><br>Within <strong>90 days</strong>, Vikram’s farm was fully operational and ready for the first planting cycle. The setup was capable of <strong>year-round production</strong> with minimal manual intervention, thanks to automation and professional guidance. By entering into a <strong>buy-back agreement</strong> with Kamala Farms, Vikram secured a guaranteed market for his produce, eliminating marketing risks. Today, his hydroponic farm not only generates a stable income but also positions him as a forward-thinking agripreneur contributing to sustainable food production in his region.</p>
+
+
+
+<p></p>
+</div></section><!-- .entry-content --><section class="portfolio_page_details_wrap sc_column_fixed"><div class="portfolio_page_description"><p>Vikram, a 38-year-old businessman from Pune, had been successfully managing a chain of distribution businesses for over a decade. </p>
+</div><div class="sc_portfolio_details portfolio_page_details"><span class="portfolio_page_details_item"><span class="portfolio_page_details_item_title">Client</span><span class="portfolio_page_details_item_value">Vikram’s High-Tech Hydroponic Farm Setup</span></span><span class="portfolio_page_details_item"><span class="portfolio_page_details_item_title">Date</span><span class="portfolio_page_details_item_value">August, 2019</span></span><span class="portfolio_page_details_item portfolio_page_details_share"><span class="portfolio_page_details_item_title">Share</span><span class="portfolio_page_details_item_value"><div class="socials_share socials_size_tiny socials_type_list socials_dir_horizontal socials_wrap"><span class="social_items inited"><a class="social_item social_item_popup" href="//twitter.com/intent/tweet?text=Vikram%E2%80%99s+High-Tech+Hydroponic+Farm+Setup&amp;url=https%3A%2F%2Fkamalafarms.com%2Fportfolio%2Fvikrams-high-tech-hydroponic-farm-setup%2F" data-link="//twitter.com/intent/tweet?text=Vikram’s High-Tech Hydroponic Farm Setup&amp;url=https%3A%2F%2Fkamalafarms.com%2Fportfolio%2Fvikrams-high-tech-hydroponic-farm-setup%2F" data-count="twitter-new"><span class="social_icon social_icon_twitter-new sc_icon_type_icons" style=""><span class="screen-reader-text">Twitter-new</span><span class="icon-twitter-new"></span></span></a><a class="social_item social_item_popup" href="//www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkamalafarms.com%2Fportfolio%2Fvikrams-high-tech-hydroponic-farm-setup%2F" data-link="//www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkamalafarms.com%2Fportfolio%2Fvikrams-high-tech-hydroponic-farm-setup%2F" data-count="facebook-1"><span class="social_icon social_icon_facebook-1 sc_icon_type_icons" style=""><span class="screen-reader-text">Facebook</span><span class="icon-facebook-1"></span></span></a><a class="social_item" href="mailto:test@fwe.com?subject=Vikram’s%20High-Tech%20Hydroponic%20Farm%20Setup&amp;body=https%3A%2F%2Fkamalafarms.com%2Fportfolio%2Fvikrams-high-tech-hydroponic-farm-setup%2F" target="_blank" data-count="share-email"><span class="social_icon social_icon_share-email sc_icon_type_icons" style=""><span class="screen-reader-text">Share-email</span><span class="icon-share-email"></span></span></a><a class="social_item" title="Copy URL to clipboard" data-message="Copied!" data-copy-link-url="https://kamalafarms.com/portfolio/vikrams-high-tech-hydroponic-farm-setup/" nopopup="true" href="#" role="button" target="_blank" data-count="link"><span class="social_icon social_icon_link sc_icon_type_icons" style=""><span class="screen-reader-text">Copy URL to clipboard</span><span class="icon-link"></span></span></a></span></div></span></span></div></section><div class="portfolio_page_gallery"><div class="portfolio_page_gallery_content portfolio_page_gallery_type_slider"><div class="slider_outer slider_swiper_outer slider_style_default slider_source_custom slider_outer_direction_horizontal slider_outer_one slider_outer_nopagination slider_outer_controls slider_outer_controls_side slider_outer_nocentered slider_outer_overflow_hidden slider_outer_notitles slider_outer_height_auto" id="swiper_d505cfe_outer"><div class="slider_container slider_swiper swiper-slider-container slider_direction_horizontal slider_nopagination slider_one slider_type_bg slider_controls slider_controls_side slider_nocentered slider_overflow_hidden slider_notitles slider_resize slider_swipe slider_height_auto go swiper_d505cfe inited swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" data-ratio="16:9" data-interval="6613" data-speed="600" data-effect="slide" data-pagination="bullets" data-direction="horizontal" data-slides-per-view="1" data-slides-space="0" data-slides-parallax="0" data-slides-centered="0" data-slides-overflow="0" data-mouse-wheel="0" data-autoplay="1" data-loop="1" data-free-mode="0" data-slides-min-width="220" data-slides-per-view-breakpoints="{&quot;999999&quot;:1}" data-slides-space-breakpoints="{&quot;999999&quot;:0}" data-mouse-helper-hide-cursor="1" data-mouse-helper="hover" data-mouse-helper-centered="1" data-mouse-helper-magnet="0" data-mouse-helper-bg-color="rgba(0, 0, 0, 1)" data-mouse-helper-mode="normal" data-mouse-helper-axis="xy" data-mouse-helper-delay="8" data-mouse-helper-text-round="0" data-mouse-helper-layout="&lt;div class=custom-helper&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;" id="swiper_d505cfe" style="display: block; opacity: 1; height: 524px;" data-busy="0"><div class="slider-wrapper swiper-wrapper" id="swiper-wrapper-d94429773e875d0e" aria-live="off" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-2796px, 0px, 0px);"><div class="slider-slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-image="//realista.co.in/Kamala%20Farms/wp-content/uploads/2020/04/image42-copyright.jpg" style="background-image: url(&quot;//realista.co.in/Kamala%20Farms/wp-content/uploads/2020/04/image42-copyright.jpg&quot;); width: 932px;" data-slide-number="2" data-swiper-slide-index="2" role="group" aria-label="3 / 3"></div><div class="slider-slide swiper-slide swiper-slide-duplicate-next" data-image="//realista.co.in/Kamala%20Farms/wp-content/uploads/2023/09/bg01-copyright.jpg" style="background-image: url(&quot;//realista.co.in/Kamala%20Farms/wp-content/uploads/2023/09/bg01-copyright.jpg&quot;); width: 932px;" data-slide-number="0" data-swiper-slide-index="0" role="group" aria-label="1 / 3"></div><div class="slider-slide swiper-slide swiper-slide-prev" data-image="//realista.co.in/Kamala%20Farms/wp-content/uploads/2020/04/image41-copyright.jpg" style="background-image: url(&quot;//realista.co.in/Kamala%20Farms/wp-content/uploads/2020/04/image41-copyright.jpg&quot;); width: 932px;" data-slide-number="1" data-swiper-slide-index="1" role="group" aria-label="2 / 3"></div><div class="slider-slide swiper-slide swiper-slide-active" data-image="//realista.co.in/Kamala%20Farms/wp-content/uploads/2020/04/image42-copyright.jpg" style="background-image: url(&quot;//realista.co.in/Kamala%20Farms/wp-content/uploads/2020/04/image42-copyright.jpg&quot;); width: 932px;" data-slide-number="2" data-swiper-slide-index="2" role="group" aria-label="3 / 3"></div><div class="slider-slide swiper-slide swiper-slide-duplicate swiper-slide-next" data-image="//realista.co.in/Kamala%20Farms/wp-content/uploads/2023/09/bg01-copyright.jpg" style="background-image: url(&quot;//realista.co.in/Kamala%20Farms/wp-content/uploads/2023/09/bg01-copyright.jpg&quot;); width: 932px;" data-slide-number="0" data-swiper-slide-index="0" role="group" aria-label="1 / 3"></div></div><div class="slider_controls_wrap slider_arrows_wrap"><a class="slider_prev slider_arrow_default swiper-button-prev" href="#" role="button" tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-d94429773e875d0e"></a><a class="slider_next slider_arrow_default swiper-button-next" href="#" role="button" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-d94429773e875d0e"></a></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div></div></div></div></article>
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://kamalafarms.com/portfolio/arun-meeras-hydroponic-cucumber-venture/" rel="prev"><span class="meta-nav" aria-hidden="true">Prev Project</span> </a></div><div class="nav-next"><a href="https://kamalafarms.com/portfolio/final-look/" rel="next"><span class="meta-nav" aria-hidden="true">Next Project</span> </a></div></div>
+	</nav><section class="related_wrap portfolio_page_related sc_portfolio sc_portfolio_simple">
+			<h3 class="section_title related_wrap_title">You May Also Like</h3><div class="related_columns related_columns_3 trx_addons_columns_wrap columns_padding_bottom columns_in_single_row"><div data-post-id="40127" class="sc_portfolio_item sc_item_container post_container" data-size="1024x1024" data-src="https://kamalafarms.com/wp-content/uploads/2025/09/client-story-03-01.jpg">
+    <div class="post_content_wrap" data-mouse-helper-centered="0" data-mouse-helper="hover" data-mouse-helper-mode="normal" data-mouse-helper-image="https://kamalafarms.com/wp-content/uploads/2025/09/client-story-03-01-890x664.jpg">
+        <div class="post_meta portfolio_page_related sc_portfolio sc_portfolio_simple"><span class="post_meta_item post_categories cat_sep"><a href="https://kamalafarms.com/portfolio_group/greenhouse/" title="View all posts in Greenhouse">Greenhouse</a></span></div>            <h5 class="post_title">
+            	<a href="https://kamalafarms.com/portfolio/karthik-krishnas-hydroponic-turmeric-success/">Karthik &amp; Krishna’s Hydroponic Turmeric Success</a>
+            </h5>
+    </div>
+</div>
+<div data-post-id="3206" class="sc_portfolio_item sc_item_container post_container" data-size="1024x1024" data-src="https://kamalafarms.com/wp-content/uploads/2020/05/client-story-04.jpg">
+    <div class="post_content_wrap" data-mouse-helper-centered="0" data-mouse-helper="hover" data-mouse-helper-mode="normal" data-mouse-helper-image="https://kamalafarms.com/wp-content/uploads/2020/05/client-story-04-890x664.jpg">
+        <div class="post_meta portfolio_page_related sc_portfolio sc_portfolio_simple"><span class="post_meta_item post_categories cat_sep"><a href="https://kamalafarms.com/portfolio_group/greenhouse/" title="View all posts in Greenhouse">Greenhouse</a></span></div>            <h5 class="post_title">
+            	<a href="https://kamalafarms.com/portfolio/anirudhs-hydroponic-bell-pepper-venture/">Anirudh’s Hydroponic Bell Pepper Venture</a>
+            </h5>
+    </div>
+</div>
+<div data-post-id="40128" class="sc_portfolio_item sc_item_container post_container full_post_read" data-size="1024x1024" data-src="https://kamalafarms.com/wp-content/uploads/2025/09/client-story-02.jpg">
+    <div class="post_content_wrap" data-mouse-helper-centered="0" data-mouse-helper="hover" data-mouse-helper-mode="normal" data-mouse-helper-image="https://kamalafarms.com/wp-content/uploads/2025/09/client-story-02-890x664.jpg">
+        <div class="post_meta portfolio_page_related sc_portfolio sc_portfolio_simple"><span class="post_meta_item post_categories cat_sep"><a href="https://kamalafarms.com/portfolio_group/greenhouse/" title="View all posts in Greenhouse">Greenhouse</a></span></div>            <h5 class="post_title">
+            	<a href="https://kamalafarms.com/portfolio/arun-meeras-hydroponic-cucumber-venture/">Arun &amp; Meera’s Hydroponic Cucumber Venture</a>
+            </h5>
+    </div>
+</div>
+</div></section>						</div>
+											</div>
+								</div>
+							<a id="footer_skip_link_anchor" class="ecogrow_skip_link_anchor" href="#"></a>
+				<footer class="footer_wrap footer_custom footer_custom_33646 footer_custom_footer-home-greenhouse												">
+			<div data-elementor-type="cpt_layouts" data-elementor-id="33646" class="elementor elementor-33646" data-elementor-post-type="cpt_layouts">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-3014d2b elementor-section-boxed elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="3014d2b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-274e1e7 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="274e1e7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-cfcc41b sc_height_large sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="cfcc41b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-01fe6fc sc_layouts_row sc_layouts_row_type_compact scheme_dark elementor-section-boxed elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="01fe6fc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-850d57f sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="850d57f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-9e57c03 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="9e57c03" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
+				<div class="elementor-widget-container">
+					<a href="https://kamalafarms.com/" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_1786039030"><img class="logo_image" src="//kamalafarms.com/wp-content/uploads/2023/09/kamala_logo_color-w-2.png" srcset="//kamalafarms.com/wp-content/uploads/2023/09/kamala_logo_color-w-2.png 2x" alt="Kamala Farms" width="829" height="829"></a>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-8be537d elementor-icon-list--layout-inline elementor-align-start elementor-list-item-link-full_width sc_fly_static elementor-widget elementor-widget-icon-list trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="8be537d" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.instagram.com/kamalafarms?igsh=azVldjRqYm13Z3h1">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-instagram"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.linkedin.com/company/kamala-farms/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-linkedin"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://youtube.com/@kamalafarms">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-youtube"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-e336fff sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="e336fff" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-6bf6922 sc_fly_static elementor-widget elementor-widget-trx_sc_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="6bf6922" data-element_type="widget" data-widget_type="trx_sc_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_title sc_title_default"><h6 class="sc_item_title sc_title_title sc_item_title_style_default sc_item_title_tag"><span class="sc_item_title_text">Office</span></h6></div>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-f31d64f sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="f31d64f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-f789acd sc_fly_static elementor-widget elementor-widget-text-editor trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="f789acd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<span class="span">&nbsp;</span><span class="span">IDFC First Bank, Veer Chambers,</span>
+
+<span class="span">Co-karma, 4th floor, 1-10-63/1/1,</span>
+
+<span class="span">Chikoti Garden Rd, Old Patigadda,</span>
+<span class="span">Prakash nagar, Begumpet,</span>
+<span class="span">Pillar No:C1356</span>
+<span class="span">Hyderabad, Telangana, 500016, India.</span>
+
+
+
+								</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-ee69a44 sc_fly_static elementor-widget elementor-widget-heading trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="ee69a44" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default"><a href="http://+91%20906%20339%207475">+91 906 339 7475</a></h6>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-ea28d1c sc_fly_static elementor-widget elementor-widget-text-editor trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="ea28d1c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><strong>Assistance hours:</strong><br>Monday – Saturday<br>9 am to 6 pm IST</p>								</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-b7cdf36 sc_fly_static elementor-widget elementor-widget-text-editor trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="b7cdf36" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><a class="underline_anim" href="mailto:info@kamalafarms.com">info@kamalafarms.com</a></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1ba6469 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="1ba6469" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-ab4dfc0 sc_fly_static elementor-widget elementor-widget-trx_sc_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="ab4dfc0" data-element_type="widget" data-widget_type="trx_sc_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_title sc_title_default"><h6 class="sc_item_title sc_title_title sc_item_title_style_default sc_item_title_tag"><span class="sc_item_title_text">Quick Links</span></h6></div>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-7ce42d9 sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="7ce42d9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-c76e804 sc_fly_static elementor-widget elementor-widget-trx_widget_custom_links trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="c76e804" data-element_type="widget" data-widget_type="trx_widget_custom_links.default">
+				<div class="elementor-widget-container">
+					<div class="widget_area sc_widget_custom_links"><aside class="widget widget_custom_links"><ul class="custom_links_list"><li class="custom_links_list_item"><a class="custom_links_list_item_link" href="/"><span class="custom_links_list_item_title">Home</span></a></li><li class="custom_links_list_item"><a class="custom_links_list_item_link" href="/about-us/"><span class="custom_links_list_item_title">About Us</span></a></li><li class="custom_links_list_item"><a class="custom_links_list_item_link" href="/our-services/"><span class="custom_links_list_item_title">Our Services</span></a></li><li class="custom_links_list_item"><a class="custom_links_list_item_link" href="/contacts/"><span class="custom_links_list_item_title">Contacts</span></a></li><li class="custom_links_list_item"><a class="custom_links_list_item_link" href="/blog/"><span class="custom_links_list_item_title">Blog</span></a></li></ul></aside></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-74ae710 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="74ae710" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-2106e9b sc_fly_static elementor-widget elementor-widget-trx_sc_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="2106e9b" data-element_type="widget" data-widget_type="trx_sc_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_title sc_title_default"><h6 class="sc_item_title sc_title_title sc_item_title_style_default sc_item_title_tag"><span class="sc_item_title_text">Get in touch</span></h6></div>				</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-45ae624 sc_fly_static elementor-widget elementor-widget-html trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="45ae624" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<iframe src="https://maps.google.com/maps?t=m&amp;output=embed&amp;iwloc=near&amp;z=16&amp;q=17.4447373%2C78.4653087" title="Kamala Farms Location Map" aria-label="Kamala Farms location on Google Maps" loading="lazy" width="100%" height="350" style="border: 0px; width: 249px;" class="trx_addons_resize" data-last-width="249">
+</iframe>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c2b4a16 sc_layouts_row sc_layouts_row_type_compact scheme_dark elementor-section-boxed elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="c2b4a16" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f127171 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="f127171" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="sc_layouts_item elementor-element elementor-element-671113b sc_height_medium sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="671113b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-ae3e4d8 elementor-widget-divider--view-line sc_fly_static elementor-widget elementor-widget-divider trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="ae3e4d8" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-d5f9958 sc_fly_static elementor-widget elementor-widget-text-editor trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="d5f9958" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><a href="https://kamalafarms.com/" rel="noopener">Kamala Farms</a> © 2026. All Rights Reserved.</p>								</div>
+				</div>
+				<div class="sc_layouts_item elementor-element elementor-element-372a9cb sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="372a9cb" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</footer><!-- /.footer_wrap -->
+
+			
+		</div>
+
+		
+	</div>
+
+	
+	
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<a href="#" class="trx_addons_scroll_to_top trx_addons_icon-up scroll_to_top_style_default inited" title="Scroll to top"></a><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/ecogrow-child/*","/wp-content/themes/ecogrow/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<div class="adp-popup adp-popup-type-content adp-popup-location-center adp-preview-image-left adp-preview-image-no" data-limit-display="1" data-limit-lifetime="1" data-open-trigger="delay" data-open-delay-number="25" data-open-scroll-position="10" data-open-scroll-type="%" data-open-manual-selector="" data-close-trigger="none" data-close-delay-number="30" data-close-scroll-position="10" data-close-scroll-type="%" data-open-animation="popupOpenFade" data-exit-animation="popupExitFade" data-light-close="false" data-overlay="true" data-mobile-disable="false" data-body-scroll-disable="false" data-overlay-close="false" data-esc-close="true" data-f4-close="false" data-id="9110" style="width:1050px;">
+
+				<div class="adp-popup-wrap">
+
+					<div class="adp-popup-container">
+
+						<!-- Content -->
+													<div class="adp-popup-outer" style="max-width:100%;">
+								
+								<div class="adp-popup-content">
+									<div class="adp-popup-inner">
+										<div class="sc_layouts sc_layouts_default sc_layouts_7074" data-delay="0">		<div data-elementor-type="cpt_layouts" data-elementor-id="7074" class="elementor elementor-7074" data-elementor-post-type="cpt_layouts">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-d394f72 elementor-section-full_width elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="d394f72" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-91a3141 sc_layouts_hide_on_mobile sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="91a3141" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-637990e sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="637990e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48d3da0 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="48d3da0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9efa3b4 sc_fly_static elementor-widget elementor-widget-trx_sc_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="9efa3b4" data-element_type="widget" data-widget_type="trx_sc_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_title sc_title_default"><h2 class="sc_item_title sc_title_title sc_item_title_style_default"><span class="sc_item_title_text">Subscribe for the updates!</span></h2></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0f09534 sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="0f09534" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5c0af5f sc_fly_static elementor-widget elementor-widget-shortcode trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="5c0af5f" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"></div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>									</div>
+
+									<button type="button" class="adp-popup-close"></button>
+								</div>
+							</div>
+						
+						<!-- Info -->
+											</div>
+				</div>
+			</div>
+
+							<div class="adp-popup-overlay"></div>
+			
+						<div class="adp-popup adp-popup-type-content adp-popup-location-center adp-preview-image-left adp-preview-image-no" data-limit-display="0" data-limit-lifetime="30" data-open-trigger="manual" data-open-delay-number="1" data-open-scroll-position="10" data-open-scroll-type="%" data-open-manual-selector="#manual-launch-3" data-close-trigger="none" data-close-delay-number="30" data-close-scroll-position="10" data-close-scroll-type="%" data-open-animation="popupOpenFade" data-exit-animation="popupExitFade" data-light-close="false" data-overlay="true" data-mobile-disable="false" data-body-scroll-disable="false" data-overlay-close="false" data-esc-close="false" data-f4-close="false" data-id="9054" style="width:1050px;">
+
+				<div class="adp-popup-wrap">
+
+					<div class="adp-popup-container">
+
+						<!-- Content -->
+													<div class="adp-popup-outer" style="max-width:100%;">
+								
+								<div class="adp-popup-content">
+									<div class="adp-popup-inner">
+										<div class="sc_layouts sc_layouts_default sc_layouts_7074" data-delay="0">		<div data-elementor-type="cpt_layouts" data-elementor-id="7074" class="elementor elementor-7074" data-elementor-post-type="cpt_layouts">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-d394f72 elementor-section-full_width elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="d394f72" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-91a3141 sc_layouts_hide_on_mobile sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="91a3141" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-637990e sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="637990e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48d3da0 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="48d3da0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9efa3b4 sc_fly_static elementor-widget elementor-widget-trx_sc_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="9efa3b4" data-element_type="widget" data-widget_type="trx_sc_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_title sc_title_default"><h2 class="sc_item_title sc_title_title sc_item_title_style_default"><span class="sc_item_title_text">Subscribe for the updates!</span></h2></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0f09534 sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="0f09534" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5c0af5f sc_fly_static elementor-widget elementor-widget-shortcode trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="5c0af5f" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"></div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>									</div>
+
+									<button type="button" class="adp-popup-close"></button>
+								</div>
+							</div>
+						
+						<!-- Info -->
+											</div>
+				</div>
+			</div>
+
+							<div class="adp-popup-overlay"></div>
+			
+						<div class="adp-popup adp-popup-type-content adp-popup-location-bottom-right adp-preview-image-left adp-preview-image-no" data-limit-display="0" data-limit-lifetime="30" data-open-trigger="manual" data-open-delay-number="1" data-open-scroll-position="10" data-open-scroll-type="%" data-open-manual-selector="#manual-launch-4" data-close-trigger="none" data-close-delay-number="30" data-close-scroll-position="10" data-close-scroll-type="%" data-open-animation="popupOpenFade" data-exit-animation="popupExitFade" data-light-close="false" data-overlay="true" data-mobile-disable="false" data-body-scroll-disable="true" data-overlay-close="false" data-esc-close="false" data-f4-close="false" data-id="9021" style="width:446px;">
+
+				<div class="adp-popup-wrap">
+
+					<div class="adp-popup-container">
+
+						<!-- Content -->
+													<div class="adp-popup-outer" style="max-width:100%;">
+								
+								<div class="adp-popup-content">
+									<div class="adp-popup-inner">
+										<div class="sc_layouts sc_layouts_default sc_layouts_9070" data-delay="0">		<div data-elementor-type="cpt_layouts" data-elementor-id="9070" class="elementor elementor-9070" data-elementor-post-type="cpt_layouts">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-347c22e elementor-section-boxed elementor-section-height-default elementor-section-height-default sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="347c22e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b7c235 sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="1b7c235" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7ef8578 sc_fly_static elementor-widget elementor-widget-trx_sc_title trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="7ef8578" data-element_type="widget" data-widget_type="trx_sc_title.default">
+				<div class="elementor-widget-container">
+					<div class="sc_title sc_title_default"><h3 class="sc_item_title sc_title_title sc_item_title_style_default sc_item_title_tag"><span class="sc_item_title_text">Subscribe for the updates!</span></h3></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-54d9314 sc_fly_static elementor-widget elementor-widget-spacer trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="54d9314" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-f64ddea sc_fly_static elementor-widget elementor-widget-shortcode trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited" data-id="f64ddea" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"></div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>
+
+
+<p></p>
+									</div>
+
+									<button type="button" class="adp-popup-close"></button>
+								</div>
+							</div>
+						
+						<!-- Info -->
+											</div>
+				</div>
+			</div>
+
+							<div class="adp-popup-overlay"></div>
+			
+			<div class="trx_addons_mouse_helper trx_addons_mouse_helper_base trx_addons_mouse_helper_style_default trx_addons_mouse_helper_smooth trx_addons_mouse_helper_permanent trx_addons_mouse_helper_centered trx_addons_mouse_helper_left" style="transform: translate(1108.8px, 303.4px); mix-blend-mode: difference; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-width: 0px; border-style: none;"></div><!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://kamalafarms.com/wp-admin/admin-ajax.php";
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="vk-ltc-js-js-extra">
+/* <![CDATA[ */
+var vkLtc = {"ajaxurl":"https://kamalafarms.com/wp-admin/admin-ajax.php"};
+//# sourceURL=vk-ltc-js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/vk-link-target-controller/js/script.min.js?ver=1.7.9.0" id="vk-ltc-js-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/advanced-popups/public/js/advanced-popups-public.js?ver=1.2.2" id="advanced-popups-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+
+
+
+
+
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/trx_addons/js/magnific/jquery.magnific-popup.min.js" id="magnific-popup-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.4.3" id="wc-jquery-blockui-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://kamalafarms.com/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.4.3" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.4.3" id="wc-js-cookie-js" data-wp-strategy=""></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+//# sourceURL=woocommerce-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.4.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-includes/js/wp-util.min.js?ver=6.9.1" id="wp-util-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","i18n_reset_alert_text":"Your selection has been reset. Please select some product options before adding this product to your cart."};
+//# sourceURL=wc-add-to-cart-variation-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=10.4.3" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.min.js?ver=4.2.8" id="slick-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woo-smart-quick-view/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=4.2.8" id="perfect-scrollbar-js"></script>
+<script type="text/javascript" id="woosq-frontend-js-extra">
+/* <![CDATA[ */
+var woosq_vars = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","nonce":"2b008422fa","view":"popup","effect":"mfp-slide-bottom","scrollbar":"yes","auto_close":"yes","hashchange":"no","cart_redirect":"no","cart_url":"https://kamalafarms.com/cart/","close":"Close (Esc)","next_prev":"yes","next":"Next","prev":"Previous","thumbnails_effect":"no","related_slick_params":"{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}","thumbnails_slick_params":"{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}","thumbnails_zoom_params":"{\"duration\":120,\"magnify\":1}","quick_view":"0"};
+//# sourceURL=woosq-frontend-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=4.2.8" id="woosq-frontend-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2e865aa8320ec85221a92281e5690f6b","fragment_name":"wc_fragments_2e865aa8320ec85221a92281e5690f6b","request_timeout":"5000"};
+//# sourceURL=wc-cart-fragments-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=10.4.3" id="wc-cart-fragments-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="tinvwl-js-extra">
+/* <![CDATA[ */
+var tinvwl_add_to_wishlist = {"text_create":"Create New","text_already_in":"\"{product_name}\" already in Wishlist","simple_flow":"1","hide_zero_counter":"","i18n_make_a_selection_text":"Please select some product options before adding this product to your wishlist.","tinvwl_break_submit":"No items or actions are selected.","tinvwl_clipboard":"Copied!","allow_parent_variable":"","block_ajax_wishlists_data":"","update_wishlists_data":"","hash_key":"ti_wishlist_data_2e865aa8320ec85221a92281e5690f6b","nonce":"0faa9aeae4","rest_root":"https://kamalafarms.com/wp-json/","plugin_url":"https://kamalafarms.com/wp-content/plugins/ti-woocommerce-wishlist/","wc_ajax_url":"/?wc-ajax=tinvwl","stats":"","popup_timer":"6000"};
+//# sourceURL=tinvwl-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/ti-woocommerce-wishlist/assets/js/public.min.js?ver=2.11.1" id="tinvwl-js"></script>
+<script type="text/javascript" id="chaty-front-end-js-extra">
+/* <![CDATA[ */
+var chaty_settings = {"ajax_url":"https://kamalafarms.com/wp-admin/admin-ajax.php","analytics":"0","capture_analytics":"0","token":"e1f9691f22","chaty_widgets":[{"id":0,"identifier":0,"settings":{"cta_type":"simple-view","cta_body":"","cta_head":"","cta_head_bg_color":"","cta_head_text_color":"","show_close_button":1,"position":"right","custom_position":1,"bottom_spacing":"25","side_spacing":"25","icon_view":"vertical","default_state":"click","cta_text":"\u003Cp\u003EContact us\u003C/p\u003E","cta_text_color":"#333333","cta_bg_color":"#ffffff","show_cta":"first_click","is_pending_mesg_enabled":"off","pending_mesg_count":"1","pending_mesg_count_color":"#ffffff","pending_mesg_count_bgcolor":"#dd0000","widget_icon":"chat-base","widget_icon_url":"","font_family":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","widget_size":"54","custom_widget_size":"54","is_google_analytics_enabled":0,"close_text":"Hide","widget_color":"#A886CD","widget_icon_color":"#ffffff","widget_rgb_color":"168,134,205","has_custom_css":0,"custom_css":"","widget_token":"aa45897745","widget_index":"","attention_effect":""},"triggers":{"has_time_delay":1,"time_delay":"0","exit_intent":0,"has_display_after_page_scroll":0,"display_after_page_scroll":"0","auto_hide_widget":0,"hide_after":0,"show_on_pages_rules":[],"time_diff":0,"has_date_scheduling_rules":0,"date_scheduling_rules":{"start_date_time":"","end_date_time":""},"date_scheduling_rules_timezone":0,"day_hours_scheduling_rules_timezone":0,"has_day_hours_scheduling_rules":[],"day_hours_scheduling_rules":[],"day_time_diff":0,"show_on_direct_visit":0,"show_on_referrer_social_network":0,"show_on_referrer_search_engines":0,"show_on_referrer_google_ads":0,"show_on_referrer_urls":[],"has_show_on_specific_referrer_urls":0,"has_traffic_source":0,"has_countries":0,"countries":[],"has_target_rules":0},"channels":[{"channel":"Whatsapp","value":"919063397475","hover_text":"WhatsApp","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"/\u003E\u003Cpath d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"/\u003E\u003Cpath d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"/\u003E\u003C/svg\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#49E670","icon_rgb_color":"73,230,112","channel_type":"Whatsapp","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"\u003Cp\u003EHow can I help you? :)\u003C/p\u003E","wp_popup_headline":"Let&#039;s chat on WhatsApp","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https://web.whatsapp.com/send?phone=919063397475","mobile_target":"","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"aa45897745","widget_index":"","click_event":"","viber_url":""}]}],"data_analytics_settings":"off","lang":{"whatsapp_label":"WhatsApp Message","hide_whatsapp_form":"Hide WhatsApp Form","emoji_picker":"Show Emojis"},"has_chatway":""};
+//# sourceURL=chaty-front-end-js-extra
+/* ]]> */
+</script>
+<script defer="" type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.5.11759999765" id="chaty-front-end-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.4.3" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://kamalafarms.com/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.4.3" id="wc-order-attribution-js"></script>
+<script type="text/javascript" id="trx_addons-js-extra">
+/* <![CDATA[ */
+var TRX_ADDONS_STORAGE = {"admin_mode":"","ajax_url":"https://kamalafarms.com/wp-admin/admin-ajax.php","ajax_nonce":"0418b5c292","rest_url":"https://kamalafarms.com/wp-json/","site_url":"https://kamalafarms.com","plugin_url":"https://kamalafarms.com/wp-content/plugins/trx_addons/","post_id":"40129","vc_edit_mode":"","is_preview":"","is_preview_gb":"","is_preview_elm":"","no_image":"https://kamalafarms.com/wp-content/plugins/trx_addons/css/images/no-image.jpg","popup_engine":"magnific","scroll_progress":"hide","hide_fixed_rows":"0","smooth_scroll":"","animate_inner_links":"1","disable_animation_on_mobile":"","add_target_blank":"0","menu_collapse":"1","menu_collapse_icon":"trx_addons_icon-ellipsis-vert","menu_stretch":"1","resize_tag_video":"","resize_tag_iframe":"1","allow_cookie_is_retina":"","mediaplayer_icons_selector_allowed":"1","user_logged_in":"","theme_slug":"ecogrow","theme_bg_color":"#ffffff","theme_accent_color":"#4BAF47","page_wrap_class":".page_wrap","header_wrap_class":".top_panel","footer_wrap_class":".footer_wrap","sidebar_wrap_class":".sidebar","columns_wrap_class":"trx_addons_columns_wrap","columns_in_single_row_class":"columns_in_single_row","column_class_template":"trx_addons_column-$1_$2","loading_layout":"\u003Cdiv class=\"trx_addons_loading trx_addons_loading_style_default\"\u003E\u003C/div\u003E","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-zA-Z0-9_\\-]+(\\.[a-zA-Z0-9_\\-]+)*\\.[a-zA-Z0-9]{2,12}$","mobile_breakpoint_fixedrows_off":"768","mobile_breakpoint_fixedcolumns_off":"768","mobile_breakpoint_stacksections_off":"768","mobile_breakpoint_scroll_lag_off":"0","mobile_breakpoint_fullheight_off":"1025","mobile_breakpoint_mousehelper_off":"1025","msg_caption_yes":"Yes","msg_caption_no":"No","msg_caption_ok":"OK","msg_caption_accept":"Accept","msg_caption_apply":"Apply","msg_caption_cancel":"Cancel","msg_caption_attention":"Attention!","msg_caption_warning":"Warning!","msg_ajax_error":"Invalid server answer!","msg_magnific_loading":"Loading image","msg_magnific_error":"Error loading image","msg_magnific_close":"Close (Esc)","msg_error_like":"Error saving your like! Please, try again later.","msg_field_name_empty":"The name can't be empty","msg_field_email_empty":"Too short (or empty) email address","msg_field_email_not_valid":"Invalid email address","msg_field_text_empty":"The message text can't be empty","msg_search_error":"Search error! Try again later.","msg_send_complete":"Send message complete!","msg_send_error":"Transmit failed!","msg_validation_error":"Error data validation!","msg_name_empty":"The name can't be empty","msg_name_long":"Too long name","msg_email_empty":"Too short (or empty) email address","msg_email_long":"E-mail address is too long","msg_email_not_valid":"E-mail address is invalid","msg_text_empty":"The message text can't be empty","msg_copied":"Copied!","ajax_views":"","menu_cache":[".menu_mobile_inner nav \u003E ul"],"login_via_ajax":"1","double_opt_in_registration":"1","msg_login_empty":"The Login field can't be empty","msg_login_long":"The Login field is too long","msg_password_empty":"The password can't be empty and shorter then 4 characters","msg_password_long":"The password is too long","msg_login_success":"Login success! The page should be reloaded in 3 sec.","msg_login_error":"Login failed!","msg_not_agree":"Please, read and check 'Terms and Conditions'","msg_password_not_equal":"The passwords in both fields are not equal","msg_registration_success":"Thank you for registering. Please confirm registration by clicking on the link in the letter sent to the specified email.","msg_registration_error":"Registration failed!","shapes_url":"https://kamalafarms.com/wp-content/themes/ecogrow/skins/default/trx_addons/css/shapes/","mouse_helper_in_swiper_slider":"1","add_to_links_url":[{"slug":"elementor","mask":"elementor.com/","link":"https://be.elementor.com/visit/?bta=2496&nci=5383&brand=elementor&utm_campaign=theme","args":{"afp":"trx25","landingPage":"@href"}}],"elementor_stretched_section_container":".page_wrap","pagebuilder_preview_mode":"","elementor_animate_items":".elementor-heading-title,.sc_item_subtitle,.sc_item_title,.sc_item_descr,.sc_item_posts_container + .sc_item_button,.sc_item_button.sc_title_button,nav \u003E ul \u003E li","elementor_animate_as_text":{"elementor-heading-title":"line,word,char","sc_item_title":"line,word,char"},"elementor_breakpoints":{"desktop":999999,"tablet":1279,"mobile":767},"elementor_placeholder_image":"https://kamalafarms.com/wp-content/plugins/elementor/assets/images/placeholder.png","animate_to_mc4wp_form_submitted":"1","msg_no_products_found":"No products found! Please, change query parameters and try again.","ai_helper_sc_igenerator_openai_sizes":[],"msg_ai_helper_igenerator_download":"Download","msg_ai_helper_igenerator_download_error":"Error","msg_ai_helper_igenerator_download_expired":"The generated image cache timed out. The download link is no longer valid.\u003Cbr\u003EBut you can still download the image by right-clicking on it and selecting \"Save Image As...\"","msg_ai_helper_igenerator_disabled":"Image generation is not available in edit mode!","msg_ai_helper_igenerator_wait_available":"Wait for the image to become available on the rendering server","msg_ai_helper_sc_chat_clear":"Clear","msg_ai_helper_mgenerator_download":"Download","msg_ai_helper_mgenerator_download_error":"Error","msg_ai_helper_mgenerator_download_expired":"The generated music cache timed out. The download link is no longer valid.\u003Cbr\u003EBut you can still download the music by right-clicking on it and selecting \"Save Media As...\"","msg_ai_helper_mgenerator_disabled":"Music generation is not available in edit mode!","msg_ai_helper_mgenerator_fetch_error":"Error updating the tag audio on this page - object is not found!","msg_ai_helper_agenerator_download":"Download","msg_ai_helper_agenerator_download_error":"Error","msg_ai_helper_agenerator_download_expired":"The generated audio cache timed out. The download link is no longer valid.\u003Cbr\u003EBut you can still download the file by right-clicking on it and selecting \"Save Media As...\"","msg_ai_helper_agenerator_disabled":"Audio generation is not available in edit mode!","msg_ai_helper_agenerator_fetch_error":"Error updating the tag audio on this page - object is not found!","msg_ai_helper_vgenerator_download":"Download","msg_ai_helper_vgenerator_download_error":"Error","msg_ai_helper_vgenerator_download_expired":"The generated video cache timed out. The download link is no longer valid.\u003Cbr\u003EBut you can still download the video by right-clicking on it and selecting \"Save Video As...\"","msg_ai_helper_vgenerator_disabled":"Video generation is not available in edit mode!","msg_ai_helper_vgenerator_wait_available":"Wait for the video to become available on the rendering server","audio_effects_allowed":"0","bg_colors_selector":"body:not(.body_style_boxed) .page_content_wrap,body.body_style_boxed .page_wrap","mouse_helper":"1","mouse_helper_delay":"4","mouse_helper_centered":"1","msg_mouse_helper_anchor":"Scroll to","portfolio_use_gallery":"","scroll_to_anchor":"0","update_location_from_anchor":"0","msg_sc_googlemap_not_avail":"Googlemap service is not available","msg_sc_googlemap_geocoder_error":"Error while geocode address","sc_icons_animation_speed":"50","msg_sc_osmap_not_avail":"OpenStreetMap service is not available","msg_sc_osmap_geocoder_error":"Error while geocoding address","osmap_tiler":"vector","osmap_tiler_styles":[],"osmap_attribution":"Map data \u00a9 \u003Ca href=\"https://www.openstreetmap.org/\"\u003EOpenStreetMap\u003C/a\u003E contributors","slider_round_lengths":"1"};
+//# sourceURL=trx_addons-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/trx_addons/js/__scripts.js" id="trx_addons-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/trx_addons/addons/mouse-helper/mouse-helper.js" id="trx_addons-mouse-helper-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/trx_addons/components/cpt/portfolio/portfolio.js" id="trx_addons-cpt_portfolio-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/menu/superfish.min.js" id="superfish-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/trx_addons/js/tweenmax/GSAP/3.12.2/gsap.min.js" id="tweenmax-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/plugins/trx_addons/components/api/woocommerce/woocommerce.js" id="trx_addons-woocommerce-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" id="ecogrow-init-js-extra">
+/* <![CDATA[ */
+var ECOGROW_STORAGE = {"ajax_url":"https://kamalafarms.com/wp-admin/admin-ajax.php","ajax_nonce":"0418b5c292","home_url":"https://kamalafarms.com","theme_url":"https://kamalafarms.com/wp-content/themes/ecogrow/","site_scheme":"scheme_light","user_logged_in":"","mobile_layout_width":"768","mobile_device":"","mobile_breakpoint_underpanels_off":"768","mobile_breakpoint_fullheight_off":"1025","menu_side_stretch":"","menu_side_icons":"1","background_video":"","use_mediaelements":"1","resize_tag_video":"","resize_tag_iframe":"1","open_full_post":"","which_block_load":"article","admin_mode":"","msg_ajax_error":"Invalid server answer!","msg_i_agree_error":"Please accept the terms of our Privacy Policy.","toggle_title":"Filter by ","msg_copied":"Copied!","alter_link_color":"#4BAF47","mc4wp_msg_email_min":"Email address is too short (or empty)","mc4wp_msg_email_max":"Too long email address","add_to_cart_sticky":"","button_hover":"default"};
+//# sourceURL=ecogrow-init-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/themes/ecogrow/js/__scripts.js" id="ecogrow-init-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+//# sourceURL=mediaelement-core-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.9.1" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+//# sourceURL=mediaelement-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.9.1" id="wp-mediaelement-js"></script>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/themes/ecogrow/skins/default/skin.js" id="ecogrow-skin-default-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.34.2" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.34.2" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1280,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1279,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.34.2","is_static":false,"experimentalFeatures":{"theme_builder_v2":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_interactions":true,"e_editor_one":true,"import-export-customization":true},"urls":{"assets":"https:\/\/kamalafarms.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/kamalafarms.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/kamalafarms.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"f4b79f7908"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"stretched_section_container":".page_wrap","viewport_tablet":1279,"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":40129,"title":"Vikram%E2%80%99s%20High-Tech%20Hydroponic%20Farm%20Setup%20-%20Kamala%20Farms","excerpt":"Vikram, a 38-year-old businessman from Pune, had been successfully managing a chain of distribution businesses for over a decade. ","featuredImage":"https:\/\/kamalafarms.com\/wp-content\/uploads\/2025\/09\/client-story-01.jpg"}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1280,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1279,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.34.2","is_static":false,"experimentalFeatures":{"theme_builder_v2":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_interactions":true,"e_editor_one":true,"import-export-customization":true},"urls":{"assets":"https:\/\/kamalafarms.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/kamalafarms.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/kamalafarms.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"f4b79f7908"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"stretched_section_container":".page_wrap","viewport_tablet":1279,"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":40129,"title":"Vikram%E2%80%99s%20High-Tech%20Hydroponic%20Farm%20Setup%20-%20Kamala%20Farms","excerpt":"Vikram, a 38-year-old businessman from Pune, had been successfully managing a chain of distribution businesses for over a decade. ","featuredImage":"https:\/\/kamalafarms.com\/wp-content\/uploads\/2025\/09\/client-story-01.jpg"}};
+//# sourceURL=elementor-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.34.2" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.31.2" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/kamalafarms.com\/wp-admin\/admin-ajax.php","nonce":"1876d993b6","urls":{"assets":"https:\/\/kamalafarms.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/kamalafarms.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/kamalafarms.com\/cart\/","checkout_page_url":"https:\/\/kamalafarms.com\/checkout\/","fragments_nonce":"d0c34f5b33"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/kamalafarms.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/kamalafarms.com\/wp-admin\/admin-ajax.php","nonce":"1876d993b6","urls":{"assets":"https:\/\/kamalafarms.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/kamalafarms.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/kamalafarms.com\/cart\/","checkout_page_url":"https:\/\/kamalafarms.com\/checkout\/","fragments_nonce":"d0c34f5b33"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/kamalafarms.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.31.2" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://kamalafarms.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.31.2" id="pro-elements-handlers-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+<script type="text/javascript" defer="defer" src="https://kamalafarms.com/wp-content/themes/ecogrow/plugins/woocommerce/woocommerce.js" id="ecogrow-woocommerce-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://kamalafarms.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://kamalafarms.com/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+
+
+
+
+<div class="widget_shopping_cart_live_region screen-reader-text" role="status"></div><svg width="39" height="39" viewBox="0 0 39 39" class="hide-cht-svg-bg" fill="none" xmlns="http://www.w3.org/2000/svg"><defs> <linearGradient id="linear-gradient" x1="0.892" y1="0.192" x2="0.128" y2="0.85" gradientUnits="objectBoundingBox"> <stop offset="0" stop-color="#4a64d5"></stop> <stop offset="0.322" stop-color="#9737bd"></stop> <stop offset="0.636" stop-color="#f15540"></stop> <stop offset="1" stop-color="#fecc69"></stop> </linearGradient> <linearGradient id="linear-gradient-insta-dm" x1="0.892" y1="0.192" x2="0.128" y2="0.85" gradientUnits="objectBoundingBox"> <stop offset="0" stop-color="#4A64D5"></stop> <stop offset="0.322" stop-color="#9737BD"></stop> <stop offset="0.636" stop-color="#F15540"></stop> <stop offset="1" stop-color="#FECC69"></stop> </linearGradient></defs></svg><div style="display: none" class="chaty chaty-id-0 chaty-widget-0 chaty-key-0 first_click active" id="chaty-widget-0" data-key="0" data-id="0" data-identifier="0" data-nonce="aa45897745"><div class="chaty-widget right-position has-single"><div class="chaty-channels"><div class="chaty-channel-list" id="csaas-channels-0"></div><div class="chaty-i-trigger csaas-widget-trigger single-channel"><div class="chaty-channel Whatsapp-channel-link single active chaty-tooltip pos-left has-on-hover" id="Whatsapp-0-channel" data-id="Whatsapp-0" data-widget="0" data-channel="Whatsapp"><a href="https://web.whatsapp.com/send?phone=919063397475&amp;text=" target="_blank" rel="nofollow noopener" aria-label="Whatsapp" class="Whatsapp-channel chaty-link chaty-whatsapp-channel pos-left has-on-hover" data-form="chaty-form-0-Whatsapp" data-hover="WhatsApp" data-text="&lt;p&gt;Contact us&lt;/p&gt;"><span class="chaty-icon channel-icon-Whatsapp"><span class="chaty-svg"><svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-element" cx="19.4395" cy="19.4395" r="19.4395" fill="#49E670"></circle><path d="M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z" transform="translate(12.9597 12.9597)" fill="#FAFAFA"></path><path d="M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z" transform="translate(7.7758 7.77582)" fill="white" stroke="white" stroke-width="0.2"></path></svg></span></span><span class="on-hover-text"><p>Contact us</p></span></a><span class="on-hover-text"><p>Contact us</p></span></div><div class="chaty-channel chaty-cta-close chaty-tooltip pos-left" data-hover="Hide"><div class="chaty-cta-button"><button type="button"><span class="chaty-svg"><svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="26" cy="26" rx="26" ry="26" fill="#A886CD"></ellipse><rect width="27.1433" height="3.89857" rx="1.94928" transform="translate(18.35 15.6599) scale(0.998038 1.00196) rotate(45)" fill="#ffffff"></rect><rect width="27.1433" height="3.89857" rx="1.94928" transform="translate(37.5056 18.422) scale(0.998038 1.00196) rotate(135)" fill="#ffffff"></rect></svg></span><span class="sr-only">Hide chaty</span></button></div></div></div></div></div></div></body>

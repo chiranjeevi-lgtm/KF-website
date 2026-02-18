@@ -1,0 +1,401 @@
+@import "tailwindcss";
+
+:root {
+  /* Kamala Farms Brand Colors */
+  --color-primary: #4BAF47;
+  --color-primary-dark: #3a8c38;
+  --color-accent: #61CE70;
+  --color-highlight: #F2C200;
+  --color-dark: #1E2831;
+  --color-gray: #6B7280;
+  --color-light-gray: #F3F4F6;
+  --color-white: #FFFFFF;
+
+  --background: #ffffff;
+  --foreground: #1E2831;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Brand Colors */
+  --color-primary: #4BAF47;
+  --color-primary-dark: #3a8c38;
+  --color-accent: #61CE70;
+  --color-highlight: #F2C200;
+  --color-dark: #1E2831;
+  --color-gray-brand: #6B7280;
+  --color-light-gray: #F3F4F6;
+
+  /* Fonts */
+  --font-heading: var(--font-bebas-neue);
+  --font-body: var(--font-roboto);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Heading font utility */
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+}
+
+.description-green-ticks {
+  white-space: pre-line;
+}
+
+.description-green-ticks span.tick {
+  color: #22c55e; /* green-500 */
+  font-weight: 600;
+}
+
+/* Form Icons */
+.style-line {
+  position: relative;
+}
+
+.style-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #9ca3af;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.icon-name::before {
+  content: "👤";
+}
+
+.icon-phone::before {
+  content: "📞";
+}
+
+.icon-email::before {
+  content: "✉";
+}
+
+.icon-subject::before {
+  content: "📋";
+}
+
+.style-line .line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.style-line input:focus ~ .line,
+.style-line select:focus ~ .line {
+  width: 100%;
+}
+
+/* =============================================
+   Blog Grid
+   ============================================= */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =============================================
+   Blog Card
+   ============================================= */
+.blog-card {
+  background: #fff;
+  border-radius: 0;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.blog-card__image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.blog-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-card__image img {
+  transform: scale(1.05);
+}
+
+.blog-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+}
+
+.blog-card:hover .blog-card__overlay {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.blog-card__content {
+  padding: 1.25rem 0.5rem 1rem;
+}
+
+.blog-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #909090;
+}
+
+.blog-card__category {
+  color: #4BAF47;
+  font-weight: 500;
+}
+
+.blog-card__date {
+  color: #909090;
+}
+
+.blog-card__title {
+  font-family: var(--font-heading), "Bebas Neue", cursive;
+  font-size: 1.647em;
+  font-weight: 400;
+  line-height: 1.214em;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+  margin: 0;
+  color: #1E2831;
+  transition: color 0.3s ease;
+}
+
+.blog-card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-card__title a:hover {
+  color: #4BAF47;
+}
+
+/* =============================================
+   Blog Pagination
+   ============================================= */
+.blog-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.blog-pagination__links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.blog-pagination__number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #DBD8D8;
+  font-family: var(--font-heading), "Bebas Neue", cursive;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1E2831;
+  background-color: transparent;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-pagination__number:hover {
+  color: #ffffff;
+  background-color: #1E2831;
+  border-color: #1E2831;
+}
+
+.blog-pagination__number--active {
+  color: #ffffff;
+  background-color: #1E2831;
+  border-color: #1E2831;
+  cursor: default;
+}
+
+.blog-pagination__next {
+  font-weight: 700;
+}
+
+/* =============================================
+   Blog Post Header (style-3 with featured image)
+   ============================================= */
+.blog-header {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.blog-header__featured {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog-header__featured::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 40, 49, 0.2) 0%,
+    rgba(30, 40, 49, 0.85) 100%
+  );
+}
+
+.blog-header__content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.blog-header__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.blog-header__category span {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #4BAF47;
+  text-transform: none;
+  margin-bottom: 0.75rem;
+}
+
+.blog-header__title {
+  font-family: var(--font-heading), "Bebas Neue", cursive;
+  font-size: 3.353em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 0 0 0.5em;
+}
+
+.blog-header__meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-header__author {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.blog-header__author-by {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.blog-header__author-name {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.blog-header__date {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .blog-header {
+    min-height: 50vh;
+  }
+
+  .blog-header__title {
+    font-size: 2.2em;
+  }
+
+  .blog-header__inner {
+    padding: 0 1rem;
+  }
+}
+
+/* Video Popup Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.25s ease-out;
+}
+
+

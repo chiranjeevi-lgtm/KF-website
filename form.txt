@@ -1,0 +1,30 @@
+<div class="form-style-7">
+	<p><span id="wpcf7-698d7de11a918-wrapper" class="wpcf7-form-control-wrap trap-field-wrap" style="display:none !important; visibility:hidden !important;"><label for="wpcf7-698d7de11a918-field" class="hp-message">Please leave this field empty.</label><input id="wpcf7-698d7de11a918-field" class="wpcf7-form-control wpcf7-text fill_inited" type="text" name="trap-field" value="" size="40" tabindex="-1" autocomplete="new-password"></span>
+	</p>
+	<div class="columns_wrap">
+		<div class="column-1_1">
+			<p><span class="style-line icon-name"><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required fill_inited" aria-required="true" aria-invalid="false" placeholder="Name" value="" type="text" name="your-name"><span class="line"></span></span></span>
+			</p>
+		</div>
+		<div class="column-1_1">
+			<p><span class="style-line icon-phone"><span class="wpcf7-form-control-wrap" data-name="phone"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel fill_inited" aria-required="true" aria-invalid="false" placeholder="Phone" value="" type="tel" name="phone"><span class="line"></span></span></span>
+			</p>
+		</div>
+		<div class="column-1_1">
+			<p><span class="style-line icon-email"><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email fill_inited" aria-required="true" aria-invalid="false" placeholder="Email Address" value="" type="email" name="your-email"><span class="line"></span></span></span>
+			</p>
+		</div>
+		<div class="column-1_1">
+			<p><span class="style-line icon-subject"><span class="wpcf7-form-control-wrap" data-name="select-647"><div class="select_container"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required filled fill_inited" aria-required="true" aria-invalid="false" name="select-647"><option value="Select">Select</option><option value="Farm Visit">Farm Visit</option><option value="Buisness Consultation">Buisness Consultation</option><option value="Farm Setup">Farm Setup</option><option value="Workshop">Workshop</option></select></div><span class="line"></span></span></span>
+			</p>
+		</div>
+	</div>
+	<div class="columns_wrap margin-bottom">
+		<div class="column-1_1">
+			<p><span class="style-line icon-textarea"><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required fill_inited" aria-required="true" aria-invalid="false" placeholder="How can we help you? Feel free to get in touch!" name="your-message"></textarea><span class="line"></span></span></span>
+			</p>
+		</div>
+	</div>
+	<p><span class="wpcf7-submit-style"><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Get in Touch"><span class="submit-style-in"></span></span><span class="wpcf7-spinner"></span>
+	</p>
+</div>
