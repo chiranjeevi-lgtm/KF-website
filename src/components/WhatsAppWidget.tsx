@@ -1,6 +1,6 @@
 "use client";
 
-const WHATSAPP_NUMBER = "91XXXXXXXXXX"; // TODO: Replace with actual WhatsApp number
+const WHATSAPP_NUMBER = "919063397475";
 const WHATSAPP_MESSAGE = "Hi! I'm interested in Kamala Farms services.";
 
 export default function WhatsAppWidget() {

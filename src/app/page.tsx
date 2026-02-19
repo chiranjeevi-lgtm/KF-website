@@ -230,17 +230,17 @@ const BLOG_POSTS = [
   {
     title: "The Benefits of Starting Hydroponic Farming",
     image: "https://kamalafarms.com/wp-content/uploads/2025/09/benefits-starting-polyhouse.jpg",
-    href: "/blog",
+    href: "/blog/benefits-of-starting-hydroponic-farming",
   },
   {
     title: "Hydroponics Investment in Hyderabad: A Beginner's Guide",
     image: "https://kamalafarms.com/wp-content/uploads/2025/09/healthy-poyhouse.jpg",
-    href: "/blog",
+    href: "/blog/hydroponics-investment-hyderabad-beginners-guide",
   },
   {
     title: "What is Automated Hydroponic Farming System and How it Works?",
     image: "https://kamalafarms.com/wp-content/uploads/2025/09/hydroponics-investments-in-hyderabad.jpg",
-    href: "/blog",
+    href: "/blog/automated-hydroponic-farming-system",
   },
 ];
 
