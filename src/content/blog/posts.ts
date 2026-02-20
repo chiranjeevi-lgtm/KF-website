@@ -10,13 +10,13 @@ export interface BlogPostData {
 
 export const blogPosts: BlogPostData[] = [
   {
-    id: 1,
-    slug: "benefits-of-starting-hydroponic-farming",
-    title: "The Benefits of Starting Hydroponic Farming",
+    id: 8,
+    slug: "hydroponics-classes-india",
+    title:
+      "Hydroponics Classes in India: Growing Fresh, Nutrient-Rich Produce All Year Round",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/benefits-starting-polyhouse.jpg",
+    coverImage: "/images/blog/hydroponics-classes-india.jpg",
   },
   {
     id: 2,
@@ -24,8 +24,7 @@ export const blogPosts: BlogPostData[] = [
     title: "Hydroponics Investment in Hyderabad: A Beginner's Guide",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/healthy-poyhouse.jpg",
+    coverImage: "/images/blog/hydroponic-investment-hyderabad.jpg",
   },
   {
     id: 3,
@@ -33,8 +32,7 @@ export const blogPosts: BlogPostData[] = [
     title: "What is Automated Hydroponic Farming System and How it Works?",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/hydroponics-investments-in-hyderabad.jpg",
+    coverImage: "/images/blog/automated-hydroponic-system.jpg",
   },
   {
     id: 4,
@@ -42,8 +40,7 @@ export const blogPosts: BlogPostData[] = [
     title: "Environmental Benefits of Hydroponic Farming",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/Enhancing-Crop-Quality-and-quantity-Progressive-Hydroponic-Agriculture-Workshop-in-Hyderabad.jpg",
+    coverImage: "/images/blog/environmental-benefits-hydroponics.jpg",
   },
   {
     id: 5,
@@ -52,8 +49,7 @@ export const blogPosts: BlogPostData[] = [
       "Improving Efficiency and Productivity in Agriculture with Contract Farming Services",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2020/05/blog-02-890x664.jpeg",
+    coverImage: "/images/blog/contract-farming-efficiency.jpg",
   },
   {
     id: 6,
@@ -61,8 +57,7 @@ export const blogPosts: BlogPostData[] = [
     title: "Maintaining a Healthy Hydroponic System: Troubleshooting Tips",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/healthy-poyhouse.jpg",
+    coverImage: "/images/blog/healthy-hydroponic-system.jpg",
   },
   {
     id: 7,
@@ -71,18 +66,15 @@ export const blogPosts: BlogPostData[] = [
       "Investing in Hydroponic Farming: A Lucrative Business Opportunity in India",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/irrigation-01-890x664.jpg",
+    coverImage: "/images/blog/hydroponic-farming-investment.jpg",
   },
   {
-    id: 8,
-    slug: "hydroponics-classes-india",
-    title:
-      "Hydroponics Classes in India: Growing Fresh, Nutrient-Rich Produce All Year Round",
+    id: 1,
+    slug: "benefits-of-starting-hydroponic-farming",
+    title: "The Benefits of Starting Hydroponic Farming",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2020/05/blog-03-890x664.jpg",
+    coverImage: "/images/blog/benefits-hydroponic-farming.jpg",
   },
   {
     id: 9,
@@ -91,8 +83,7 @@ export const blogPosts: BlogPostData[] = [
       "Investing in Hydroponics Startups: Hyderabad's Rising Crop of Opportunities",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/contract-farming.jpg",
+    coverImage: "/images/blog/hydroponics-startups-hyderabad.jpg",
   },
   {
     id: 10,
@@ -101,8 +92,7 @@ export const blogPosts: BlogPostData[] = [
       "Contract Farming Policies in India: Facilitating Farmer Industry Collaboration",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/contract-farming.jpg",
+    coverImage: "/images/blog/contract-farming-policies.jpg",
   },
   {
     id: 11,
@@ -111,8 +101,7 @@ export const blogPosts: BlogPostData[] = [
       "Sustainable Farming Practices: Exploring the Environmental Benefits of Hydroponics",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/benefits-starting-polyhouse.jpg",
+    coverImage: "/images/blog/sustainable-farming-hydroponics.jpg",
   },
   {
     id: 12,
@@ -121,8 +110,7 @@ export const blogPosts: BlogPostData[] = [
       "Mastering Sustainability: A Step by Step Guide to Hydroponic Farm Setup",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/hydroponics-investments-in-hyderabad.jpg",
+    coverImage: "/images/blog/hydroponic-farm-setup-guide.jpg",
   },
   {
     id: 13,
@@ -130,8 +118,7 @@ export const blogPosts: BlogPostData[] = [
     title: "Hydroponic Nutrient Management for Pune Growers",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/irrigation-01-890x664.jpg",
+    coverImage: "/images/blog/hydroponic-nutrient-management.jpg",
   },
   {
     id: 14,
@@ -140,8 +127,7 @@ export const blogPosts: BlogPostData[] = [
       "Enhancing Crop Quality and Quantity: Progressive Hydroponic Agriculture Workshops in Hyderabad",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/Enhancing-Crop-Quality-and-quantity-Progressive-Hydroponic-Agriculture-Workshop-in-Hyderabad.jpg",
+    coverImage: "/images/blog/hydroponic-workshops-hyderabad.jpg",
   },
   {
     id: 16,
@@ -150,8 +136,7 @@ export const blogPosts: BlogPostData[] = [
       "Hydroponics Training for Home Gardeners: Bringing the Farm Indoors",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/healthy-poyhouse.jpg",
+    coverImage: "/images/blog/hydroponics-training-home.jpg",
   },
   {
     id: 17,
@@ -160,8 +145,7 @@ export const blogPosts: BlogPostData[] = [
       "The Role of Aeroponic Farming in Mitigating Climate Change in India",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/benefits-starting-polyhouse.jpg",
+    coverImage: "/images/blog/aeroponic-farming-india.jpg",
   },
   {
     id: 19,
@@ -170,8 +154,7 @@ export const blogPosts: BlogPostData[] = [
       "Hydroponic Fodder Cultivation - A Sustainable Alternative to Conventional Farming",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2020/05/blog-02-890x664.jpeg",
+    coverImage: "/images/blog/hydroponic-fodder-cultivation.jpg",
     externalUrl:
       "https://gubbagroup.com/hydroponic-fodder-cultivation-a-sustainable-alternative-to-conventional-farming/",
   },
@@ -181,8 +164,7 @@ export const blogPosts: BlogPostData[] = [
     title: "The Hydroponic Future of Curcuma Longa Cultivation",
     date: "September 24, 2025",
     category: "KamalaFarms",
-    coverImage:
-      "https://kamalafarms.com/wp-content/uploads/2025/09/irrigation-01-890x664.jpg",
+    coverImage: "/images/blog/hydroponic-curcuma-longa.jpg",
     externalUrl:
       "https://gubbagroup.com/the-hydroponic-future-of-curcuma-longa-cultivation/",
   },

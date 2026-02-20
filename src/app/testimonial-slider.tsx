@@ -5,24 +5,21 @@ import { useState } from "react";
 const TESTIMONIALS = [
   {
     quote:
-      "Kamala Farms helped us set up our hydroponic farm from scratch. Their expertise and support throughout the process was incredible. We're now producing fresh vegetables year-round.",
+      "As a businessman with no farming background, I was nervous about entering agriculture. Kamala Farms delivered a complete turnkey hydroponic setup in just 90 days — from polyhouse construction to automated nutrient systems. With their buy-back agreement securing my market, the farm has been generating consistent income from day one.",
     name: "Vikram",
-    role: "Business Owner",
-    avatar: "/images/testimonials/george-gordon.jpg",
+    role: "Business Owner, Pune",
   },
   {
     quote:
-      "The training program at Kamala Farms gave me the confidence to start my own farm. The hands-on approach and continued mentorship made all the difference in my farming journey.",
-    name: "Priya Sharma",
-    role: "Farm Owner",
-    avatar: "/images/testimonials/priya-sharma.jpg",
+      "We came to Kamala Farms with zero farming experience and a big dream. They built us a 2-acre hydroponic cucumber farm, trained our team, and signed a buy-back agreement so we never had to worry about finding buyers. In our first year itself, we completed four full harvest cycles.",
+    name: "Arun & Meera",
+    role: "Entrepreneurs, Coimbatore",
   },
   {
     quote:
-      "From planning to execution, Kamala Farms delivered a turnkey solution that exceeded our expectations. Their team's dedication to sustainable agriculture is truly inspiring.",
-    name: "Ravi Kumar",
-    role: "Entrepreneur",
-    avatar: "/images/testimonials/ravi-kumar.jpg",
+      "We wanted a high-value crop with assured sales — turmeric ticked every box. Kamala Farms set up our hydroponic turmeric farm, trained us through the full annual cycle, and bought our entire first harvest at a premium. The predictable income has already got us planning an expansion.",
+    name: "Karthik & Krishna",
+    role: "Farm Owners, Hyderabad",
   },
 ];
 

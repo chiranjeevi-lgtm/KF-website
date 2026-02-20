@@ -211,36 +211,36 @@ const END_TO_END_SERVICES = [
 const CLIENT_STORIES = [
   {
     title: "Vikram's High-Tech Hydroponic Farm Setup",
-    image: "https://kamalafarms.com/wp-content/uploads/2025/09/irrigation-01-890x664.jpg",
+    image: "/images/portfolio/vikram-hydroponic-farm.jpg",
     href: "/portfolio/vikrams-high-tech-hydroponic-farm-setup",
   },
   {
     title: "Arun & Meera's Hydroponic Cucumber Venture",
-    image: "https://kamalafarms.com/wp-content/uploads/2025/09/contract-farming.jpg",
+    image: "/images/portfolio/arun-meera-cucumber-farm.jpg",
     href: "/portfolio/arun-meeras-hydroponic-cucumber-venture",
   },
   {
     title: "Karthik & Krishna's Hydroponic Turmeric Success",
-    image: "https://kamalafarms.com/wp-content/uploads/2025/09/Enhancing-Crop-Quality-and-quantity-Progressive-Hydroponic-Agriculture-Workshop-in-Hyderabad.jpg",
+    image: "/images/portfolio/karthik-krishna-turmeric-farm.jpg",
     href: "/portfolio/karthik-krishnas-hydroponic-turmeric-success",
   },
 ];
 
 const BLOG_POSTS = [
   {
-    title: "The Benefits of Starting Hydroponic Farming",
-    image: "https://kamalafarms.com/wp-content/uploads/2025/09/benefits-starting-polyhouse.jpg",
-    href: "/blog/benefits-of-starting-hydroponic-farming",
+    title: "Hydroponics Classes in India: Growing Fresh, Nutrient-Rich Produce All Year Round",
+    image: "/images/blog/hydroponics-classes-india.jpg",
+    href: "/blog/hydroponics-classes-india",
   },
   {
-    title: "Hydroponics Investment in Hyderabad: A Beginner's Guide",
-    image: "https://kamalafarms.com/wp-content/uploads/2025/09/healthy-poyhouse.jpg",
-    href: "/blog/hydroponics-investment-hyderabad-beginners-guide",
+    title: "Mastering Sustainability: A Step by Step Guide to Hydroponic Farm Setup",
+    image: "/images/blog/hydroponic-farm-setup-guide.jpg",
+    href: "/blog/mastering-sustainability-hydroponic-farm-setup",
   },
   {
-    title: "What is Automated Hydroponic Farming System and How it Works?",
-    image: "https://kamalafarms.com/wp-content/uploads/2025/09/hydroponics-investments-in-hyderabad.jpg",
-    href: "/blog/automated-hydroponic-farming-system",
+    title: "Enhancing Crop Quality and Quantity: Progressive Hydroponic Agriculture Workshops in Hyderabad",
+    image: "/images/blog/hydroponic-workshops-hyderabad.jpg",
+    href: "/blog/enhancing-crop-quality-hydroponic-workshops-hyderabad",
   },
 ];
 

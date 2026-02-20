@@ -261,6 +261,7 @@ export const services: Service[] = [
           { title: "Naturally Ventilated Polyhouse", image: "/images/services/turnkey-setup/naturally-ventilated.png" },
           { title: "Fan & Pad Polyhouse", image: "/images/services/turnkey-setup/fan-and-pad.jpg" },
           { title: "Tunnel Polyhouse", image: "/images/services/turnkey-setup/tunnel-polyhouse.jpg" },
+          { title: "Shade Net House", image: "/images/services/turnkey-setup/shade-net.jpg" },
         ],
       },
       {
