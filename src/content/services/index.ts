@@ -24,6 +24,15 @@ export interface BulletItem {
   subPoints?: string[];
 }
 
+export interface UpcomingEvent {
+  name: string;
+  description: string;
+  date: string;
+  location: string;
+  dateISO?: string;
+  registrationLink?: string;
+}
+
 export interface ServiceSection {
   title: string;
   description: string;
@@ -54,6 +63,8 @@ export interface ServiceSection {
   showPartnerLogos?: boolean;
   showComingSoon?: boolean;
   showGovLogos?: boolean;
+  showFlowchart?: boolean;
+  upcomingEvents?: UpcomingEvent[];
 }
 
 export interface Service {
@@ -71,6 +82,7 @@ export interface Service {
   heroButtonLink?: string;
   heroOverlay?: boolean;
   compactSections?: boolean;
+  compactImages?: boolean;
 }
 
 export const services: Service[] = [
@@ -87,6 +99,7 @@ export const services: Service[] = [
     fullDescription:
       "From evaluating your land and crafting a detailed project report to navigating government subsidies — we handle every step so your farm is planned, funded, and built right.",
     tagline: "From Site Assessment to Subsidy-Backed Farming",
+    compactImages: true,
     heroImage: "/images/hero/site-design-planning-hero.jpg",
     contactImage: "/images/services/contact.jpg",
     sections: [
@@ -118,6 +131,23 @@ export const services: Service[] = [
           "Once the audit is complete, we prepare a comprehensive DPR — a roadmap that outlines every detail of your future farm. This report includes the polyhouse layout, hydroponic system design, cost estimates, timelines, and expected ROI. It serves as a crystal-clear guide, helping you visualize the project before construction even begins.",
         imagePosition: "left",
         image: "/images/services/site-design-planning/detailed-project-report.jpg",
+        buttonText: "Get Started With DPR",
+        buttonLink: "/contact",
+      },
+      {
+        title: "Step-by-Step Application Process",
+        description: "",
+        imagePosition: "right",
+        fullWidth: true,
+        showFlowchart: true,
+        bulletPoints: [
+          "**Prepare DPR:** Outline project scope, finances, and implementation plan",
+          "**Submit Application:** To NHB State Office or NHB Headquarters",
+          "**Bank Appraisal:** Secure term loan for project funding",
+          "**Obtain Approval:** NHB issues Letter of Intent (LoI)",
+          "**Implement Project:** Set up hydroponic systems as per approved plan",
+          "**Inspection & Subsidy Claim:** NHB & bank joint inspection, then submit claim",
+        ],
       },
       {
         title: "Why It Matters",
@@ -127,7 +157,7 @@ export const services: Service[] = [
         fullWidth: true,
       },
       {
-        title: "Hydroponic Farming Subsidy – NHB Scheme",
+        title: "Hydroponic Farming Subsidy",
         description:
           "Start your hydroponic farm with government support. Kamala Farms guides you through every step to avail up to **40% subsidy** on modern hydroponic systems.",
         imagePosition: "left",
@@ -181,21 +211,6 @@ export const services: Service[] = [
         ],
       },
       {
-        title: "Step-by-Step Application Process",
-        description: "",
-        imagePosition: "right",
-        fullWidth: true,
-        numberedPoints: true,
-        bulletPoints: [
-          "**Prepare DPR:** Outline project scope, finances, and implementation plan",
-          "**Submit Application:** To NHB State Office or NHB Headquarters",
-          "**Bank Appraisal:** Secure term loan for project funding",
-          "**Obtain Approval:** NHB issues Letter of Intent (LoI)",
-          "**Implement Project:** Set up hydroponic systems as per approved plan",
-          "**Inspection & Subsidy Claim:** NHB & bank joint inspection, then submit claim",
-        ],
-      },
-      {
         title: "IMPORTANT NOTES",
         description: "",
         imagePosition: "right",
@@ -230,6 +245,7 @@ export const services: Service[] = [
     fullDescription:
       "From blueprint to harvest-ready, our turnkey setup service handles every aspect of your farm build.",
     tagline: "from bare land to thriving polyhouse farms",
+    compactImages: true,
     heroImage: "/images/hero/turnkey-setup-hero.jpg",
     contactImage: "/images/services/contact.jpg",
     sections: [
@@ -338,7 +354,7 @@ export const services: Service[] = [
         image: "/images/services/contract-farming/contract-farming-and-buyback.jpg",
       },
       {
-        title: "How Contract Farming Works",
+        title: "How Contract Farming Works?",
         description:
           "We begin by helping you select the right crops based on demand, climate, and profitability. Once the farm is operational, our team supports you in maintaining quality standards so the produce meets buyer requirements. In return, we commit to purchasing your harvest under a pre-agreed buyback contract.\n\nThis ensures:",
         imagePosition: "right",
@@ -351,14 +367,14 @@ export const services: Service[] = [
         ],
       },
       {
-        title: "Why 10 Acres and Above",
+        title: "Why 10 Acres and Above?",
         description:
           "Hydroponics requires a market-driven approach. While smaller farms can sell directly to local buyers, commercial-scale projects (10+ acres) produce volumes that need guaranteed outlets. Our buyback program is structured to match these volumes, ensuring your produce is absorbed into wholesale markets, retail chains, and bulk buyers.",
         imagePosition: "left",
         image: "/images/services/contract-farming/why-10-acres-and-above.jpg",
       },
       {
-        title: "Why Choose Us as Your Buyback Partner",
+        title: "Why Choose Us as Your Buyback Partner?",
         description: "",
         imagePosition: "right",
         image: "/images/services/contract-farming/why-choose-us.jpg",
@@ -368,6 +384,14 @@ export const services: Service[] = [
           "**Quality Assurance:** Support with maintaining global standards of hydroponic produce.",
           "**Long-Term Partnership:** Beyond buyback, we guide you in scaling, diversifying crops, and entering new markets.",
         ],
+      },
+      {
+        title: "\u201cRedefine farming, enjoy returns that are worth exploring\u201d",
+        description: "",
+        imagePosition: "left",
+        fullWidth: true,
+        largeHeading: true,
+        centerHeading: true,
       },
     ],
     contactQuote:
@@ -406,12 +430,38 @@ export const services: Service[] = [
         footerNote: "These partnerships allow us to provide access to exclusive learning materials, advanced research, and strong industry networks — ensuring our participants learn from the very best.",
       },
       {
+        title: "Do You Aspire to Become an Agronomist?",
+        description:
+          "Kamala Farms is building the next generation of skilled agronomists in India. If you're a student, graduate, or agriculture professional looking to specialise in high-tech hydroponic farming, our structured agronomist development program is designed for you.\n\nGain hands-on field experience, work alongside expert agronomists, and become a certified specialist in one of agriculture's fastest-growing sectors.",
+        imagePosition: "left",
+        fullWidth: true,
+        roundBullets: true,
+        bulletPoints: [
+          "**Hands-On Farm Training** — Learn directly on operational hydroponic farms",
+          "**Expert Mentorship** — Work under experienced Kamala Farms agronomists",
+          "**Industry-Relevant Skills** — Master crop cycles, pest management, and nutrient science",
+          "**Career Pathways** — Open doors to opportunities in agri-tech, farm consulting, and research",
+          "**Certification & Recognition** — Receive formal acknowledgement of your expertise",
+        ],
+        buttonText: "Join the Program",
+        buttonLink: "/contact",
+      },
+      {
         title: "Upcoming Programs",
         description:
           "Stay tuned for our **latest workshops, webinars, and farm visits.** This section is continuously updated so you can register for upcoming events and never miss a chance to learn.",
         imagePosition: "left",
         fullWidth: true,
-        showComingSoon: true,
+        upcomingEvents: [
+          {
+            name: "Hydroponics Workshop",
+            description: "A one-day workshop focused on hydroponics, covering theoretical concepts, practical exposure, and business & investment consultation.",
+            date: "28th February",
+            location: "Hyderabad",
+            dateISO: "2026-02-28T09:00:00",
+            registrationLink: process.env.NEXT_PUBLIC_RAZORPAY_WORKSHOP_FEB28,
+          },
+        ],
       },
     ],
     contactQuote:

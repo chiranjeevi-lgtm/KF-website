@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import { notFound } from "next/navigation";
 import { SectionWrapper, Heading, Button } from "@/components/ui";
 import { services, type ServiceSection } from "@/content/services";
 import { ServiceContactForm } from "@/components/ServiceContactForm";
 import { PolyhouseCarousel } from "@/components/PolyhouseCarousel";
+import { UpcomingEventCard } from "@/components/UpcomingEventCard";
 import {
   IconGIFramework,
   IconCladdingSheets,
@@ -283,8 +285,55 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     ))}
                   </div>
 
+                  {/* Flowchart */}
+                  {section.showFlowchart && section.bulletPoints && section.bulletPoints.length > 0 && (
+                    <div className="mt-8 space-y-3">
+                      {[section.bulletPoints.slice(0, 3), section.bulletPoints.slice(3)].filter(row => row.length > 0).map((row, rowIdx) => (
+                        <Fragment key={rowIdx}>
+                          {rowIdx > 0 && (
+                            <div className="flex justify-center text-primary py-1">
+                              <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                              </svg>
+                            </div>
+                          )}
+                          <div className="flex flex-col md:flex-row items-stretch gap-3 md:gap-0">
+                            {row.map((point, i) => {
+                              const globalIndex = rowIdx * 3 + i;
+                              const m = point.match(/^\*\*(.+?)\*\*:?\s*(.*)/);
+                              const title = m ? m[1] : point;
+                              const desc = m ? m[2] : '';
+                              return (
+                                <Fragment key={globalIndex}>
+                                  <div className="flex-1 bg-white border border-gray-200 rounded-xl px-5 py-4 shadow-sm min-w-0">
+                                    <div className="flex items-start gap-3">
+                                      <span className="w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold flex-shrink-0">
+                                        {globalIndex + 1}
+                                      </span>
+                                      <div>
+                                        <h4 className="font-heading text-sm uppercase tracking-wide text-dark leading-snug mb-1">{title}</h4>
+                                        {desc && <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>}
+                                      </div>
+                                    </div>
+                                  </div>
+                                  {i < row.length - 1 && (
+                                    <div className="hidden md:flex items-center justify-center w-8 flex-shrink-0 text-primary">
+                                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8 5l8 7-8 7V5z" />
+                                      </svg>
+                                    </div>
+                                  )}
+                                </Fragment>
+                              );
+                            })}
+                          </div>
+                        </Fragment>
+                      ))}
+                    </div>
+                  )}
+
                   {/* Bullet Points */}
-                  {section.bulletPoints && section.bulletPoints.length > 0 && (
+                  {!section.showFlowchart && section.bulletPoints && section.bulletPoints.length > 0 && (
                     <ul className={`mt-6 space-y-3 ${section.roundBullets || section.numberedPoints ? "list-none" : ""}`}>
                       {section.bulletPoints.map((point, pIndex) => (
                         <li key={pIndex} className="flex items-start gap-3">
@@ -458,6 +507,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         { src: "/images/partners/midh.jpg", name: "MIDH", full: "Mission for Integrated Development of Horticulture" },
                         { src: "/images/partners/nabard.jpg", name: "NABARD", full: "National Bank for Agriculture and Rural Development" },
                         { src: "/images/partners/nhb.jpg", name: "NHB", full: "National Horticulture Board" },
+                        { src: "/images/partners/aif.jpg", name: "AIF", full: "Agriculture Infrastructure Fund" },
                       ].map((org) => (
                         <div key={org.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-8 py-6 shadow-sm w-[200px]">
                           <img
@@ -482,6 +532,15 @@ export default async function ServicePage({ params }: ServicePageProps) {
                       </div>
                       <h4 className="font-heading text-xl uppercase tracking-wide text-dark font-bold mb-2">Coming Soon</h4>
                       <p className="text-gray-500 text-sm max-w-sm">We&apos;re planning exciting programs. Check back soon or contact us to be notified.</p>
+                    </div>
+                  )}
+
+                  {/* Upcoming Events */}
+                  {section.upcomingEvents && section.upcomingEvents.length > 0 && (
+                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {section.upcomingEvents.map((event, eIdx) => (
+                        <UpcomingEventCard key={eIdx} event={event} />
+                      ))}
                     </div>
                   )}
 
@@ -524,7 +583,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 >
                   {/* Image Column */}
                   <div
-                    className={`min-h-[320px] rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden ${
+                    className={`${service.compactImages ? "max-h-[300px]" : "min-h-[320px]"} rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden ${
                       section.imagePosition === "right" ? "lg:order-2" : ""
                     }`}
                   >
