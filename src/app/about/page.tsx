@@ -22,6 +22,12 @@ const TEAM_MEMBERS = [
     image: "/images/team/sandeep-reddy.jpg",
   },
   {
+    name: "Chiranjeevi Rayapudi",
+    role: "Chief Technology Officer",
+    image: "/images/team/chiranjeevi-rayapudi.jpg",
+    objectPosition: "top",
+  },
+  {
     name: "Dr Chenna Kesava Reddy Sangati",
     role: "Research and Development",
     image: "/images/team/chenna-kesava-reddy.jpg",
@@ -30,12 +36,6 @@ const TEAM_MEMBERS = [
     name: "Alugadda Srinivasa Rao",
     role: "Mentor & Advisory",
     image: null,
-  },
-  {
-    name: "Chiranjeevi Rayapudi",
-    role: "Chief Technology Officer",
-    image: "/images/team/chiranjeevi-rayapudi.jpg",
-    objectPosition: "top",
   },
   {
     name: "Kandi Ashok",

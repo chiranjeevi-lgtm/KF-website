@@ -18,7 +18,12 @@ export default function ContactPage() {
           alt="Contact Us"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/5" />
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="relative z-10 text-center px-4 -mt-32">
+          <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl uppercase text-white mb-6">
+            Contact Us
+          </h1>
+        </div>
       </section>
 
       {/* CONTACT SECTION */}
