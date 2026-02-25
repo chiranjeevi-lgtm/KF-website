@@ -6,6 +6,7 @@ import { services, type ServiceSection } from "@/content/services";
 import { ServiceContactForm } from "@/components/ServiceContactForm";
 import { PolyhouseCarousel } from "@/components/PolyhouseCarousel";
 import { UpcomingEventCard } from "@/components/UpcomingEventCard";
+import { FaqAccordion } from "@/components/FaqAccordion";
 import {
   IconGIFramework,
   IconCladdingSheets,
@@ -483,12 +484,16 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
                   {/* Partner Logos if enabled */}
                   {section.showPartnerLogos && (
-                    <div className="mt-10 flex flex-wrap items-stretch justify-center gap-8">
+                    <div className="mt-10 flex flex-nowrap items-stretch justify-center gap-4 overflow-x-auto">
                       {[
                         { src: "/images/partners/niphm.jpg", name: "NIPHM", full: "National Institute of Plant Health Management" },
-                        { src: "/images/partners/agbiotech.jpg", name: "AgBiotech", full: "AgBiotech India" },
+                        { src: "/images/partners/abf.jpg", name: "ABF", full: "Agri Biotech Foundation" },
+                        { src: "/images/partners/skltghu.jpg", name: "SKLTGHU", full: "Sri Konda Laxman Telangana Horticultural University" },
+                        { src: "/images/partners/aghub.jpg", name: "Agri & Food Innovation Hub", full: "Agri & Food Innovation Hub" },
+                        { src: "/images/partners/iihr.jpg", name: "IIHR", full: "Indian Institute of Horticultural Research" },
+                        { src: "/images/partners/nmri.jpg", name: "NMRI", full: "National Meat Research Institute" },
                       ].map((partner) => (
-                        <div key={partner.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-8 py-6 shadow-sm w-[200px]">
+                        <div key={partner.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-6 shadow-sm w-[150px] flex-shrink-0">
                           <img
                             src={partner.src}
                             alt={partner.name}
@@ -542,6 +547,11 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         <UpcomingEventCard key={eIdx} event={event} />
                       ))}
                     </div>
+                  )}
+
+                  {/* FAQ Accordion */}
+                  {section.showFaq && section.faqItems && section.faqItems.length > 0 && (
+                    <FaqAccordion items={section.faqItems} />
                   )}
 
                   {/* Footer Note for full-width sections */}

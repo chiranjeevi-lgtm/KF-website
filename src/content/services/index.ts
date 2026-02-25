@@ -33,6 +33,16 @@ export interface UpcomingEvent {
   registrationLink?: string;
 }
 
+export interface FaqItem {
+  question: string;
+  answer?: string;
+  bulletPoints?: string[];
+  bulletItems?: BulletItem[];
+  footerNote?: string;
+  buttonText?: string;
+  buttonLink?: string;
+}
+
 export interface ServiceSection {
   title: string;
   description: string;
@@ -65,6 +75,8 @@ export interface ServiceSection {
   showGovLogos?: boolean;
   showFlowchart?: boolean;
   upcomingEvents?: UpcomingEvent[];
+  showFaq?: boolean;
+  faqItems?: FaqItem[];
 }
 
 export interface Service {
@@ -165,52 +177,6 @@ export const services: Service[] = [
         showGovLogos: true,
       },
       {
-        title: "What is the NHB Subsidy?",
-        description:
-          "The **National Horticulture Board (NHB)** provides financial assistance for protected cultivation, including hydroponic farming.",
-        imagePosition: "left",
-        fullWidth: true,
-        roundBullets: true,
-        bulletItems: [
-          {
-            text: "**Subsidy Rate:**",
-            subPoints: [
-              "**General Areas:** Up to **40% of project cost** (max ₹30 lakh)",
-              "**Hilly & Scheduled Areas:** Up to **50% of project cost** (max ₹37.5 lakh)",
-            ],
-          },
-          { text: "Encourages adoption of **high-value**, **fast-growing crops**" },
-          { text: "Eligible for hydroponics, aeroponics, and advanced protected cultivation systems" },
-        ],
-        footerNote: "**Tip:** Higher subsidy rates apply in hilly and tribal regions.",
-      },
-      {
-        title: "Recent Guideline Updates (2025)",
-        description: "",
-        imagePosition: "right",
-        fullWidth: true,
-        roundBullets: true,
-        bulletPoints: [
-          "Hydroponics, aeroponics, and automation systems **now officially eligible**",
-          "All materials must comply with **Bureau of Indian Standards (BIS)**",
-          "Beneficiaries are responsible for **maintenance of assets**",
-          "**Project site or crop changes** without prior NHB approval may render the project ineligible",
-        ],
-      },
-      {
-        title: "How Kamala Farms Helps You",
-        description: "We simplify the entire subsidy process for you:",
-        imagePosition: "right",
-        fullWidth: true,
-        roundBullets: true,
-        bulletPoints: [
-          "**Project Planning:** Detailed Project Reports (DPR) for bank approvals",
-          "**Application Support:** Guidance for NHB application and bank loan processing",
-          "**Turnkey Hydroponics:** End-to-end setup ready for subsidy compliance",
-          "**Subsidy Claim Assistance:** Documentation, inspections, and approvals",
-        ],
-      },
-      {
         title: "IMPORTANT NOTES",
         description: "",
         imagePosition: "right",
@@ -232,6 +198,43 @@ export const services: Service[] = [
         footerNote: "Unlock modern farming with government support and Kamala Farms' expertise.",
         buttonText: "Start Your Subsidy-Assisted Hydroponic Farm",
         buttonLink: "/contact",
+      },
+      {
+        title: "Frequently Asked Questions",
+        description: "",
+        imagePosition: "left",
+        fullWidth: true,
+        largeHeading: true,
+        centerHeading: true,
+        showFaq: true,
+        faqItems: [
+          {
+            question: "What is the NHB Subsidy?",
+            answer: "The **National Horticulture Board (NHB)** provides financial assistance for protected cultivation, including hydroponic farming.",
+            bulletItems: [
+              {
+                text: "**Subsidy Rate:**",
+                subPoints: [
+                  "**General Areas:** Up to **40% of project cost** (max ₹30 lakh)",
+                  "**Hilly & Scheduled Areas:** Up to **50% of project cost** (max ₹37.5 lakh)",
+                ],
+              },
+              { text: "Encourages adoption of **high-value**, **fast-growing crops**" },
+              { text: "Eligible for hydroponics, aeroponics, and advanced protected cultivation systems" },
+            ],
+            footerNote: "**Tip:** Higher subsidy rates apply in hilly and tribal regions.",
+          },
+          {
+            question: "How Kamala Farms Helps You?",
+            answer: "We simplify the entire subsidy process for you:",
+            bulletPoints: [
+              "**Project Planning:** Detailed Project Reports (DPR) for bank approvals",
+              "**Application Support:** Guidance for NHB application and bank loan processing",
+              "**Turnkey Hydroponics:** End-to-end setup ready for subsidy compliance",
+              "**Subsidy Claim Assistance:** Documentation, inspections, and approvals",
+            ],
+          },
+        ],
       },
     ],
     contactQuote:
@@ -278,6 +281,7 @@ export const services: Service[] = [
           { title: "Fan & Pad Polyhouse", image: "/images/services/turnkey-setup/fan-and-pad.jpg" },
           { title: "Tunnel Polyhouse", image: "/images/services/turnkey-setup/tunnel-polyhouse.jpg" },
           { title: "Shade Net House", image: "/images/services/turnkey-setup/shade-net.jpg" },
+          { title: "Polycarbonate Polyhouse", image: "/images/services/turnkey-setup/polycarbonate-polyhouse.jpg" },
         ],
       },
       {
@@ -421,7 +425,7 @@ export const services: Service[] = [
         fullWidth: true,
       },
       {
-        title: "Associated Partners",
+        title: "Institutional Collaborations",
         description:
           "Our training programs are backed by collaborations with leading agricultural and research institutions:",
         imagePosition: "left",

@@ -261,7 +261,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-start">
           <div className="relative h-[400px] overflow-hidden bg-light-gray">
             <img
-              src="/images/about/home-about.jpg"
+              src="/images/about/home-aboutus.jpg"
               alt="Kamala Farms sustainable agriculture"
               className="h-full w-full object-cover"
             />
