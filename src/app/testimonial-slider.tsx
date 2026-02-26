@@ -31,21 +31,12 @@ export default function TestimonialSlider() {
       <p className="text-xs uppercase tracking-widest text-white/60 mb-3">
         Testimonials
       </p>
-      <h2 className="font-heading text-3xl md:text-4xl uppercase text-white mb-6">
+      <h2 className="font-heading text-3xl md:text-4xl uppercase text-white mb-4">
         What They Say
       </h2>
 
-      {/* Quote icon */}
-      <svg
-        className="h-8 w-8 text-white/40 mb-6"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-      >
-        <path d="M11.3 2.6C6.1 5.1 2.9 9.5 2.9 14.3c0 3.2 2 5.1 4.4 5.1 2.2 0 4-1.7 4-3.9 0-2.1-1.5-3.7-3.5-3.9-.3 0-.5 0-.8.1.5-2.7 2.8-5.5 5.6-7L11.3 2.6zm10 0C16.1 5.1 12.9 9.5 12.9 14.3c0 3.2 2 5.1 4.4 5.1 2.2 0 4-1.7 4-3.9 0-2.1-1.5-3.7-3.5-3.9-.3 0-.5 0-.8.1.5-2.7 2.8-5.5 5.6-7L21.3 2.6z" />
-      </svg>
-
-      {/* Testimonial text */}
-      <p className="text-white/70 leading-relaxed max-w-lg mx-auto mb-8 min-h-[80px]">
+{/* Testimonial text */}
+      <p className="text-white/70 leading-relaxed max-w-lg mx-auto mb-5 min-h-[80px]">
         {TESTIMONIALS[current].quote}
       </p>
 
@@ -66,7 +57,7 @@ export default function TestimonialSlider() {
       </p>
 
       {/* Dot indicators */}
-      <div className="flex gap-2 mt-8">
+      <div className="flex gap-2 mt-5">
         {TESTIMONIALS.map((_, i) => (
           <button
             key={i}

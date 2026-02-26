@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Eye } from "lucide-react";
+import { Eye, UserRound } from "lucide-react";
 import { SectionWrapper, Heading } from "@/components/ui";
 import ImpactStats from "./impact-stats";
 
@@ -44,16 +44,11 @@ const TEAM_MEMBERS = [
   },
 ];
 
-function getInitials(name: string) {
-  const parts = name.trim().split(" ");
-  return (parts[0][0] + (parts[1]?.[0] ?? "")).toUpperCase();
-}
-
 export default function AboutPage() {
   return (
     <>
       {/* HERO BANNER */}
-      <section className="relative flex h-[calc(90vh-88px)] min-h-[512px] mt-[88px] items-center justify-center bg-dark">
+      <section className="relative flex h-[calc(55vh-88px)] md:h-[calc(90vh-88px)] min-h-[280px] md:min-h-[512px] mt-[88px] items-center justify-center bg-dark">
         <img
           src="/images/hero/about-us-hero.jpg"
           alt="About Kamala Farms"
@@ -61,7 +56,7 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-black/35" />
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl uppercase mb-6">
+          <h1 className="font-heading text-3xl md:text-5xl lg:text-7xl xl:text-8xl uppercase mb-4 md:mb-6">
             About Us
           </h1>
           <p className="text-lg md:text-2xl max-w-4xl mx-auto leading-relaxed">
@@ -73,7 +68,7 @@ export default function AboutPage() {
       {/* COMPANY OVERVIEW */}
       <SectionWrapper compact>
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
-          <div className="relative h-[400px] rounded-lg overflow-hidden bg-light-gray">
+          <div className="relative h-[220px] md:h-[400px] rounded-lg overflow-hidden bg-light-gray order-2 lg:order-none">
             <img
               src="/images/about/company-overview.png"
               alt="Kamala Farms - Who We Are"
@@ -115,13 +110,13 @@ export default function AboutPage() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 gap-4 md:gap-12 md:grid-cols-2 max-w-4xl mx-auto">
           {/* Vision */}
-          <div className="group cursor-pointer text-center p-8">
-            <div className="mx-auto mb-6 flex h-28 w-28 items-center justify-center rounded-full bg-white shadow-sm transition-all duration-500 group-hover:bg-primary group-hover:shadow-lg group-hover:rounded-[40%_60%_55%_45%/50%_40%_60%_50%]">
-              <Eye className="h-14 w-14 text-primary transition-colors duration-500 group-hover:text-white" />
+          <div className="group cursor-pointer text-center p-3 md:p-8">
+            <div className="mx-auto mb-4 md:mb-6 flex h-20 w-20 md:h-28 md:w-28 items-center justify-center rounded-full bg-white shadow-sm transition-all duration-500 group-hover:bg-primary group-hover:shadow-lg group-hover:rounded-[40%_60%_55%_45%/50%_40%_60%_50%]">
+              <Eye className="h-10 w-10 md:h-14 md:w-14 text-primary transition-colors duration-500 group-hover:text-white" />
             </div>
-            <h3 className="font-heading text-2xl uppercase mb-4 text-dark">
+            <h3 className="font-heading text-lg md:text-2xl uppercase mb-2 md:mb-4 text-dark">
               Our Vision
             </h3>
             <p className="text-gray-900 leading-relaxed">
@@ -132,8 +127,8 @@ export default function AboutPage() {
           </div>
 
           {/* Mission — target with leaf/arrow */}
-          <div className="group cursor-pointer text-center p-8">
-            <div className="mx-auto mb-6 flex h-28 w-28 items-center justify-center rounded-full bg-white shadow-sm transition-all duration-500 group-hover:bg-primary group-hover:shadow-lg group-hover:rounded-[40%_60%_55%_45%/50%_40%_60%_50%]">
+          <div className="group cursor-pointer text-center p-3 md:p-8">
+            <div className="mx-auto mb-4 md:mb-6 flex h-20 w-20 md:h-28 md:w-28 items-center justify-center rounded-full bg-white shadow-sm transition-all duration-500 group-hover:bg-primary group-hover:shadow-lg group-hover:rounded-[40%_60%_55%_45%/50%_40%_60%_50%]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -142,7 +137,7 @@ export default function AboutPage() {
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="h-14 w-14 text-primary transition-colors duration-500 group-hover:text-white"
+                className="h-10 w-10 md:h-14 md:w-14 text-primary transition-colors duration-500 group-hover:text-white"
               >
                 <circle cx="12" cy="12" r="9" />
                 <circle cx="12" cy="12" r="5" />
@@ -152,7 +147,7 @@ export default function AboutPage() {
                 <path d="M18 6c-1 1-1.5 2.5-2 3" />
               </svg>
             </div>
-            <h3 className="font-heading text-2xl uppercase mb-4 text-dark">
+            <h3 className="font-heading text-lg md:text-2xl uppercase mb-2 md:mb-4 text-dark">
               Our Mission
             </h3>
             <p className="text-gray-900 leading-relaxed">
@@ -167,13 +162,13 @@ export default function AboutPage() {
       {/* OUR STORY */}
       <SectionWrapper compact>
         <Heading as="h2">Our Story</Heading>
-        <p className="text-gray-900 leading-relaxed text-lg mb-6">
+        <p className="text-gray-900 leading-relaxed text-base md:text-lg mb-6">
           Kamala Farms was born out of a passion for farming and a vision to make
           agriculture smarter, sustainable, and future-ready. Since 2017, we&apos;ve
           been on a mission to transform Indian agriculture from climate-stressed
           practices to climate-smart solutions powered by hydroponics.
         </p>
-        <p className="text-gray-900 leading-relaxed text-lg mb-10">
+        <p className="text-gray-900 leading-relaxed text-base md:text-lg mb-10">
           From training over{" "}
           <strong className="text-dark">18,000+ learners</strong> to setting up{" "}
           <strong className="text-dark">110,000+ sq. ft. of farms</strong> and
@@ -188,7 +183,7 @@ export default function AboutPage() {
         <ImpactStats />
 
         {/* CLOSING STATEMENT */}
-        <p className="text-gray-900 leading-relaxed text-lg mt-10 mb-4">
+        <p className="text-gray-900 leading-relaxed text-base md:text-lg mt-10 mb-4">
           Kamala Farms has become a trusted name in hydroponics, blending innovation
           with hands-on expertise. And{" "}
           <strong className="text-dark">this is just the beginning</strong>. With
@@ -197,7 +192,7 @@ export default function AboutPage() {
           focus on R&D for niche crops and superfoods, we&apos;re shaping farming
           that works for both growers and the planet.
         </p>
-        <p className="text-dark font-semibold text-lg">
+        <p className="text-dark font-semibold text-base md:text-lg">
           At Kamala Farms, we don&apos;t just grow crops — we grow possibilities.
         </p>
       </SectionWrapper>
@@ -225,9 +220,7 @@ export default function AboutPage() {
                   />
                 ) : (
                   <div className="h-full w-full flex items-center justify-center bg-primary rounded-full">
-                    <span className="text-white text-3xl font-bold tracking-wide">
-                      {getInitials(member.name)}
-                    </span>
+                    <UserRound className="h-16 w-16 text-white" />
                   </div>
                 )}
               </div>

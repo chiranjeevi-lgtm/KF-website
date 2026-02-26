@@ -5,8 +5,8 @@ import { CONTACT_INFO, SOCIAL_LINKS, FOOTER_QUICK_LINKS, SITE_CONFIG } from "@/l
 export default function Footer() {
   return (
     <footer className="bg-dark text-white">
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto max-w-7xl px-4 py-10 md:py-16 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-8 md:gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-3">
@@ -15,7 +15,7 @@ export default function Footer() {
                 alt="Kamala Farms"
                 className="h-12 w-auto"
               />
-              <span className="font-heading text-3xl text-primary uppercase">
+              <span className="font-heading text-xl md:text-3xl text-primary uppercase">
                 Kamala Farms
               </span>
             </Link>

@@ -202,7 +202,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
   return (
     <>
       {/* HERO BANNER */}
-      <section className="relative flex h-[calc(90vh-88px)] min-h-[512px] mt-[88px] items-center justify-center bg-light-gray">
+      <section className="relative flex h-[calc(55vh-88px)] md:h-[calc(90vh-88px)] min-h-[280px] md:min-h-[512px] mt-[88px] items-center justify-center bg-light-gray">
         {service.heroImage && (
           <img
             src={service.heroImage}
@@ -214,10 +214,10 @@ export default async function ServicePage({ params }: ServicePageProps) {
           <>
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10 text-center text-white px-4">
-              <h1 className="font-heading text-5xl md:text-7xl uppercase mb-6">
+              <h1 className="font-heading text-3xl md:text-5xl lg:text-7xl uppercase mb-3 md:mb-6">
                 Our Services
               </h1>
-              <p className="text-2xl md:text-3xl max-w-3xl mx-auto font-heading uppercase">
+              <p className="text-base md:text-2xl lg:text-3xl max-w-3xl mx-auto font-heading uppercase">
                 {service.tagline || "Laying the foundation for your farm's success"}
               </p>
               {service.heroButtonText && service.heroButtonLink && (
@@ -292,7 +292,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                       {[section.bulletPoints.slice(0, 3), section.bulletPoints.slice(3)].filter(row => row.length > 0).map((row, rowIdx) => (
                         <Fragment key={rowIdx}>
                           {rowIdx > 0 && (
-                            <div className="flex justify-center text-primary py-1">
+                            <div className="hidden md:flex justify-center text-primary py-1">
                               <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                               </svg>
@@ -484,7 +484,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
                   {/* Partner Logos if enabled */}
                   {section.showPartnerLogos && (
-                    <div className="mt-10 flex flex-nowrap items-stretch justify-center gap-4 overflow-x-auto">
+                    <div className="mt-10 flex gap-4 overflow-x-auto pb-2 snap-x snap-mandatory md:flex-wrap md:overflow-visible md:justify-center md:pb-0">
                       {[
                         { src: "/images/partners/niphm.jpg", name: "NIPHM", full: "National Institute of Plant Health Management" },
                         { src: "/images/partners/abf.jpg", name: "ABF", full: "Agri Biotech Foundation" },
@@ -493,7 +493,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         { src: "/images/partners/iihr.jpg", name: "IIHR", full: "Indian Institute of Horticultural Research" },
                         { src: "/images/partners/nmri.jpg", name: "NMRI", full: "National Meat Research Institute" },
                       ].map((partner) => (
-                        <div key={partner.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-6 shadow-sm w-[150px] flex-shrink-0">
+                        <div key={partner.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-6 shadow-sm w-[150px] flex-shrink-0 snap-start md:flex-shrink">
                           <img
                             src={partner.src}
                             alt={partner.name}
@@ -507,14 +507,14 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
                   {/* Government Logos if enabled */}
                   {section.showGovLogos && (
-                    <div className="mt-10 flex flex-wrap items-stretch justify-center gap-8">
+                    <div className="mt-10 flex gap-5 overflow-x-auto pb-2 snap-x snap-mandatory md:flex-wrap md:overflow-visible md:justify-center md:gap-8 md:pb-0">
                       {[
                         { src: "/images/partners/midh.jpg", name: "MIDH", full: "Mission for Integrated Development of Horticulture" },
                         { src: "/images/partners/nabard.jpg", name: "NABARD", full: "National Bank for Agriculture and Rural Development" },
                         { src: "/images/partners/nhb.jpg", name: "NHB", full: "National Horticulture Board" },
                         { src: "/images/partners/aif.jpg", name: "AIF", full: "Agriculture Infrastructure Fund" },
                       ].map((org) => (
-                        <div key={org.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-8 py-6 shadow-sm w-[200px]">
+                        <div key={org.name} className="flex flex-col items-center gap-3 bg-white border border-gray-200 rounded-xl px-8 py-6 shadow-sm w-[170px] flex-shrink-0 snap-start md:w-[200px] md:flex-shrink">
                           <img
                             src={org.src}
                             alt={org.name}
@@ -593,8 +593,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 >
                   {/* Image Column */}
                   <div
-                    className={`${service.compactImages ? "max-h-[300px]" : "min-h-[320px]"} rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden ${
-                      section.imagePosition === "right" ? "lg:order-2" : ""
+                    className={`${service.compactImages ? "max-h-[300px]" : "min-h-[320px]"} rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden order-2 ${
+                      section.imagePosition !== "right" ? "lg:order-none" : ""
                     }`}
                   >
                     {section.image ? (
@@ -611,7 +611,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                   </div>
 
                   {/* Text Column */}
-                  <div className={`flex flex-col justify-start ${section.imagePosition === "right" ? "lg:order-1" : ""}`}>
+                  <div className={`flex flex-col justify-start order-1 ${section.imagePosition !== "right" ? "lg:order-none" : ""}`}>
                     <h3 className="font-heading text-3xl md:text-4xl uppercase text-dark mb-6">
                       {section.title}
                     </h3>

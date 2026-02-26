@@ -12,7 +12,7 @@ export default function ContactPage() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative flex h-[calc(90vh-88px)] min-h-[512px] mt-[88px] items-center justify-center bg-dark">
+      <section className="relative flex h-[calc(55vh-88px)] md:h-[calc(90vh-88px)] min-h-[280px] md:min-h-[512px] mt-[88px] items-center justify-center bg-dark">
         <img
           src="/images/hero/contact-us-hero.jpg"
           alt="Contact Us"
@@ -20,7 +20,7 @@ export default function ContactPage() {
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 text-center px-4">
-          <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl uppercase text-white mb-6">
+          <h1 className="font-heading text-3xl md:text-5xl lg:text-7xl xl:text-8xl uppercase text-white mb-4 md:mb-6">
             Contact Us
           </h1>
         </div>

@@ -12,6 +12,7 @@ export default function Navbar() {
   const isHomePage = pathname === "/";
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [openMobileDropdown, setOpenMobileDropdown] = useState<string | null>(null);
   const [isScrolled, setIsScrolled] = useState(false);
   const showWhiteBg = isScrolled || !isHomePage;
 
@@ -116,21 +117,36 @@ export default function Navbar() {
         <ul className="border-t border-gray-100 px-4 py-4">
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
-              <Link
-                href={link.href}
-                className="block py-3 font-heading text-sm uppercase tracking-wider text-dark hover:text-primary"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.label}
-              </Link>
-              {link.children && (
-                <ul className="ml-4 border-l border-gray-200 pl-4">
+              {link.children ? (
+                <button
+                  onClick={() => setOpenMobileDropdown(openMobileDropdown === link.href ? null : link.href)}
+                  className="flex w-full items-center justify-between py-3 font-heading text-sm uppercase tracking-wider text-dark hover:text-primary"
+                >
+                  {link.label}
+                  <svg
+                    className={`h-4 w-4 transition-transform duration-200 ${openMobileDropdown === link.href ? "rotate-180" : ""}`}
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              ) : (
+                <Link
+                  href={link.href}
+                  className="block py-3 font-heading text-sm uppercase tracking-wider text-dark hover:text-primary"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              )}
+              {link.children && openMobileDropdown === link.href && (
+                <ul className="ml-4 border-l border-gray-200 pl-4 pb-2">
                   {link.children.map((child) => (
                     <li key={child.href}>
                       <Link
                         href={child.href}
                         className="block py-2 text-sm text-gray-900 hover:text-primary"
-                        onClick={() => setIsMobileMenuOpen(false)}
+                        onClick={() => { setIsMobileMenuOpen(false); setOpenMobileDropdown(null); }}
                       >
                         {child.label}
                       </Link>

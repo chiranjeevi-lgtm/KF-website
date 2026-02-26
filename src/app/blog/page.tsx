@@ -23,7 +23,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   return (
     <>
       {/* HERO BANNER */}
-      <section className="relative flex h-[calc(90vh-88px)] min-h-[512px] mt-[88px] items-center justify-center bg-dark">
+      <section className="relative flex h-[calc(55vh-88px)] md:h-[calc(90vh-88px)] min-h-[280px] md:min-h-[512px] mt-[88px] items-center justify-center bg-dark">
         <img
           src="/images/hero/blog-hero.jpg"
           alt="Blog"

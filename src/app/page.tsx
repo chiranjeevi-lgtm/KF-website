@@ -248,7 +248,7 @@ export default function HomePage() {
   return (
     <>
       {/* ===== HERO SECTION ===== */}
-      <section className="relative h-[90vh] min-h-[600px]">
+      <section className="relative h-[55vh] md:h-[90vh] min-h-[280px] md:min-h-[600px]">
         <img
           src="/images/hero/hero-banner.png"
           alt="Kamala Farms greenhouse at sunset"
@@ -259,7 +259,7 @@ export default function HomePage() {
       {/* ===== ABOUT KAMALA FARMS ===== */}
       <SectionWrapper compact>
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-start">
-          <div className="relative h-[400px] overflow-hidden bg-light-gray">
+          <div className="relative h-[220px] md:h-[400px] overflow-hidden bg-light-gray order-2 lg:order-none">
             <img
               src="/images/about/home-aboutus.jpg"
               alt="Kamala Farms sustainable agriculture"
@@ -327,7 +327,7 @@ export default function HomePage() {
         <h2 className="font-heading text-3xl md:text-5xl uppercase text-dark text-center mb-16">
           People Face These General Issues Before Starting Up.
         </h2>
-        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-12 max-w-5xl mx-auto">
           {[
             { percent: 75, label: "Lack to Time for Farm Operations" },
             { percent: 89, label: "Fear of Crop Loss" },
@@ -338,9 +338,9 @@ export default function HomePage() {
             const circumference = 2 * Math.PI * radius;
             const offset = circumference - (item.percent / 100) * circumference;
             return (
-              <div key={item.label} className="flex items-center gap-6">
+              <div key={item.label} className="flex flex-col items-center text-center gap-3 sm:flex-row sm:text-left sm:gap-6">
                 <div className="relative flex-shrink-0">
-                  <svg width="180" height="180" viewBox="0 0 180 180">
+                  <svg className="w-24 h-24 sm:w-[180px] sm:h-[180px]" viewBox="0 0 180 180">
                     {/* Background track */}
                     <circle
                       cx="90"
@@ -364,11 +364,11 @@ export default function HomePage() {
                       transform="rotate(-90 90 90)"
                     />
                   </svg>
-                  <span className="absolute inset-0 flex items-center justify-center font-heading text-2xl md:text-3xl text-dark">
+                  <span className="absolute inset-0 flex items-center justify-center font-heading text-lg sm:text-2xl md:text-3xl text-dark">
                     {item.percent}%
                   </span>
                 </div>
-                <p className="font-heading text-base md:text-lg uppercase tracking-wide text-dark leading-snug">
+                <p className="font-heading text-xs sm:text-base md:text-lg uppercase tracking-wide text-dark leading-snug">
                   {item.label}
                 </p>
               </div>
@@ -388,14 +388,14 @@ export default function HomePage() {
             Client Success Stories
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="flex gap-5 overflow-x-auto pb-2 snap-x snap-mandatory md:grid md:grid-cols-3 md:gap-8 md:overflow-visible md:pb-0">
           {CLIENT_STORIES.map((story) => (
             <Link
               key={story.title}
               href={story.href}
-              className="group block overflow-hidden bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              className="group block flex-shrink-0 w-[75vw] md:w-auto overflow-hidden bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg snap-start"
             >
-              <div className="relative h-56 bg-gray-200 overflow-hidden">
+              <div className="relative h-48 md:h-56 bg-gray-200 overflow-hidden">
                 <img
                   src={story.image}
                   alt={story.title}
@@ -403,7 +403,7 @@ export default function HomePage() {
                   loading="lazy"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-5 md:p-6">
                 <h3 className="font-heading text-lg uppercase leading-snug text-dark">
                   {story.title}
                 </h3>
@@ -418,12 +418,12 @@ export default function HomePage() {
         <h2 className="font-heading text-3xl md:text-5xl uppercase text-dark text-center mb-12">
           Blogs
         </h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="flex gap-5 overflow-x-auto pb-2 snap-x snap-mandatory md:grid md:grid-cols-3 md:gap-8 md:overflow-visible md:pb-0">
           {BLOG_POSTS.map((post) => (
             <Link
               key={post.title}
               href={post.href}
-              className="group overflow-hidden bg-white shadow-sm border border-gray-100 transition-shadow duration-300 hover:shadow-lg"
+              className="group flex-shrink-0 w-[75vw] md:w-auto overflow-hidden bg-white shadow-sm border border-gray-100 transition-shadow duration-300 hover:shadow-lg snap-start"
             >
               <div className="relative h-48 bg-gray-200 overflow-hidden">
                 <img
@@ -433,7 +433,7 @@ export default function HomePage() {
                   loading="lazy"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-5 md:p-6">
                 <p className="text-xs uppercase tracking-widest text-gray-900 mb-2">
                   Kamalafarms &middot;
                 </p>
@@ -458,12 +458,12 @@ export default function HomePage() {
       {/* ===== TESTIMONIALS + VIDEO ===== */}
       <section className="grid grid-cols-1 lg:grid-cols-2">
         {/* Left — Testimonials */}
-        <div className="bg-dark px-8 py-16 md:px-16 md:py-20 flex items-center justify-center">
+        <div className="bg-dark px-8 py-6 md:px-16 md:py-8 lg:py-0 flex items-center justify-center">
           <TestimonialSlider />
         </div>
 
         {/* Right — Video */}
-        <div className="relative bg-black min-h-[400px] lg:min-h-0">
+        <div className="relative bg-black aspect-video">
           <VideoPopup youtubeId="xA_utZ7NxS4" />
         </div>
       </section>
