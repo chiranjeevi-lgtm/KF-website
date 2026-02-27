@@ -3,7 +3,7 @@ import { SectionWrapper } from "@/components/ui";
 import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Kamala Farms",
+  title: "Contact Us",
   description:
     "Get in touch with Kamala Farms. We're here to help with consultations, quotes, and inquiries about hydroponics farming solutions.",
 };

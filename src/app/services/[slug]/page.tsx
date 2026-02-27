@@ -170,7 +170,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   const service = services.find((s) => s.slug === slug);
   if (!service) return {};
   return {
-    title: `${service.title} | Kamala Farms`,
+    title: service.title,
     description: service.shortDescription,
   };
 }

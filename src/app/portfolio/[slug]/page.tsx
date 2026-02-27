@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const project = PORTFOLIO_PROJECTS.find((p) => p.slug === slug);
   if (!project) return { title: "Project Not Found" };
   return {
-    title: `${project.title} | Kamala Farms`,
+    title: project.title,
     description: `Kamala Farms portfolio: ${project.title}`,
   };
 }
