@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
 import CursorFollower from "@/components/CursorFollower";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -155,6 +157,8 @@ export default function RootLayout({
         <Footer />
         <WhatsAppWidget />
         <CursorFollower />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

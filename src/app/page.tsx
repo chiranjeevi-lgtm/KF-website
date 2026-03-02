@@ -250,7 +250,7 @@ export default function HomePage() {
       {/* ===== HERO SECTION ===== */}
       <section className="relative h-[55vh] md:h-[90vh] min-h-[280px] md:min-h-[600px]">
         <img
-          src="/images/hero/hero-banner.png"
+          src="/images/hero/hero-banner.jpg"
           alt="Kamala Farms greenhouse at sunset"
           className="absolute inset-0 h-full w-full object-cover"
         />

@@ -277,7 +277,7 @@ export const services: Service[] = [
         largeHeading: true,
         showCarousel: true,
         carouselItems: [
-          { title: "Naturally Ventilated Polyhouse", image: "/images/services/turnkey-setup/naturally-ventilated.png" },
+          { title: "Naturally Ventilated Polyhouse", image: "/images/services/turnkey-setup/naturally-ventilated.jpg" },
           { title: "Fan & Pad Polyhouse", image: "/images/services/turnkey-setup/fan-and-pad.jpg" },
           { title: "Tunnel Polyhouse", image: "/images/services/turnkey-setup/tunnel-polyhouse.jpg" },
           { title: "Shade Net House", image: "/images/services/turnkey-setup/shade-net.jpg" },
@@ -341,7 +341,7 @@ export const services: Service[] = [
         title: "Why This Model Works",
         description: "",
         imagePosition: "right",
-        image: "/images/services/farm-management/why-this-model-works.png",
+        image: "/images/services/farm-management/why-this-model-works.jpg",
         bulletPoints: [
           "Reduces operational stress for farm owners",
           "Ensures long-term sustainability and consistent output",
