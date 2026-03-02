@@ -458,12 +458,10 @@ export const services: Service[] = [
         fullWidth: true,
         upcomingEvents: [
           {
-            name: "Hydroponics Workshop",
-            description: "A one-day workshop focused on hydroponics, covering theoretical concepts, practical exposure, and business & investment consultation.",
-            date: "28th February",
+            name: "Coming Soon",
+            description: "We are planning our next workshop. Stay tuned for updates on upcoming programs, webinars, and farm visits.",
+            date: "Dates to be announced",
             location: "Hyderabad",
-            dateISO: "2026-02-28T09:00:00",
-            registrationLink: process.env.NEXT_PUBLIC_RAZORPAY_WORKSHOP_FEB28,
           },
         ],
       },

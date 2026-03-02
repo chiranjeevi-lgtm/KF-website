@@ -8,14 +8,19 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: "/",
         disallow: [
-          "/_next/",        // Next.js internal assets
-          "/api/",          // API routes (if added later)
-          "/sample/",       // Internal/dev pages
+          "/_next/",         // Next.js internal assets
+          "/api/",           // API routes — not for public crawling
+          "/sample/",        // Internal/dev pages
           "/productImages/", // Raw image assets
         ],
       },
       {
-        // Block aggressive bots that waste crawl budget
+        // Block AI training crawlers — no SEO benefit, waste crawl budget
+        userAgent: ["GPTBot", "ClaudeBot", "Bytespider", "CCBot", "anthropic-ai"],
+        disallow: "/",
+      },
+      {
+        // Block aggressive SEO bots that waste crawl budget
         userAgent: ["AhrefsBot", "SemrushBot", "MJ12bot", "DotBot"],
         disallow: "/",
       },
