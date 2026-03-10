@@ -245,7 +245,7 @@ export function ContactForm() {
         {/* MAP EMBED */}
         <div className="mt-8 rounded-lg overflow-hidden shadow-lg">
          <iframe
-  src="https://www.google.com/maps?q=IDFC%20First%20Bank%2C%20Veer%20Chambers%2C%20Co-karma%2C%204th%20Floor%2C%201-10-63%2F1%2F1%2C%20Chikoti%20Garden%20Rd%2C%20Begumpet%2C%20Hyderabad%2C%20Telangana%20500016&output=embed"
+  src="https://www.google.com/maps?q=Premises%20No.%2010-3-18%2C%20Bandhan%20Bank%202nd%20Floor%2C%20Road%20to%20Tukaram%20Gate%2C%20East%20Marredpally%2C%20Secunderabad%2C%20Telangana%20500026&output=embed"
   width="100%"
   height="400"
   style={{ border: 0 }}

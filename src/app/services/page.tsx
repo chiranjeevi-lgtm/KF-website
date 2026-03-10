@@ -9,6 +9,7 @@ import {
   IconContractFarming,
   IconSubsidySupport,
   IconRecycling,
+  IconLandscaping,
 } from "../service-icons";
 
 export const metadata: Metadata = {
@@ -59,6 +60,13 @@ const SERVICES = [
       "End-to-end guidance on government schemes, subsidies, and approvals to maximize project returns.",
     icon: IconSubsidySupport,
     href: "/services/site-audit-dpr-subsidy",
+  },
+  {
+    title: "Landscaping Hydroponics",
+    description:
+      "Custom vertical gardens, living walls and soilless green installations for homes, offices and commercial spaces.",
+    icon: IconLandscaping,
+    href: "/services/landscaping-hydroponics",
   },
   // {
   //   title: "Recycling (Plastic Recycling)",

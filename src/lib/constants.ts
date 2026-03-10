@@ -15,12 +15,11 @@ export const SITE_CONFIG = {
 export const CONTACT_INFO = {
   phone: "+91 906 339 7475", // TODO: Add actual phone number
   email: "info@kamalafarms.com", // TODO: Verify email
-  address: `IDFC First Bank, Veer Chambers,
-Co-karma, 4th Floor, 1-10-63/1/1,
-Chikoti Garden Rd, Old Patigadda,
-Prakash Nagar, Begumpet,
-Pillar No: C1356,
-Hyderabad, Telangana, 500016, India`,
+  address: `Premises No. 10-3-18,
+Bandhan Bank 2nd Floor,
+Road to Tukaram Gate,
+East Marredpally,
+Secunderabad, Telangana 500026, India`,
   businessHours: "Monday - Saturday, 9:00 AM - 6:00 PM IST",
 };
 
@@ -41,6 +40,7 @@ export const NAV_LINKS = [
       { label: "Site Audit, DPR & Subsidy", href: "/services/site-audit-dpr-subsidy" },
       { label: "Turnkey Setup", href: "/services/turnkey-setup" },
       { label: "Training & Capacity Building", href: "/services/training" },
+      { label: "Landscaping Hydroponics", href: "/services/landscaping-hydroponics" },
       // { label: "Farm Management", href: "/services/farm-management" },  // merged into turnkey-setup
       // { label: "Contract Farming & Buyback", href: "/services/contract-farming" },  // merged into turnkey-setup
       // { label: "Recycling", href: "/services/recycling" },

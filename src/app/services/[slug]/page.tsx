@@ -353,8 +353,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     </ul>
                   )}
 
-                  {/* Bullet Items with sub-points */}
-                  {section.bulletItems && section.bulletItems.length > 0 && (
+                  {/* Bullet Items with sub-points (skip if showCardGrid handles them) */}
+                  {!section.showCardGrid && section.bulletItems && section.bulletItems.length > 0 && (
                     <ul className="mt-6 space-y-3 list-none">
                       {section.bulletItems.map((item, bIndex) => (
                         <li key={bIndex}>
@@ -375,6 +375,34 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         </li>
                       ))}
                     </ul>
+                  )}
+
+                  {/* Card Grid for bulletItems (e.g. application areas) */}
+                  {section.showCardGrid && section.bulletItems && section.bulletItems.length > 0 && (
+                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                      {section.bulletItems.map((item, bIndex) => (
+                        <div
+                          key={bIndex}
+                          className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
+                        >
+                          <h4 className="font-heading text-lg uppercase tracking-wide text-dark mb-4">
+                            {parseMarkdown(item.text)}
+                          </h4>
+                          {item.subPoints && item.subPoints.length > 0 && (
+                            <ul className="space-y-2 list-none">
+                              {item.subPoints.map((sub, sIndex) => (
+                                <li key={sIndex} className="flex items-start gap-3">
+                                  <svg className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                  </svg>
+                                  <span className="text-gray-900 text-sm leading-relaxed">{parseMarkdown(sub)}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   )}
 
                   {/* Process Gallery if enabled */}

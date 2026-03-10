@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   blogPosts,
@@ -21,7 +22,7 @@ export async function generateMetadata({
   if (!post) return {};
   return {
     title: post.title,
-    description: `Read about ${post.title} on Kamala Farms blog.`,
+    description: post.description || `Read about ${post.title} on Kamala Farms blog.`,
   };
 }
 
@@ -774,6 +775,1031 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   As climate change continues to pose challenges to traditional farming methods, innovative approaches like aeroponic farming are taking center stage. Kamala Farms, with its expertise in hydroponics and aeroponics, offers home gardeners a path to sustainable, climate-resilient agriculture. By implementing these techniques and following the provided tips, we can collectively work towards a more food-secure, transparent, and accessible future.
                 </p>
               </>
+            ) : slug === "hydroponics-defence-against-food-inflation" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  Food prices are escalating. Your wallet is thinning out as money slips away. Every month, vegetables become more expensive. Every season, supply becomes more unpredictable. And every household feels the pressure.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Cucumbers jump from &#8377;40 to &#8377;120. Tomatoes swing wildly from &#8377;20 to &#8377;150. Leafy greens disappear during heatwaves and reappear at double the price. This is not a temporary spike. This is a structural problem.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  But the reason is deeper than &ldquo;demand and supply&rdquo;. The real issue lies in how we grow our food.
+                </p>
+
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#traditional-farming-breakdown">The Breakdown of Traditional Farming</a></li>
+                    <li><a href="#hydroponics-shield">Kamala Farms Hydroponics: The Direct Shield</a></li>
+                    <li><a href="#why-hydroponics-powerful">Why Hydroponics Is the Most Powerful Weapon</a></li>
+                    <li><a href="#what-this-means">What This Means for Your Family</a></li>
+                    <li><a href="#urban-food-security">The Future of Urban Food Security</a></li>
+                  </ol>
+                </nav>
+
+                <h2 id="traditional-farming-breakdown" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Breakdown of Traditional Farming Is Fuelling Inflation</h2>
+
+                <p className="blog-subtitle">Farmlands Are Shrinking Faster Than We Realise</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Urban expansion consumes millions of hectares. Soil fertility drops every year. Water scarcity affects 70% of farmlands. When production falls, prices rise &mdash; sharply.
+                </p>
+
+                <p className="blog-subtitle">Climate Disasters Are Now Everyday Events</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Heatwaves, droughts, delayed monsoons, sudden rainfall &mdash; crops fail in unpredictable waves. Every failed harvest directly hits consumers as higher market prices.
+                </p>
+
+                <p className="blog-subtitle">The Long Supply Chain Adds a Hidden &ldquo;Tax&rdquo;</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Most vegetables travel hundreds or thousands of kilometres. Fuel costs, cold storage, multiple middlemen &mdash; everything stacks up. By the time vegetables reach your kitchen, they&apos;re costlier, older and nutritionally weaker.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Food inflation begins long before vegetables reach the market.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  So, how do we protect consumers from rising food prices? How do we ensure consistent supply? How do we eliminate climate risks? How do we grow food at a cost that doesn&apos;t burden families?
+                </p>
+
+                <h2 id="hydroponics-shield" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Kamala Farms Hydroponics: The Direct Shield Against Food Inflation</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  At <a href="/about" className="text-primary hover:underline">Kamala Farms</a>, we are building a farming system that doesn&apos;t bend under weather, soil degradation, or distance. <a href="/services/turnkey-setup" className="text-primary hover:underline">Hydroponics</a> allows us to grow vegetables without soil, with 90% less water, inside controlled environments, right inside or near your city.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  This is not future technology. This is happening today and it is redefining food economics.
+                </p>
+
+                <h2 id="why-hydroponics-powerful" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Why Hydroponics Is the Most Powerful Weapon Against Food Inflation</h2>
+
+                <p className="blog-subtitle">Stable Production = Stable Prices</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Traditional farming swings with seasons. Hydroponics works 365 days a year &mdash; no lean periods, no off-seasons. When supply is stable, prices remain stable.
+                </p>
+
+                <p className="blog-subtitle">Weather-Proof Farming</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Heatwaves, cyclones, droughts &mdash; none of these affect hydroponic crops. Your vegetables don&apos;t depend on the sky anymore. They depend on precision-controlled environments.
+                </p>
+
+                <p className="blog-subtitle">Water Efficiency Lowers Production Costs</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponics recirculates water continuously. A 90% reduction in water usage means production stays cost-effective even during water crises.
+                </p>
+
+                <p className="blog-subtitle">Grown Close to You = Lower Transport Cost</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Instead of 1,500 kilometres, our produce travels 5&ndash;15 kilometres. Transport cost, fuel dependency, spoilage losses &mdash; all drop drastically. Consumers get fresher produce at more stable prices.
+                </p>
+
+                <p className="blog-subtitle">Zero Pesticides = Zero Chemical Expense</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Controlled farming means pests stay out. No pesticide bills, no chemical load. Just clean, residue-free vegetables &mdash; promoting good health!
+                </p>
+
+                <p className="blog-subtitle">Higher Yield in Less Space</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponics grows more in less area. This maximises output even in expensive urban real estate. High output + small footprint = better cost control.
+                </p>
+
+                <div className="blog-quote">
+                  <p>This is the exact model that makes hydroponics inflation-resistant.</p>
+                </div>
+
+                <h2 id="what-this-means" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">What This Means for Your Family</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Kamala Farms delivers vegetables that are:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Freshly harvested</li>
+                  <li>Nutrient-rich</li>
+                  <li>Chemical-free</li>
+                  <li>Locally grown</li>
+                  <li>Price-stable throughout the year</li>
+                </ul>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  No shocks. No surprises. No missing items during climate events. Just consistent quality and consistent pricing.
+                </p>
+
+                <h2 id="urban-food-security" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Future of Urban Food Security Starts Here</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Kamala Farms is developing urban hydroponic clusters, decentralised city-based production, rooftop and warehouse farms, climate-proof cultivation hubs and short, efficient supply cycles.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  When cities grow their own food, inflation loses its power. This is how India&apos;s future food system will look. This is how families will get fresh, affordable vegetables year-round. And this transformation has already begun.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Shapes the Future</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Every time you choose Kamala Farms produce, you choose stable prices, safe food, clean nutrition, local farming and sustainable agriculture.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Kamala Farms Hydroponics &mdash; The Smart, Modern Defence Against Food Inflation.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Ready to explore? View our <a href="/services" className="text-primary hover:underline">services</a> or <a href="/contact" className="text-primary hover:underline">get in touch</a> today.
+                </p>
+              </>
+            ) : slug === "hidden-science-behind-hydroponic-excellence" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  It loses 45% of its nutrients along the way. It&apos;s sprayed with chemicals to survive the journey. And by the time you buy it, the cells inside those leaves have been dying for seven days. That&apos;s not fresh. That&apos;s survival mode.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  But here&apos;s what most people don&apos;t know: plants don&apos;t actually need soil to grow. They need what soil provides &mdash; water, nutrients, oxygen and support. And when you give plants exactly what they need, in precisely the right amounts, something remarkable happens &mdash; their physiological responses change completely.
+                </p>
+
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#stress-response">The Stress Response Traditional Farming Creates</a></li>
+                    <li><a href="#precision-technology">Where Plant Physiology Meets Precision Technology</a></li>
+                    <li><a href="#nutrient-uptake">Enhanced Nutrient Uptake Efficiency</a></li>
+                    <li><a href="#water-use">Optimised Water Use Response</a></li>
+                    <li><a href="#growth-cycles">Accelerated Growth Cycles</a></li>
+                    <li><a href="#chemical-elimination">Elimination of Chemical Stress</a></li>
+                    <li><a href="#root-development">Superior Root System Development</a></li>
+                    <li><a href="#controlled-stress">Controlled Stress for Enhanced Quality</a></li>
+                    <li><a href="#proximity-advantage">The Proximity Advantage</a></li>
+                  </ol>
+                </nav>
+
+                <h2 id="stress-response" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Stress Response Traditional Farming Creates</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  In conventional agriculture, plants are constantly fighting. They compete with neighbouring plants for water. They struggle against soil pathogens and pests. They stress over nutrient deficiencies in depleted soils. They suffer from drought one week and flooding the next.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  This constant stress triggers defensive physiological responses. Plants divert energy to survival mechanisms instead of growth and nutrition. They produce stress hormones. They thicken cell walls. They reduce the very nutrients that make them valuable to you.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Produce that technically grows, but never truly thrives. And you taste the difference, even if you don&apos;t realise it.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  So what happens when you remove all that stress?
+                </p>
+
+                <h2 id="precision-technology" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Welcome to Kamala Farms: Where Plant Physiology Meets Precision Technology</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  At <a href="/about" className="text-primary hover:underline">Kamala Farms</a>, we&apos;ve eliminated the guesswork and the stress from growing food. Our <a href="/services/turnkey-setup" className="text-primary hover:underline">hydroponic systems</a> create the optimal environment where plants can express their full genetic potential. No soil-borne diseases. No water stress. No nutrient competition. Just pure, scientifically optimised growing conditions that unlock superior physiological responses.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  This isn&apos;t just farming. It&apos;s plant biology operating at peak performance.
+                </p>
+
+                <h2 id="nutrient-uptake" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Enhanced Nutrient Uptake Efficiency</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  In hydroponic cultivation, plant roots access a perfectly balanced nutrient solution 24/7. The physiological response is immediate and profound. Root systems develop fine root hairs that maximise absorption surface area. Without the need to search for nutrients through dense soil, plants redirect energy toward vegetative growth and nutrient accumulation.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Nutrient uptake efficiency increases by 40&ndash;60% compared to soil cultivation. The result: vegetables with demonstrably higher vitamin, mineral and antioxidant content &mdash; measurably more nutritious than conventional produce.
+                </p>
+
+                <h2 id="water-use" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Optimised Water Use Response</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Traditional farming loses 70% of irrigation water to evaporation, runoff and deep percolation. At Kamala Farms, our closed-loop hydroponic systems deliver water directly to root zones with zero waste. Plants experience consistent hydration without wet-dry stress cycles.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  This triggers enhanced photosynthetic activity and continuous metabolic function. Stomata remain optimally open for gas exchange. Growth rates accelerate by 30&ndash;50%. Consistent, predictable supply with 90% less water consumption &mdash; farming that works even in water-scarce environments.
+                </p>
+
+                <h2 id="growth-cycles" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Accelerated Growth Cycles</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  When plants aren&apos;t stressed, they grow faster. It&apos;s simple physiology. Our controlled environment eliminates seasonal limitations and weather unpredictability. Temperature, humidity and light are precisely managed for each crop variety. Plants enter reproductive phases earlier. Harvest cycles shorten by 25&ndash;40% depending on the crop.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Ultra-fresh produce available year-round, regardless of season, with unmatched consistency in quality and taste.</p>
+                </div>
+
+                <h2 id="chemical-elimination" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Elimination of Chemical Stress Responses</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Without soil-borne pests, diseases and weeds, Kamala Farms eliminates the need for pesticides, herbicides and fungicides. Plants don&apos;t need to produce defensive compounds or stress metabolites. Instead, they channel energy into producing the flavonoids, vitamins and natural sugars that deliver exceptional flavour and nutrition.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Completely chemical-free produce you can trust &mdash; no washing away pesticides, no exposure risk for your family.
+                </p>
+
+                <h2 id="root-development" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Superior Root System Development</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Root health determines everything above ground. In our oxygenated nutrient solutions, roots develop extensive, white, healthy systems with maximum surface area. Dissolved oxygen levels remain optimal, preventing root rot and anaerobic stress. This vigorous root development supports explosive above-ground growth and higher yields per plant.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Robust, flavourful produce with longer shelf life &mdash; because healthy roots mean healthy plants that stay fresh longer after harvest.
+                </p>
+
+                <h2 id="controlled-stress" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Controlled Stress for Enhanced Quality</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Not all stress is bad. We apply calculated, controlled stress to enhance specific qualities. Mild electrical conductivity variations trigger plants to concentrate sugars and flavours. Strategic nutrient adjustments before harvest increase antioxidant production. Slight temperature modulation enhances colour development in leafy greens and herbs. These are precision interventions impossible in field agriculture.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Produce that doesn&apos;t just look good &mdash; it tastes extraordinary because we&apos;ve optimised every physiological pathway for quality.</p>
+                </div>
+
+                <h2 id="proximity-advantage" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Proximity Advantage</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Cell walls break down. Vitamin C degrades by 30% in the first 24 hours. B vitamins decline rapidly. Natural sugars convert to starches. The vibrant, living produce you want becomes a shadow of its former self.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Kamala Farms operates urban hydroponic hubs strategically located near major population centres. Our produce reaches your local store within 12&ndash;24 hours of harvest. Sometimes even faster. The cells are still actively metabolising. The nutrients are fully intact. The flavour is at its peak.
+                </p>
+
+                <div className="blog-quote">
+                  <p>This isn&apos;t just fresher. This is fundamentally different food.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Droughts are intensifying. Flooding events are increasing. Soil degradation accelerates annually. Traditional agriculture faces unprecedented climate challenges. Kamala Farms hydroponics operates independently of weather, season, or soil quality. Food security isn&apos;t a hope &mdash; it&apos;s engineered into every system we design.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Matters</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  When plants grow in optimal conditions, expressing their full physiological potential, the difference is real and measurable. Crisper lettuce that lasts two weeks, not three days. Tomatoes bursting with flavour that actually taste like tomatoes. Herbs so aromatic they transform your cooking. Leafy greens with deep, vibrant colour that signals maximum nutrient density.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  At Kamala Farms, we&apos;ve mastered the science of plant physiology to deliver produce that redefines your expectations. No chemical residues. No nutrient loss. No seasonal gaps. Just exceptional produce, grown right, harvested at peak, delivered fresh.
+                </p>
+
+                <div className="blog-quote">
+                  <p>We&apos;re not just growing vegetables. We&apos;re optimising plant physiological responses to create the most nutritious, flavourful, sustainable produce available.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  The science is clear. The results are measurable. The taste is undeniable. Welcome to the future of farming. Welcome to <a href="/about" className="text-primary hover:underline">Kamala Farms</a>.
+                </p>
+              </>
+            ) : slug === "increase-yield-hydroponics-expert-tips" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  Most hydroponic growers lose 30&ndash;40% of their potential harvest. Not because of bad seeds. Not because of poor lighting. But because of ten overlooked variables that silently rob yield, day after day, crop after crop.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  A commercial hydroponic farm running at 60% efficiency isn&apos;t just losing production &mdash; it&apos;s losing revenue, market opportunity and competitive edge. And here&apos;s what most don&apos;t realise: the gap between average yield and maximum yield isn&apos;t about bigger investments. It&apos;s about smarter optimisation.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  At <a href="/about" className="text-primary hover:underline">Kamala Farms</a>, we&apos;ve spent years testing, measuring and refining these systems across multiple crop varieties and climate conditions. Here are the 10 expert strategies that separate high-yield operations from average ones:
+                </p>
+
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#ec-levels">Optimise Your Nutrient Solution EC Levels</a></li>
+                    <li><a href="#ph-control">Master pH Control for Maximum Nutrient Uptake</a></li>
+                    <li><a href="#light-spectrum">Implement Strategic Light Spectrum Management</a></li>
+                    <li><a href="#dissolved-oxygen">Dial In Your Dissolved Oxygen Levels</a></li>
+                    <li><a href="#environment-control">Control Your Growing Environment Precisely</a></li>
+                    <li><a href="#harvest-timing">Time Your Harvest at Peak Nutrient Density</a></li>
+                    <li><a href="#beneficial-microorganisms">Use Beneficial Microorganisms Strategically</a></li>
+                    <li><a href="#air-circulation">Implement Aggressive Air Circulation</a></li>
+                    <li><a href="#canopy-management">Maximise Light Penetration Through Canopy Management</a></li>
+                    <li><a href="#track-measure">Track, Measure and Adjust Based on Real Data</a></li>
+                  </ol>
+                </nav>
+
+                <h2 id="ec-levels" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">1. Optimise Your Nutrient Solution EC Levels</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Most growers use generic EC ranges without adjusting for crop growth stages. Seedlings need 0.8&ndash;1.2 EC. Vegetative growth demands 1.5&ndash;2.0 EC. Flowering and fruiting stages can handle 2.0&ndash;2.5 EC. Miss these targets and you&apos;re either starving your plants or causing nutrient lockout.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Precise EC management can increase yields by 15&ndash;25% while reducing nutrient waste and cost.
+                </p>
+
+                <h2 id="ph-control" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">2. Master pH Control for Maximum Nutrient Uptake</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <a href="/services/turnkey-setup" className="text-primary hover:underline">Hydroponic systems</a> perform best between 5.5&ndash;6.5 pH, but optimal ranges shift slightly by crop type. Lettuce thrives at 5.5&ndash;6.0. Tomatoes prefer 6.0&ndash;6.5. Even a 0.5 pH deviation can lock out critical micronutrients like iron and manganese, stunting growth you&apos;ll never recover.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Stable pH control ensures plants absorb every nutrient you provide, maximising growth rate and harvest weight.
+                </p>
+
+                <h2 id="light-spectrum" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">3. Implement Strategic Light Spectrum Management</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Blue spectrum (400&ndash;500nm) drives vegetative growth and compact structure. Red spectrum (600&ndash;700nm) triggers flowering and fruiting. Most growers use fixed-spectrum LEDs throughout the entire crop cycle, leaving massive yield potential on the table. Dynamic spectrum adjustment based on growth phase can increase productivity by 20&ndash;30%.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Your plants get exactly what they need, when they need it &mdash; faster growth, denser flowers, heavier fruits.
+                </p>
+
+                <h2 id="dissolved-oxygen" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">4. Dial In Your Dissolved Oxygen Levels</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponic roots depend entirely on dissolved oxygen in the nutrient solution. Warm water holds less oxygen. Stagnant systems create dead zones. Most growers assume their pumps provide enough aeration &mdash; until they measure and discover DO levels below 5 mg/L. Optimal levels sit between 8&ndash;10 mg/L.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Superior root health means explosive growth rates, disease resistance and 30&ndash;40% yield improvements in oxygen-sensitive crops.
+                </p>
+
+                <h2 id="environment-control" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">5. Control Your Growing Environment Precisely</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Daytime temperatures should hover between 68&ndash;77°F (20&ndash;25°C) for most crops. Night temperatures need to drop 5&ndash;10°F to simulate natural conditions and prevent stretching. Humidity should stay between 50&ndash;70% for vegetative growth and drop to 40&ndash;50% during flowering.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Consistent environment equals consistent, predictable, maximised yields &mdash; crop after crop.
+                </p>
+
+                <h2 id="harvest-timing" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">6. Time Your Harvest at Peak Nutrient Density</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Many growers harvest too early, losing 10&ndash;15% of potential yield. Others wait too long, sacrificing nutrient content and shelf life. Peak harvest timing varies by crop: lettuce at full leaf expansion, tomatoes at 90% colour change, herbs just before flowering.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> You capture maximum weight, flavour and nutritional value &mdash; exactly what premium markets demand and pay for.
+                </p>
+
+                <h2 id="beneficial-microorganisms" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">7. Use Beneficial Microorganisms Strategically</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  While hydroponics reduces disease pressure, beneficial bacteria and fungi can enhance nutrient uptake by 15&ndash;20%. Mycorrhizae increase phosphorus absorption. Bacillus species protect against pathogens. Trichoderma boosts root development. The key is introducing the right species at the right concentration.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Natural yield boost plus disease suppression &mdash; without chemicals or cost-heavy interventions.
+                </p>
+
+                <h2 id="air-circulation" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">8. Implement Aggressive Air Circulation</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Proper airflow strengthens stems through constant micro-movement, distributes CO&#8322; evenly to all leaf surfaces and prevents humidity pockets where mould thrives. Most operations underestimate air circulation needs by 40&ndash;50%.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Stronger plants, uniform growth, eliminated disease pressure and 10&ndash;15% yield increases from better CO&#8322; exposure.
+                </p>
+
+                <h2 id="canopy-management" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">9. Maximise Light Penetration Through Canopy Management</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Dense canopies shade lower growth, wasting plant energy maintaining leaves that don&apos;t photosynthesise. Strategic pruning and training techniques &mdash; like low-stress training (LST), screen of green (SCROG), or careful defoliation &mdash; ensure even light distribution.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> Every leaf becomes productive. Total photosynthesis increases. Yields jump 15&ndash;25% without adding a single extra watt of light.
+                </p>
+
+                <h2 id="track-measure" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">10. Track, Measure and Adjust Based on Real Data</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Top hydroponic operations monitor EC, pH, temperature, humidity and light intensity multiple times daily. They track growth rates, identify patterns and make micro-adjustments continuously. The difference between good and great isn&apos;t guesswork &mdash; it&apos;s measurement.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The benefit:</strong> You stop hoping for results and start engineering them with precision that compounds crop after crop.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Kamala Farms Advantage</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  At Kamala Farms, we don&apos;t just apply these principles &mdash; we&apos;ve engineered entire <a href="/services/turnkey-setup" className="text-primary hover:underline">systems</a> around them. Our climate-controlled vertical farms in urban India maintain optimal growing conditions 365 days a year. Every crop benefits from precision nutrient delivery, dynamic spectrum LED lighting and real-time environmental monitoring.
+                </p>
+
+                <div className="blog-quote">
+                  <p>We grow 10 times more food per square foot than traditional farming while using 90% less water.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  But yield maximisation isn&apos;t just about production volume. It&apos;s about delivering what consumers increasingly demand: fresh, chemical-free, nutrient-dense produce grown locally and harvested at peak ripeness.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Matters</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  You can continue farming the way it&apos;s always been done, accepting average yields and hoping for the best. Or you can embrace precision, optimisation and the systems that turn every input into maximum output.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Kamala Farms. Precision grown. Future ready. Maximum yield.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Ready to maximise your yield? Explore our <a href="/services" className="text-primary hover:underline">services</a> or join our <a href="/services/training" className="text-primary hover:underline">training programs</a>.
+                </p>
+              </>
+            ) : slug === "hydroponics-growing-tier-1-tier-2-cities-india" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  The urban food crisis isn&apos;t coming. It&apos;s already here. India&apos;s Tier 1 and Tier 2 cities are experiencing unprecedented food demand pressure. Bangalore consumes 4,500 tonnes of vegetables daily. Pune needs 3,200 tonnes. Hyderabad crosses 3,800 tonnes every 24 hours.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Nearly 70% of this produce travels 300&ndash;1,200 kilometres before reaching your plate. Longer distance = more spoilage = higher prices = lower nutrition. And yet, consumer expectations are rising. Urban families want pesticide-free greens. Restaurants demand consistent quality. Health-conscious millennials refuse wilted, chemical-laden lettuce that&apos;s been sitting in cold storage for a week.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Traditional agriculture can&apos;t keep up.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Farmers struggle with unpredictable monsoons, shrinking arable land and rising input costs. Middlemen add 40&ndash;60% markup. Supply chains crumble under poor infrastructure. Fresh produce that isn&apos;t fresh. Prices that swing wildly. Nutritional value that evaporates in transit.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  So how do you feed 400 million urban Indians without depending on distant farms, erratic weather, or broken supply chains? You grow where people live.
+                </p>
+
+                {/* Table of Contents */}
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#hydroponic-revolution">The Hydroponic Revolution in Urban India</a></li>
+                    <li><a href="#tier-1-tier-2-leading">Why Tier 1 &amp; Tier 2 Cities Are Leading the Charge</a></li>
+                    <li><a href="#technology-transformation">The Technology Behind the Transformation</a></li>
+                    <li><a href="#consumer-shift">The Consumer Shift: From Price to Value</a></li>
+                    <li><a href="#future-local-controlled">The Future Is Local, Controlled and Scalable</a></li>
+                  </ol>
+                </nav>
+
+                <h2 id="hydroponic-revolution" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Hydroponic Revolution in Urban India</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponics &mdash; the science of growing plants in nutrient-rich water without soil &mdash; is rapidly becoming the backbone of urban food security in India&apos;s fastest-growing cities.
+                </p>
+
+                <div className="blog-quote">
+                  <p>And it&apos;s not a trend. It&apos;s a structural shift.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  According to recent market analysis, India&apos;s hydroponics sector is projected to grow at 13.2% CAGR through 2028, with Tier 1 and Tier 2 cities driving over 65% of demand. Because urban consumers are finally asking the right questions:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Where does our food come from?</li>
+                  <li>How long has it been travelling?</li>
+                  <li>What chemicals were used?</li>
+                  <li>Can I trust what I&apos;m eating?</li>
+                </ul>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponics answers all four.
+                </p>
+
+                <h2 id="tier-1-tier-2-leading" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Why Tier 1 &amp; Tier 2 Cities Are Leading the Charge</h2>
+
+                <h3 className="font-heading uppercase tracking-wide text-dark text-2xl md:text-3xl mt-8 mb-3">1. Proximity = Freshness = Trust</h3>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <Link href="/about" className="text-primary hover:underline">Kamala Farms</Link> operates within city limits, cutting the farm-to-fork distance from 800 kilometres to under 50. Produce is harvested hours before it reaches retailers, restaurants and home kitchens. No long-haul trucks. No cold storage for days. No nutrient degradation. Greens that are crisper, tastier and packed with vitamins &mdash; because they were alive that morning. Urban consumers notice the difference immediately.
+                </p>
+
+                <h3 className="font-heading uppercase tracking-wide text-dark text-2xl md:text-3xl mt-8 mb-3">2. Zero Pesticides. Zero Soil-Borne Diseases. Zero Compromise.</h3>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Traditional farming relies on chemical pesticides to combat soil pathogens, pests and fungal infections. Hydroponics eliminates the need entirely. Because there&apos;s no soil, there are no <Link href="/blog/common-hydroponic-diseases-natural-control" className="text-primary hover:underline">soil-borne diseases</Link>. Controlled environments mean pests can&apos;t invade. Water and nutrients are monitored digitally for purity and balance.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Kamala Farms delivers pesticide-free lettuce, kale, spinach and herbs with full traceability. You know exactly what you&apos;re eating. And more importantly &mdash; what you&apos;re not eating.
+                </p>
+
+                <h3 className="font-heading uppercase tracking-wide text-dark text-2xl md:text-3xl mt-8 mb-3">3. Climate-Proof Food Security</h3>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Bangalore saw erratic rainfall in 2023. Chennai faced water scarcity. Pune dealt with unseasonal heat waves. Traditional farms suffered. Yields dropped. Prices spiked. Hydroponic farms kept producing &mdash; every single day.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Because hydroponic systems use 90% less water than conventional farming, recycle nutrients and operate in climate-controlled or protected environments, they&apos;re immune to weather disruptions. Droughts don&apos;t stop them. Floods don&apos;t drown them. Heatwaves don&apos;t wilt them. Kamala Farms ensures consistent supply &mdash; 365 days a year &mdash; regardless of what&apos;s happening outside.
+                </p>
+
+                <h3 className="font-heading uppercase tracking-wide text-dark text-2xl md:text-3xl mt-8 mb-3">4. Rising Disposable Income Meets Rising Expectations</h3>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Tier 2 cities like Coimbatore, Visakhapatnam, Indore and Jaipur are experiencing rapid income growth. Young professionals, dual-income households and health-conscious families are willing to pay a premium for quality, safety and nutrition. They&apos;re shopping at organic stores, ordering from farm-fresh delivery apps and demanding better from grocery retailers.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponics fits perfectly into this shift. It&apos;s not luxury. It&apos;s logical. Fresh, safe, nutrient-dense food shouldn&apos;t be rare. It should be the standard.
+                </p>
+
+                <h3 className="font-heading uppercase tracking-wide text-dark text-2xl md:text-3xl mt-8 mb-3">5. Restaurants &amp; Hotels Demand Consistency</h3>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Ask any executive chef what their biggest supply chain frustration is and the answer is always the same: inconsistency. One week the lettuce is perfect. The next week it&apos;s yellowing and bitter. Traditional farms can&apos;t guarantee uniformity. Weather changes. Soil quality varies. Harvesting schedules shift.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponic farms operate with precision. Every crop cycle is monitored digitally. Nutrient levels, pH, temperature and light exposure are controlled to the decimal point. Kamala Farms supplies five-star hotels, cloud kitchens and premium restaurants across Bangalore, Hyderabad and Pune with produce that meets exacting standards &mdash; every single time. Chefs plan menus with confidence. Diners experience consistency. Brands protect their reputation.
+                </p>
+
+                <h2 id="technology-transformation" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Technology Behind the Transformation</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Kamala Farms isn&apos;t just growing plants. It&apos;s deploying agritech infrastructure:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li><strong>IoT Sensors</strong> monitor water quality, nutrient concentration and environmental conditions in real time.</li>
+                  <li><strong>AI-Driven Climate Control</strong> adjusts temperature, humidity and airflow dynamically to optimise growth.</li>
+                  <li><strong>Automated Nutrient Delivery Systems</strong> ensure every plant receives the exact nutrition it needs &mdash; no waste, no guesswork.</li>
+                  <li><strong>Vertical Farming Architecture</strong> maximises yield per square foot, allowing 10x more production than traditional farms on the same land.</li>
+                </ul>
+
+                <div className="blog-quote">
+                  <p>This isn&apos;t farming. It&apos;s food engineering. And it&apos;s happening in the heart of India&apos;s urban centres.</p>
+                </div>
+
+                <h2 id="consumer-shift" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Consumer Shift: From Price to Value</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Ten years ago, Indian consumers bought vegetables based on one factor: price. Today, urban buyers evaluate on four:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li><strong>Freshness</strong> &mdash; How recently was it harvested?</li>
+                  <li><strong>Safety</strong> &mdash; Are there pesticides or contaminants?</li>
+                  <li><strong>Nutrition</strong> &mdash; Did it lose vitamins in transit?</li>
+                  <li><strong>Reliability</strong> &mdash; Can I get it consistently?</li>
+                </ul>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponics wins on all four. And as awareness grows, so does demand. Retail chains, subscription delivery services and farm-to-table restaurants are partnering with hydroponic suppliers to meet this shift. Kamala Farms is leading that movement &mdash; building urban farm networks that integrate directly into city food ecosystems.
+                </p>
+
+                <h2 id="future-local-controlled" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Future Is Local, Controlled and Scalable</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  India&apos;s urban population will cross 600 million by 2030. Feeding them sustainably, affordably and reliably requires a fundamental change in how food is grown and distributed.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponics isn&apos;t replacing traditional agriculture. It&apos;s complementing it &mdash; filling critical gaps in urban fresh produce supply, reducing food miles, eliminating waste and ensuring year-round availability. Tier 1 and Tier 2 cities are leading this transformation because they face the problem most acutely &mdash; and because they have the infrastructure, demand and consumer base to support it.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <Link href="/services/turnkey-setup" className="text-primary hover:underline">Kamala Farms is building the future of urban food security</Link>. Farm hubs within city limits. Advanced growing systems. Real-time monitoring. Direct-to-consumer and B2B distribution.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Fresher greens. Safer food. Stable prices. Resilient supply.</p>
+                </div>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Matters. And It&apos;s Simple.</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  You can keep buying vegetables that travelled 1,000 kilometres, lost half their nutrients and were sprayed with chemicals you can&apos;t pronounce. Or you can choose produce grown 20 kilometres away, harvested this morning and verified pesticide-free.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  The farms are here. The technology is proven. The supply is growing. The question is: Are you ready to make the switch?
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4 font-semibold">
+                  <Link href="/contact" className="text-primary hover:underline">Kamala Farms</Link>. Fresh. Local. Hydroponic. Every day.
+                </p>
+              </>
+            ) : slug === "hydroponics-market-growth-2025-trends-demand" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  India&apos;s hydroponics market stood at &#8377;1,200 crore in 2022. By 2031, it&apos;s projected to explode to &#8377;4,400 crore &mdash; a staggering 17.6% annual growth rate. Globally, the industry is racing toward $33 billion by 2033.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Water tables are dropping. Farmland is shrinking. Pesticide dependence is spiralling. And meanwhile, urban populations are demanding fresh, chemical-free produce delivered to their doorstep &mdash; not trucked in from farms hundreds of kilometres away after days in cold storage.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  The gap between what consumers want and what traditional agriculture can deliver is widening fast. So what&apos;s filling that gap?
+                </p>
+
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#urbanisation">Urbanisation Is Rewriting Agriculture&apos;s Rulebook</a></li>
+                    <li><a href="#water-scarcity">Water Scarcity Is Forcing Innovation</a></li>
+                    <li><a href="#consumer-demand">Consumer Demand Is Shifting Dramatically</a></li>
+                    <li><a href="#technology-scalable">Technology Is Making Hydroponics Scalable</a></li>
+                    <li><a href="#government-support">Government Support Is Accelerating Adoption</a></li>
+                    <li><a href="#commercial-viability">Commercial Viability Is Proven</a></li>
+                    <li><a href="#market-segments">Market Segments Are Diversifying</a></li>
+                    <li><a href="#export-opportunities">Export Opportunities Are Opening Up</a></li>
+                    <li><a href="#kamala-farms-revolution">What Kamala Farms Brings to This Revolution</a></li>
+                  </ol>
+                </nav>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Welcome to the Hydroponics Revolution</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponics isn&apos;t just another farming method. It&apos;s a complete reimagining of how we grow food. No soil. No pesticides. 90% less water. 10x higher yields per square foot. And it&apos;s happening right now &mdash; in shipping containers in Pune, on rooftops in Bangalore, inside climate-controlled greenhouses in Gujarat.
+                </p>
+
+                <h2 id="urbanisation" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Urbanisation Is Rewriting Agriculture&apos;s Rulebook</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  India adds a city the size of Mumbai to its urban population every single year. By 2030, 40% of Indians will live in cities. Traditional farms are hundreds of kilometres away. Transportation costs money. Storage requires infrastructure. Every day in transit means nutrients lost and freshness compromised.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Vertical farms inside city limits. Rooftop production units. Container farms that generate &#8377;1,25,000 monthly from just 5,000 square feet. The produce goes from harvest to table in hours, not days.
+                </p>
+
+                <h2 id="water-scarcity" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Water Scarcity Is Forcing Innovation</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Traditional farming consumes 70% of India&apos;s freshwater. Meanwhile, 600 million Indians face severe water stress. Hydroponics uses 90% less water than soil-based farming. The water circulates in a closed loop. Nothing is wasted. Every drop counts.
+                </p>
+
+                <div className="blog-quote">
+                  <p>This isn&apos;t just about efficiency &mdash; it&apos;s about survival.</p>
+                </div>
+
+                <h2 id="consumer-demand" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Consumer Demand Is Shifting Dramatically</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Health-conscious consumers &mdash; especially millennials and Gen Z &mdash; are reading ingredient labels, researching farming practices and paying premium prices for chemical-free produce. They want to know: How was this grown? Were pesticides used? Is it actually fresh?
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponics answers all three questions perfectly. No soil means no soil-borne diseases. No diseases means no pesticide dependency. Controlled environments mean perfect growing conditions year-round. The result: produce that&apos;s not just clean &mdash; it&apos;s consistently superior.
+                </p>
+
+                <h2 id="technology-scalable" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Technology Is Making Hydroponics Scalable</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  The technology barrier is collapsing. IoT sensors monitor pH levels, nutrient concentration and temperature in real-time. Automated systems adjust conditions instantly. AI platforms predict optimal harvest times. Climate control maintains perfect growing environments regardless of external weather.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Companies like <a href="/about" className="text-primary hover:underline">Kamala Farms</a> have trained 30,000+ users through online masterclasses and offer <a href="/services/turnkey-setup" className="text-primary hover:underline">turnkey solutions</a> with complete <a href="/services/training" className="text-primary hover:underline">training</a> and maintenance support. Even traditional farmers with no technical background are successfully transitioning to hydroponic systems &mdash; and seeing ROI within 18 months.
+                </p>
+
+                <h2 id="government-support" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Government Support Is Accelerating Adoption</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  In December 2024, the Indian government made a landmark decision: Hydroponics, aquaponics, vertical farming and precision agriculture are now officially included in MIDH (Mission for Integrated Development of Horticulture). Cost norms increased by 20% &mdash; the first revision since 2014.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <a href="/services/site-audit-dpr-subsidy" className="text-primary hover:underline">Subsidies</a> are available. Funding is accessible. The PM-KUSUM Scheme, Agri-Infra Fund and StartUp India initiatives are all backing hydroponic ventures. State governments in Gujarat, Karnataka and Assam are commissioning large-scale projects.
+                </p>
+
+                <div className="blog-quote">
+                  <p>This isn&apos;t niche anymore. It&apos;s a national strategy.</p>
+                </div>
+
+                <h2 id="commercial-viability" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Commercial Viability Is Proven</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  A 5,000 sq ft hydroponic flatbed setup generates &#8377;1,00,000 monthly revenue. Dutch bucket systems for tomatoes deliver 5&ndash;10x higher yields than conventional farming. Lettuce grown hydroponically reaches harvest in 35 days versus 60 days in soil.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Kamala Farms offers complete business models, provides 100% buyback agreements for the first few months and operates joint venture partnerships where they handle farm management while partners provide land and capital. The ROI isn&apos;t theoretical &mdash; it&apos;s documented across hundreds of operational farms.
+                </p>
+
+                <h2 id="market-segments" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Market Segments Are Diversifying</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponics started with leafy greens. Now it&apos;s expanding aggressively:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li><strong>Commercial farms</strong> control 60% of market share, growing at 22% annually</li>
+                  <li><strong>Urban/residential farming</strong> accounts for 25%, growing at 18%</li>
+                  <li><strong>Research and education</strong> represents 15%, growing at 15%</li>
+                </ul>
+
+                <h2 id="export-opportunities" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Export Opportunities Are Opening Up</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  India&apos;s exotic vegetable market is exploding. Lettuce varieties, cherry tomatoes, herbs like basil and thyme, microgreens, edible flowers &mdash; these high-value crops command premium prices internationally. Hydroponics produces export-grade quality consistently. Indian hydroponic farms are already shipping to Middle East markets, Southeast Asia and Europe.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Challenges Remain &mdash; But They&apos;re Solvable</h2>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li><strong>High initial capital?</strong> Government subsidies and innovative financing models are addressing this</li>
+                  <li><strong>Technical knowledge gap?</strong> Online training platforms, hands-on workshops and ongoing agronomist support are democratising expertise</li>
+                  <li><strong>Market linkages?</strong> Established players are connecting growers with buyers, offering buyback guarantees</li>
+                  <li><strong>Scalability concerns?</strong> Successful 100-acre commercial parks prove large-scale viability</li>
+                </ul>
+
+                <h2 id="kamala-farms-revolution" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">What Kamala Farms Brings to This Revolution</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  At Kamala Farms, we&apos;re not observers of this transformation. We&apos;re active participants. Our hydroponic systems deliver exactly what the market demands:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Consistent year-round production &mdash; no seasonal gaps, no weather dependencies</li>
+                  <li>Chemical-free produce &mdash; zero pesticides, zero compromise on health</li>
+                  <li>90% water efficiency &mdash; closed-loop systems, precision irrigation</li>
+                  <li>10x space productivity &mdash; vertical growing, urban-compatible designs</li>
+                  <li>Local freshness advantage &mdash; farm-to-table in hours, nutrients preserved</li>
+                </ul>
+
+                <div className="blog-quote">
+                  <p>We&apos;re proving that hydroponics isn&apos;t just environmentally responsible &mdash; it&apos;s commercially superior.</p>
+                </div>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Matters</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Every hydroponic farm that comes online reduces water waste, eliminates pesticide runoff and delivers cleaner food to families. Every consumer who chooses hydroponically-grown produce votes for sustainable agriculture. Every entrepreneur who enters this space accelerates the transformation from scarcity to abundance.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  The market is growing at 17.6% annually. The technology is ready. The infrastructure is building. The demand is surging.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Kamala Farms &mdash; Growing Smarter. Growing Cleaner. Growing the Future of Food.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <a href="/contact" className="text-primary hover:underline">Contact us</a> to learn how our <a href="/services" className="text-primary hover:underline">hydroponic solutions</a> can transform your approach to fresh, sustainable produce.
+                </p>
+              </>
+            ) : slug === "common-hydroponic-diseases-natural-control" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  Across India&apos;s fast-growing controlled farming sector, <a href="/services/turnkey-setup" className="text-primary hover:underline">hydroponic</a> crop losses of 15&ndash;30% are quietly occurring &mdash; not due to insects or chemicals, but due to invisible water-borne diseases that spread faster than most growers realize. Root rot. Powdery mildew. Downy mildew. Pythium. Fusarium. These spread silently.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  And by the time leaves show symptoms, the damage is already systemic. In urban hydroponic setups, where crops grow closer, faster and denser, a single untreated disease can wipe out an entire batch within days.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Hydroponics doesn&apos;t remove disease risk. Short growth cycles, shared nutrient reservoirs and recirculating water systems mean one mistake multiplies rapidly.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  So why do so many growers still struggle? Because they try to fight hydroponic diseases using soil-based thinking &mdash; or worse, chemical shortcuts that compromise food safety. Hydroponic diseases don&apos;t spread like field diseases. They move through water, roots, humidity and microclimates.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  A slight imbalance in oxygen. A marginal temperature rise. A stressed root zone. That&apos;s all it takes. In urban environments, where space is limited and production is continuous, disease pressure never pauses. Traditional spraying doesn&apos;t work. Random internet remedies don&apos;t scale.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>Hydroponics demands precision disease management &mdash; not reaction.</strong> This is where most systems fail. And this is exactly where <a href="/about" className="text-primary hover:underline">Kamala Farms</a> operates differently.
+                </p>
+
+                {/* Table of Contents */}
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#kamala-farms-approach">Kamala Farms: Engineering Disease Out of the System</a></li>
+                    <li><a href="#root-rot">Root Rot (Pythium &amp; Fusarium)</a></li>
+                    <li><a href="#powdery-mildew">Powdery Mildew</a></li>
+                    <li><a href="#downy-mildew">Downy Mildew</a></li>
+                    <li><a href="#algae-growth">Algae Growth</a></li>
+                    <li><a href="#bacterial-wilt">Bacterial Wilt</a></li>
+                    <li><a href="#natural-disease-control">Natural Disease Control: Why Chemicals Don&apos;t Belong</a></li>
+                    <li><a href="#climate-resilience">Climate Resilience: The Future of Disease-Free Farming</a></li>
+                  </ol>
+                </nav>
+
+                <h2 id="kamala-farms-approach" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Kamala Farms: Engineering Disease Out of the System</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Kamala Farms does not treat disease as an afterthought. It <a href="/services/site-audit-dpr-subsidy" className="text-primary hover:underline">designs systems</a> where disease struggles to exist. Through precision hydroponics, biological controls and climate intelligence, Kamala Farms enables farmers and consumers to access produce that is:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Naturally protected</li>
+                  <li>Chemically uncompromised</li>
+                  <li>Consistently reliable</li>
+                </ul>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Here are the most common hydroponic diseases &mdash; and how Kamala Farms controls them naturally and sustainably.
+                </p>
+
+                <h2 id="root-rot" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Root Rot (Pythium &amp; Fusarium)</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <strong>Root rot is not a pathogen problem &mdash; it is an oxygen management problem.</strong> Root rot thrives in low-oxygen, warm, stagnant nutrient solutions. Once established, it chokes nutrient uptake and collapses plant metabolism. Kamala Farms systems maintain optimal dissolved oxygen levels, precise temperature control and active root-zone circulation that prevent pathogen colonization before it begins.
+                </p>
+                <div className="blog-quote">
+                  <p>Healthy roots are engineered, not treated.</p>
+                </div>
+
+                <h2 id="powdery-mildew" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Powdery Mildew</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <strong>Powdery mildew is a humidity imbalance, not a surface issue.</strong> This disease spreads rapidly in enclosed grow spaces with poor airflow and fluctuating humidity. Spraying fungicides only masks symptoms. Kamala Farms designs balanced airflow patterns and humidity bands that break the mildew lifecycle naturally &mdash; without residue or resistance buildup.
+                </p>
+                <div className="blog-quote">
+                  <p>Control the air and the disease disappears.</p>
+                </div>
+
+                <h2 id="downy-mildew" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Downy Mildew</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <strong>Downy mildew exploits condensation, not plants.</strong> This disease appears when leaf surfaces remain wet for extended periods, especially during temperature swings. Kamala Farms uses environmental sensors and real-time climate adjustments to eliminate condensation windows entirely.
+                </p>
+                <div className="blog-quote">
+                  <p>If moisture timing is right, disease timing fails.</p>
+                </div>
+
+                <h2 id="algae-growth" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Algae Growth</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <strong>Algae is a light management failure.</strong> Algae competes for nutrients, harbors pathogens and destabilizes water chemistry. Kamala Farms eliminates light leaks, uses opaque nutrient channels and maintains microbial balance using natural biological competitors.
+                </p>
+                <div className="blog-quote">
+                  <p>Starve algae of light, not crops of nutrients.</p>
+                </div>
+
+                <h2 id="bacterial-wilt" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Bacterial Wilt</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  <strong>Bacterial diseases spread through poor hygiene, not bad luck.</strong> Once bacteria enters a shared nutrient system, it spreads aggressively. Kamala Farms follows medical-grade sanitation protocols, controlled water filtration and periodic biological resets to ensure system hygiene.
+                </p>
+                <div className="blog-quote">
+                  <p>Clean systems grow strong plants.</p>
+                </div>
+
+                <h2 id="natural-disease-control" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Natural Disease Control: Why Chemicals Don&apos;t Belong in Hydroponics</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Chemical fungicides may suppress symptoms temporarily, but they leave residues, damage beneficial microbes, and reduce consumer trust.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Kamala Farms relies on biological resilience, not chemical dependence:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Beneficial microbes outcompete pathogens</li>
+                  <li>Balanced nutrition strengthens plant immunity</li>
+                  <li>Stable environments remove stress triggers</li>
+                </ul>
+
+                <div className="blog-quote">
+                  <p>Chemical-free produce isn&apos;t a marketing claim. It&apos;s a system outcome.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  This approach protects not just crops &mdash; but people. For families buying leafy greens every week, disease control isn&apos;t abstract. It determines:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Freshness at purchase</li>
+                  <li>Nutrient retention on the plate</li>
+                  <li>Chemical exposure over time</li>
+                </ul>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Kamala Farms produce travels shorter distances, spends less time in cold storage and reaches consumers at peak physiological health. That means longer shelf life, better taste and higher nutritional density.
+                </p>
+
+                <div className="blog-quote">
+                  <p>This is food grown for people, not logistics.</p>
+                </div>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Reliability for Retailers, Chefs and Institutional Buyers</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Inconsistent supply is the silent killer of food businesses. Kamala Farms&apos; disease-resilient systems ensure:
+                </p>
+                <ul className="list-disc pl-6 mt-4 space-y-2 text-[#656565] leading-[1.7em] text-base">
+                  <li>Predictable harvest schedules</li>
+                  <li>Uniform quality batches</li>
+                  <li>Reduced rejection rates</li>
+                </ul>
+
+                <h2 id="climate-resilience" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Climate Resilience: The Future of Disease-Free Farming</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Climate volatility is increasing disease pressure everywhere. Heat spikes. Humidity swings. Unpredictable rainfall. Kamala Farms&apos; controlled-environment hydroponics operates outside climate chaos, producing food consistently even when traditional farms struggle.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Urban farm hubs, modular systems and precision controls make disease management scalable and location-agnostic.
+                </p>
+
+                <div className="blog-quote">
+                  <p>This is not adaptation. This is insulation.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Disease explodes when systems expand without intelligence. Kamala Farms builds replicable, data-driven models where disease prevention scales with growth, not against it. This is how modern food systems should grow.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Matters</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Every purchase shapes the food system. You can choose produce that hides chemical intervention behind appearance. Or you can choose food grown with intelligence, integrity and intention.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Your choice matters &mdash; for your health, your city and your future.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Kamala Farms isn&apos;t just growing crops. It&apos;s growing confidence in how food should be produced.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Ready to grow smarter? Explore our <a href="/services" className="text-primary hover:underline">services</a> or learn more <a href="/about" className="text-primary hover:underline">about Kamala Farms</a>.
+                </p>
+              </>
+            ) : slug === "beginner-mistakes-hydroponic-farming" ? (
+              <>
+                <p className="text-[#656565] leading-[1.7em] text-base blog-dropcap">
+                  First-time hydroponic growers often face unexpected losses &mdash; not because hydroponics doesn&apos;t work or the technology is flawed, but because they repeat the same preventable mistakes.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Faster growth. Higher yields. Year-round production. Water savings that seem almost impossible. The marketing makes it look simple. Set up your system. Add nutrients. Watch your plants explode with growth.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  But here&apos;s what many don&apos;t tell you: Hydroponics is unforgiving. In soil, nature gives you a buffer. Microbes adjust pH. Organic matter releases nutrients slowly. Mistakes take days to show up.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  In hydroponics, you are nature. Every decision matters. Every input is amplified. A small error in nutrient concentration can wipe out your crop in 48 hours. And most beginners walk straight into the same traps.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  So what are those seven beginner mistakes &mdash; and how do you avoid them?
+                </p>
+
+                {/* Table of Contents */}
+                <nav className="blog-toc">
+                  <p className="blog-toc__title">In This Article</p>
+                  <ol className="blog-toc__list">
+                    <li><a href="#ph-fluctuations">Ignoring pH Fluctuations</a></li>
+                    <li><a href="#nutrient-solutions">Overcomplicating Nutrient Solutions</a></li>
+                    <li><a href="#water-quality">Poor Water Quality</a></li>
+                    <li><a href="#system-sanitation">Neglecting System Sanitation</a></li>
+                    <li><a href="#environmental-control">Inadequate Environmental Control</a></li>
+                    <li><a href="#wrong-system">Choosing the Wrong System for Your Experience Level</a></li>
+                    <li><a href="#scaling-too-fast">Scaling Too Fast</a></li>
+                  </ol>
+                </nav>
+
+                <h2 id="ph-fluctuations" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 1: Ignoring pH Fluctuations</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Most new growers check pH once. Maybe twice a week.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  In <a href="/services/turnkey-setup" className="text-primary hover:underline">hydroponic systems</a>, pH can swing dramatically within 24 hours. Nutrient uptake changes. Microbial activity shifts. Water evaporation concentrates salts.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  When pH drifts outside the 5.5&ndash;6.5 range, your plants can&apos;t absorb nutrients &mdash; even when they&apos;re present in abundance. You&apos;ll see yellowing leaves, stunted growth and mysterious deficiencies that no amount of fertilizer will fix.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The fix:</strong> Check pH daily. Invest in a reliable digital pH meter, not test strips. Calibrate it weekly. Understand that pH management isn&apos;t a one-time setup &mdash; it&apos;s an ongoing discipline that separates successful farmers from frustrated beginners.
+                </p>
+
+                <h2 id="nutrient-solutions" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 2: Overcomplicating Nutrient Solutions</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Beginners love mixing custom nutrient cocktails. Adding this supplement. Boosting that micronutrient. Trying to outsmart the chemistry.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Commercial nutrient formulas are scientifically balanced. They&apos;re tested across thousands of growing cycles. They work.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  When you start adding random supplements or &ldquo;secret ingredients,&rdquo; you create nutrient lockouts, toxicities and imbalances that even experienced growers struggle to diagnose.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Lettuce needs different ratios than tomatoes. Vegetative growth requires different nitrogen levels than fruiting stages. One formula doesn&apos;t serve all purposes.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The solution:</strong> Start with proven, crop-specific nutrient systems. Follow manufacturer guidelines precisely. Only experiment after you&apos;ve achieved consistent success with standard protocols. Master the basics before you innovate.
+                </p>
+
+                <h2 id="water-quality" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 3: Poor Water Quality</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  You&apos;re focused on nutrients, lighting and <a href="/services/site-audit-dpr-subsidy" className="text-primary hover:underline">system design</a>. Meanwhile, your water source is slowly poisoning your crops.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Municipal water often contains chlorine, chloramines and dissolved solids that interfere with nutrient uptake. Well water can carry excess minerals, heavy metals, or biological contaminants. Most beginners never test their source water. They assume &ldquo;water is water.&rdquo;
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  When your base water already contains 300 PPM of dissolved solids, adding nutrients pushes your total concentration into toxic ranges. Your EC meter reads high, but you don&apos;t know why. You dilute your nutrients. Your plants starve.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The solution:</strong> Test your source water before you start. Know your baseline PPM and mineral composition. Install filtration if needed. Use RO (reverse osmosis) water for sensitive crops or when precision matters. Your nutrient program only works when it starts with a clean foundation.
+                </p>
+
+                <h2 id="system-sanitation" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 4: Neglecting System Sanitation</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponics creates the perfect environment for plant growth. It also creates the perfect environment for pathogens. Warm, nutrient-rich water is a breeding ground for pythium, fusarium and bacterial infections that can destroy entire systems in days.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Beginners set up their systems, plant their crops and forget about cleanliness. They reuse growing media without sterilizing. They don&apos;t clean reservoirs between crops. They ignore the biofilm building up in their pipes.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Root rot appears overnight. The infection spreads faster than you can respond.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>Prevention is everything:</strong> Clean and sterilize your system between crops. Use hydrogen peroxide or beneficial bacteria to suppress pathogens. Monitor root health daily. Never let organic debris accumulate in your reservoir. In hydroponics, cleanliness isn&apos;t optional &mdash; it&apos;s survival.
+                </p>
+
+                <h2 id="environmental-control" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 5: Inadequate Environmental Control</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  You&apos;ve optimized your nutrient solution. Your pH is perfect. Your system is clean. But your growing environment is chaotic.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Temperature swings between day and night. Humidity spikes after watering, then crashes. Air circulation is inconsistent. Light intensity varies across your growing area.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Plants are extraordinarily sensitive to environmental stress. High temperatures reduce dissolved oxygen in your nutrient solution, causing root suffocation. Low humidity triggers excessive transpiration and nutrient burn. Poor air circulation invites mold and pest infestations.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The foundation to correct this:</strong> Maintain consistent temperature (65&ndash;75°F for most crops). Keep humidity in the optimal range for your crop stage (50&ndash;70% for vegetative growth, 40&ndash;50% during flowering). Ensure constant air movement without direct wind stress. Monitor environmental conditions as rigorously as you monitor nutrients.
+                </p>
+
+                <h2 id="wrong-system" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 6: Choosing the Wrong System for Your Experience Level</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Aeroponic systems promise maximum growth rates. So beginners build complex misting setups with dozens of nozzles, timers and pressure regulators.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Pumps fail. Nozzles clog. Roots dry out in minutes when something goes wrong. The system demands constant attention and advanced troubleshooting skills they don&apos;t have yet.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Different systems have different tolerance for error. Deep water culture (DWC) forgives temperature fluctuations. Nutrient film technique (NFT) crashes fast when pumps fail. Aeroponics requires expert-level management.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>Start appropriately:</strong> Master simple systems like Kratky method or basic DWC before moving to advanced setups. Build your skills progressively. Complexity should match competence &mdash; not ambition.
+                </p>
+
+                <h2 id="scaling-too-fast" className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Mistake 7: Scaling Too Fast</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Your first crop succeeds. Your lettuce looks incredible. Your tomatoes are thriving. So you immediately 10x your operation. You borrow money. Buy more equipment. Plant hundreds of crops. Commit to retail contracts.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Small problems become catastrophic. A nutrient imbalance that affected 10 plants now destroys 500. Equipment failures shut down entire systems. You can&apos;t keep up with labor demands. Cash flow collapses.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  <strong>The sustainable path:</strong> Scale gradually. Master production consistency before expanding. Develop systems and protocols that work reliably. Build financial buffers for inevitable setbacks. Growth should be strategic, not reactive.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">The Kamala Farms Difference &mdash; Where Beginners Become Professionals</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  At <a href="/about" className="text-primary hover:underline">Kamala Farms</a>, we&apos;ve eliminated these beginner pitfalls through precision-engineered hydroponic systems and expert guidance that transforms newcomers into confident commercial growers.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Our approach removes the guesswork:
+                </p>
+
+                <p className="blog-subtitle">Climate-Controlled Precision</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Automated environmental management maintains perfect temperature, humidity and air circulation &mdash; eliminating the most common cause of crop failure.
+                </p>
+
+                <p className="blog-subtitle">Proven Nutrient Protocols</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Crop-specific formulas tested across thousands of cycles, delivered with exact dosing instructions that prevent the toxicities and deficiencies that plague beginners.
+                </p>
+
+                <p className="blog-subtitle">Built-In Sanitation Systems</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Integrated filtration and sterilization protocols that prevent pathogen outbreaks before they start.
+                </p>
+
+                <p className="blog-subtitle">Progressive Training Programs</p>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Structured learning that builds competence systematically &mdash; no knowledge gaps, no dangerous assumptions. Explore our <a href="/services/training" className="text-primary hover:underline">training programs</a>.
+                </p>
+
+                <div className="blog-quote">
+                  <p>We don&apos;t just sell systems. We create successful farmers.</p>
+                </div>
+
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Our urban hydroponic farms demonstrate what&apos;s possible when technology meets expertise. Year-round production. Consistent quality. Chemical-free produce. Zero crop failures. This isn&apos;t experimental agriculture. It&apos;s proven Kamala Farms operation.
+                </p>
+
+                <h2 className="font-heading uppercase tracking-wide text-dark text-3xl md:text-4xl mt-10 mb-6">Your Choice Matters &mdash; And So Does Your Start</h2>
+                <p className="text-[#656565] leading-[1.7em] text-base">
+                  Hydroponic farming offers extraordinary potential. But potential means nothing without execution. You can learn through expensive mistakes, crop failures and financial losses. Or you can learn from those who&apos;ve already solved these problems.
+                </p>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  The choice determines whether you&apos;re thriving with profitable harvests &mdash; or explaining why your investment didn&apos;t deliver.
+                </p>
+
+                <div className="blog-quote">
+                  <p>Kamala Farms: Where technology meets reliability. Where beginners become professionals. Where Indian agriculture gets the innovation it deserves.</p>
+                </div>
+                <p className="text-[#656565] leading-[1.7em] text-base mt-4">
+                  Ready to start right? Explore our <a href="/services" className="text-primary hover:underline">services</a> and connect with Kamala Farms today.
+                </p>
+              </>
             ) : (
               <p className="text-[#656565] leading-[1.7em] text-base">
                 Blog content coming soon. Stay tuned for the full article.
@@ -782,6 +1808,46 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </article>
         </div>
       </section>
+
+      {/* READ NEXT */}
+      {(() => {
+        const currentIndex = blogPosts.findIndex((p) => p.slug === slug);
+        const nextPost =
+          blogPosts[currentIndex + 1] || blogPosts[0]; // wrap to first post
+        if (!nextPost || nextPost.slug === slug || nextPost.externalUrl)
+          return null;
+        return (
+          <section className="border-t border-gray-200 py-12 md:py-16">
+            <div className="px-8 sm:px-12 lg:px-20">
+              <p className="text-sm uppercase tracking-widest text-[#656565] mb-6">
+                Read Next
+              </p>
+              <Link
+                href={`/blog/${nextPost.slug}`}
+                className="group flex flex-col md:flex-row gap-6 items-start"
+                
+              >
+                <div className="w-full md:w-72 h-44 flex-shrink-0 overflow-hidden rounded-lg">
+                  <img
+                    src={nextPost.coverImage}
+                    alt={nextPost.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="flex flex-col justify-center">
+                  <h3 className="font-heading uppercase tracking-wide text-dark text-xl md:text-2xl group-hover:text-primary transition-colors duration-200">
+                    {nextPost.title}
+                  </h3>
+                  <span className="text-[#656565] text-sm mt-2">
+                    {nextPost.date}
+                  </span>
+                </div>
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
     </>
   );
 }

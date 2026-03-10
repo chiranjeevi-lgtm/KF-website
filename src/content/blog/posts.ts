@@ -5,10 +5,84 @@ export interface BlogPostData {
   date: string;
   category: string;
   coverImage: string;
+  description?: string;
   externalUrl?: string;
 }
 
 export const blogPosts: BlogPostData[] = [
+  {
+    id: 27,
+    slug: "hydroponics-growing-tier-1-tier-2-cities-india",
+    title:
+      "Why Hydroponics Is Growing in Tier 1 & Tier 2 Cities",
+    date: "March 6, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/hydroponics-tier-1-tier-2-cities.jpg",
+    description:
+      "India's urban food crisis demands local solutions. Discover why Tier 1 and Tier 2 cities are adopting hydroponics for fresher, pesticide-free produce year-round.",
+  },
+  {
+    id: 26,
+    slug: "hydroponics-market-growth-2025-trends-demand",
+    title:
+      "Hydroponics Market Growth in 2025: Trends, Demand & Future Potential",
+    date: "March 6, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/hydroponics-market-growth-2025.jpg",
+    description:
+      "India's hydroponics market is projected to reach ₹4,400 crore by 2031. Explore the trends, government support and opportunities driving this growth.",
+  },
+  {
+    id: 25,
+    slug: "increase-yield-hydroponics-expert-tips",
+    title: "How to Increase Yield in Hydroponics: Top 10 Expert Tips",
+    date: "March 6, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/increase-yield-hydroponics.jpg",
+    description:
+      "Most hydroponic growers lose 30-40% of potential harvest. Learn 10 expert strategies to maximize yield, from EC optimization to canopy management.",
+  },
+  {
+    id: 24,
+    slug: "hidden-science-behind-hydroponic-excellence",
+    title: "Know About The Hidden Science Behind Hydroponic Excellence",
+    date: "March 6, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/hidden-science-hydroponics.jpg",
+    description:
+      "Discover the plant physiology behind hydroponics — why soilless growing produces more nutritious, flavourful and longer-lasting produce.",
+  },
+  {
+    id: 23,
+    slug: "hydroponics-defence-against-food-inflation",
+    title:
+      "Kamala Farms Hydroponics: The Smart Defence Against Food Inflation",
+    date: "March 6, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/hydroponics-food-inflation.jpg",
+    description:
+      "Food prices are rising due to shrinking farmland, climate disasters and long supply chains. Learn how hydroponics offers stable, affordable produce year-round.",
+  },
+  {
+    id: 22,
+    slug: "common-hydroponic-diseases-natural-control",
+    title: "Common Hydroponic Diseases and How to Control Them Naturally",
+    date: "March 3, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/common-hydroponic-diseases.jpg",
+    description:
+      "Learn how to identify and naturally control root rot, powdery mildew, algae and other common hydroponic diseases without chemicals.",
+  },
+  {
+    id: 21,
+    slug: "beginner-mistakes-hydroponic-farming",
+    title: "The 7 Beginner Mistakes to Avoid in Hydroponic Farming",
+    date: "March 3, 2026",
+    category: "KamalaFarms",
+    coverImage: "/images/blog/beginner-mistakes-hydroponic-farming.jpg",
+    description:
+      "Avoid the 7 most common hydroponic farming mistakes — from pH swings to scaling too fast. Learn practical fixes to protect your crops and investment.",
+  },
   {
     id: 8,
     slug: "hydroponics-classes-india",

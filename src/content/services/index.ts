@@ -77,6 +77,7 @@ export interface ServiceSection {
   upcomingEvents?: UpcomingEvent[];
   showFaq?: boolean;
   faqItems?: FaqItem[];
+  showCardGrid?: boolean;
 }
 
 export interface Service {
@@ -468,6 +469,142 @@ export const services: Service[] = [
     ],
     contactQuote:
       "Seats are limited. Join our weekend hydroponics training and take your first step toward the future of farming.",
+  },
+  {
+    slug: "landscaping-hydroponics",
+    title: "Landscaping Hydroponics",
+    shortDescription:
+      "Transform homes, offices and commercial spaces with hydroponic landscaping. Custom vertical gardens, living walls and soilless green installations — designed, built and maintained by Kamala Farms.",
+    fullDescription:
+      "From living walls and vertical gardens to hydroponic terrace installations — we design, build and maintain soilless green spaces for residential, corporate and commercial environments.",
+    tagline: "Living Green Spaces — Designed, Built and Maintained",
+    heroImage: "/images/hero/landscaping-hydroponics-hero.jpg",
+    contactImage: "/images/services/contact.jpg",
+    compactImages: true,
+    sections: [
+      {
+        title: "Hydroponic Landscaping",
+        description:
+          "Hydroponic landscaping is the practice of integrating soilless growing systems into landscape and interior design — transforming walls, terraces, balconies, lobbies and facades into living, functional green spaces.\n\nUnlike traditional landscaping that relies on soil, irrigation beds and seasonal planting, hydroponic landscaping uses nutrient-rich water and engineered structures to grow plants vertically, indoors or in spaces where conventional gardens are impractical. The result is a cleaner, more efficient and visually striking approach to greenery — whether for a home balcony, a corporate lobby or a five-star hotel entrance.\n\nKamala Farms brings proven hydroponics expertise to the world of landscape design. We combine agricultural precision with aesthetic intent to create green installations that are productive, sustainable and built to last.",
+        imagePosition: "left",
+        image: "/images/services/landscaping-hydroponics/hydroponic-landscaping-intro.jpg",
+      },
+      {
+        title: "Spaces We Transform",
+        subtitle: "Applications",
+        description:
+          "Hydroponic landscaping adapts to virtually any environment. Whether you have a compact urban balcony or a sprawling commercial property, we design systems that fit your space, goals and budget.",
+        imagePosition: "left",
+        fullWidth: true,
+        showCardGrid: true,
+        bulletItems: [
+          {
+            text: "**Residential**",
+            subPoints: [
+              "Apartment balconies and terraces",
+              "Independent houses and villa gardens",
+              "Rooftop herb and vegetable gardens",
+              "Gated community common areas",
+            ],
+          },
+          {
+            text: "**Corporate & Commercial**",
+            subPoints: [
+              "Office lobbies and reception areas",
+              "IT parks, co-working spaces and cafeterias",
+              "Retail stores and shopping malls",
+              "Educational institutions and libraries",
+            ],
+          },
+          {
+            text: "**Hospitality**",
+            subPoints: [
+              "Hotel lobbies and spa interiors",
+              "Restaurant kitchen herb walls",
+              "Resort and farm-stay feature installations",
+              "Banquet halls and event venues",
+            ],
+          },
+          {
+            text: "**Urban & Public Spaces**",
+            subPoints: [
+              "Building facades and exterior walls",
+              "Public parks and transit stations",
+              "Green building certification projects",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Types of Hydroponic Landscape Systems",
+        description:
+          "We work with a range of hydroponic systems, each suited to different environments and design goals. Every installation is customised based on your space, lighting conditions, plant preferences and maintenance capacity.",
+        imagePosition: "left",
+        fullWidth: true,
+        largeHeading: true,
+        showCarousel: true,
+        carouselItems: [
+          { title: "Vertical Living Walls", image: "/images/services/landscaping-hydroponics/vertical-living-walls.jpg" },
+          { title: "NFT Channel Gardens", image: "/images/services/landscaping-hydroponics/nft-channel-gardens.jpg" },
+          { title: "Tower Gardens", image: "/images/services/landscaping-hydroponics/tower-gardens.jpg" },
+          { title: "Hydroponic Raised Beds", image: "/images/services/landscaping-hydroponics/hydroponic-raised-beds.jpg" },
+          { title: "DWC Water Gardens", image: "/images/services/landscaping-hydroponics/dwc-water-gardens.jpg" },
+        ],
+      },
+      {
+        title: "Why Choose Hydroponic Landscaping",
+        description:
+          "Hydroponic landscaping delivers advantages that traditional soil-based gardens simply cannot match — especially in urban environments where space, water and maintenance are constant constraints.",
+        imagePosition: "right",
+        image: "/images/services/landscaping-hydroponics/why-hydroponic-landscaping.jpg",
+        bulletPoints: [
+          "**80–95% Less Water** — Closed-loop recirculation eliminates runoff and evaporation waste",
+          "**5x More Plants Per Square Foot** — Vertical and modular systems maximise growing area in compact spaces",
+          "**Cleaner Air, Healthier Spaces** — Plants absorb CO\u2082, regulate humidity and reduce airborne pollutants",
+          "**Minimal Physical Maintenance** — No weeding, tilling or soil amendment. Maintenance is technical, not labour-intensive",
+        ],
+        buttonText: "Start Your Project",
+        buttonLink: "/contact",
+      },
+      {
+        title: "Frequently Asked Questions",
+        description: "",
+        imagePosition: "left",
+        fullWidth: true,
+        largeHeading: true,
+        centerHeading: true,
+        showFaq: true,
+        faqItems: [
+          {
+            question: "What is hydroponic landscaping?",
+            answer:
+              "Hydroponic landscaping is the practice of using soilless growing systems — such as vertical walls, NFT channels and tower gardens — as landscape and interior design elements. Plants grow in nutrient-rich water instead of soil, allowing installations on walls, balconies, rooftops and indoor spaces where traditional gardens are impractical.",
+          },
+          {
+            question: "Can hydroponic gardens work indoors?",
+            answer:
+              "Yes. Hydroponic systems are fully compatible with indoor environments. With the right LED grow lighting and climate control, living walls and vertical gardens thrive inside offices, lobbies, restaurants and homes — without sunlight, soil or outdoor access.",
+          },
+          {
+            question: "How much maintenance do hydroponic landscapes require?",
+            answer:
+              "Hydroponic landscapes require less physical maintenance than soil-based gardens — no weeding, tilling or soil amendment. Ongoing care involves monitoring nutrient levels, pH balance and plant health. With an AMC from Kamala Farms, all of this is handled for you on a scheduled basis.",
+          },
+          {
+            question: "Is hydroponic landscaping more expensive than traditional landscaping?",
+            answer:
+              "Initial setup costs are typically higher due to engineered structures, plumbing and automation. However, long-term operational costs are lower — hydroponic systems use up to 95% less water, require less labour and produce year-round without seasonal replanting. Over time, the total cost of ownership is often comparable or lower.",
+          },
+          {
+            question: "Can hydroponic landscape installations grow edible plants?",
+            answer:
+              "Absolutely. Hydroponic landscaping can combine ornamental foliage with edible herbs, leafy greens and microgreens. This is especially popular in restaurants, hotels and corporate cafeterias where fresh, on-site produce adds both visual appeal and functional value.",
+          },
+        ],
+      },
+    ],
+    contactQuote:
+      "From a single living wall to a complete green transformation — let\u2019s design your space.",
   },
   // --- Contract Farming (merged into turnkey-setup) ---
   // {
