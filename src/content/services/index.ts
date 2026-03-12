@@ -547,8 +547,6 @@ export const services: Service[] = [
           { title: "Vertical Living Walls", image: "/images/services/landscaping-hydroponics/vertical-living-walls.jpg" },
           { title: "NFT Channel Gardens", image: "/images/services/landscaping-hydroponics/nft-channel-gardens.jpg" },
           { title: "Tower Gardens", image: "/images/services/landscaping-hydroponics/tower-gardens.jpg" },
-          { title: "Hydroponic Raised Beds", image: "/images/services/landscaping-hydroponics/hydroponic-raised-beds.jpg" },
-          { title: "DWC Water Gardens", image: "/images/services/landscaping-hydroponics/dwc-water-gardens.jpg" },
         ],
       },
       {
